@@ -93,3 +93,65 @@ The ch11 developer-productivity + translation stats, ch16 guardrail specifics, c
 ## Verification (after applying)
 **Audio/text record (automated):** grep each REPLACE string in the regenerated `_clean.txt` and `_tts.txt`; grep that each old string ("twelve", "still in court", "$14.5B"/"fourteen and a half", "internal forecasts") is ABSENT. (In `_tts.txt`, numbers are normalized — assert the spoken form.)
 **Print (manual):** after the InDesign surgical edits, export the story text (or a proof PDF) and run the same grep so the printed book is confirmed to match.
+
+---
+
+# PART 2 — InDesign surgical worklist (by chapter → section)
+
+Work top to bottom. For each item: jump to the **chapter**, find the **section**,
+locate the **OLD** text, replace with **NEW**. Type tag shows what's changing.
+**No NAME changes anywhere — every person/company/product name verified correct.**
+
+## Chapter 1 — "Just Predicting Words"
+- **Section: chapter opening** (the "In November 2022 … ChatGPT" paragraph) · `[PHRASE]`
+  - OLD: *the fastest-growing consumer product in human history, faster than Facebook*
+  - NEW: *at the time, the fastest-growing consumer product in history, faster than Facebook*
+
+## Chapter 2 — "A Short History of Machines That Read"
+- **Section: "The night the world noticed"** · `[PHRASE]`
+  - OLD: *A hundred million in two months. The fastest-growing consumer product in human history.*
+  - NEW: *A hundred million in two months. At the time, the fastest-growing consumer product in history.*
+- **Section: "THE EXPLOSION"** · `[NUMBER/PHRASE]`
+  - OLD: *Amazon poured similar money into Anthropic.*
+  - NEW: *Amazon made a comparable bet on Anthropic, eventually committing up to twenty-five billion dollars.*
+
+## Chapter 5 — "Open AI, the Company That Started the Wave"  🔴 hard errors
+- **Section: chapter opening** (the "What has happened to OpenAI since…" paragraph) · `[PASSAGE]`
+  - OLD: *…it generated lawsuits that are still in court as I write this.*
+  - NEW: *…it generated lawsuits — the most prominent of which, brought by Elon Musk, went all the way to a jury trial in 2026.*
+- **Section: "The founding idea"** (end of the Musk-departure paragraph) · `[PASSAGE]`
+  - OLD: *Eight years later, the two men would be on opposite sides of a federal lawsuit in Oakland, California, that is unfolding as I write this.*
+  - NEW: *Eight years later, the two men ended up on opposite sides of a federal lawsuit in Oakland, California. In May 2026, a jury rejected Musk's claims, finding he had waited too long to sue, and the judge dismissed the case. Musk has said he will appeal.*
+- **Section: "The present tension"** (the Musk-lawsuit paragraph) · `[PASSAGE]`
+  - OLD: *There is the lawsuit from Elon Musk, which is in trial as I write this. … He is seeking, in damages, up to one hundred and fifty billion dollars. The case is being heard by a jury in Oakland.*
+  - NEW: *There is the lawsuit from Elon Musk. Musk argued that OpenAI's transition from non-profit to for-profit was a betrayal of the original founding mission. He asked the court to undo the for-profit conversion, and sought up to one hundred and fifty billion dollars in damages. In May 2026, after an eleven-day trial in Oakland, a jury found that he had filed too late, and the judge dismissed the case. Musk's lawyers have said they will appeal.*
+
+## Chapter 6 — "Anthropic, the Company That Broke Off Over Safety"  🔴 hard errors
+- **Section: "The claude code moment"** · `[NUMBER]`
+  - OLD: *Eighty times the company's own internal forecasts.*
+  - NEW: *Eighty times what it had been a year earlier.*
+- **Section: "The valuation race"** (the Pentagon paragraph) · `[PASSAGE]`
+  - OLD: *The reasoning, which has not been fully public, appears to involve concerns about the company's funding sources and corporate connections. Over a hundred enterprise customers reportedly raised concerns. Anthropic has been navigating this issue while continuing its broader growth.*
+  - NEW: *The dispute arose after contract negotiations broke down. The Pentagon wanted unrestricted use of Claude for all lawful military purposes; Anthropic refused to permit uses like fully autonomous weapons and domestic mass surveillance. When the company missed the government's deadline, the administration moved to bar federal agencies from using its technology. Anthropic has been challenging the designation in court while continuing its broader growth.*
+- **Section: "The valuation race"** (next paragraph) · `[NUMBER]`
+  - OLD: *founded by twelve researchers*
+  - NEW: *founded by seven researchers*
+
+## Chapter 8 — "Meta, the Open Bet That Changed Everything"
+- **Section: "The superintelligence labs pivot"** · `[NUMBER]`
+  - OLD: *He spent fourteen and a half billion dollars to acquire forty-nine percent of Scale AI*
+  - NEW: *He spent about fourteen point three billion dollars to acquire forty-nine percent of Scale AI*
+
+## Chapter 12 — "How These Machines Fail"
+- **Section: chapter opening** (the Steven Schwartz story) · `[NUMBER/date]`
+  - OLD: *In May 2023, a New York lawyer named Steven Schwartz*
+  - NEW: *In early 2023, a New York lawyer named Steven Schwartz*
+
+## Appendix B — Timeline  ✎ copyedit defect
+- **Entry: "2025, April – Llama 4 Disaster"** · `[PHRASE — fix dropped words]`
+  - OLD: *Meta releases Llama 4. The release is later found to have used results. Internal consequences are severe.*
+  - NEW: *Meta releases Llama 4. The launch is later found to have used manipulated benchmark results — different model versions were submitted to leaderboards than were released publicly. Internal consequences are severe.*
+
+---
+**Count:** 11 edits across 7 chapters/appendix — 3 hard-error passages (ch5×3 is one issue), 2 hard-error items (ch6), 4 number/phrase fixes, 1 copyedit. **0 name changes.**
+**Held (not in this list):** the unverified ⚠ stat clusters (ch11/ch16/etc.) — pending your decision; see Part 1 "HELD."
