@@ -1,0 +1,143 @@
+Chapter Nineteen...
+
+How to Handle AI at Work...
+
+Every professional is having some version of the same conversation in twenty twenty-six. With themselves. With their colleagues. With their manager. With their family at dinner.
+
+Will the AI take my job? Should I be using more of it? Will I be punished if I do? Will I be punished if I do not? How do I get good at this when I am already too busy?
+
+I want to take these questions seriously, not because I have certain answers, but because the framing matters. The questions you ask shape the actions you take. The wrong framing produces panicked decisions that you regret in a few years. The right framing produces steady adaptation that compounds over time.
+
+This chapter is my best attempt to give you a useful framing, with practical advice for the next few years of your professional life. None of it is guaranteed. Some of what I say will be wrong by twenty thirty. But the underlying patterns, I think, will hold up.
+
+Let me try.
+
+The First Framing: Tasks, Not Jobs...
+
+The conversation about AI and work is usually conducted in the wrong unit. People ask whether AI will replace their job. The question is too coarse to be useful.
+
+AI does not replace jobs. AI replaces tasks. Most jobs are made up of dozens of distinct tasks. AI is better at some of them and worse at others. The question is not whether your job will be replaced. The question is which tasks within your job will be affected, and how.
+
+Consider a lawyer. Their job includes many tasks. Reading documents. Drafting briefs. Researching case law. Talking to clients. Negotiating with opposing counsel. Appearing in court. Building relationships with judges and other lawyers. Managing junior staff. Running a business. Some of these tasks AI is genuinely good at now. Document review, research, first drafts of briefs. Other tasks AI is bad at. Client relationships, courtroom presence, judgment about strategy under uncertainty. The lawyer's job is not going away. The mix of tasks within it is shifting.
+
+The same pattern applies to almost every white-collar job. Some tasks get automated. Other tasks become more important. The job itself transforms.
+
+The implication for you, the worker, is to think about your job at the level of tasks. Which of your tasks are AI good at right now? Which are AI bad at? Which are AI rapidly improving at? Which are AI unlikely to improve at anytime soon?
+
+For the tasks AI is good at, you should be using AI. Not using it puts you at a competitive disadvantage to colleagues who do. For the tasks AI is bad at, you should be doubling down on them. The value of these tasks, relative to the cheap-with-AI ones, is going up.
+
+The honest answer is that this exercise is not always pleasant. Sometimes you discover that a lot of what you used to do, what made you feel valuable, is now done quickly by software. Sometimes you discover that the part of your job you found most enjoyable is the part most exposed to automation. The exercise is still worth doing, because the alternative is to be surprised when the changes arrive, and surprise is rarely an advantage.
+
+The Second Framing: Complement versus Substitute...
+
+Here is a useful test. For any task you do, ask: is the AI a complement to my skill, or a substitute for it?
+
+If the AI is a complement, your skill plus the AI produces more than either alone. The AI makes you faster, broader, more accurate. You still need to be skilled, and your skill is more valuable when paired with the AI than without.
+
+If the AI is a substitute, the AI does the task and you are not needed. The skill that used to be required has been commoditized. Anyone with access to the AI can produce what you produce, at lower cost.
+
+The complement tasks are the ones to invest in. They are where you compound. You get better at the task. The AI gets better at the task. You together get better than either alone. The compounding is real and the gap with non-AI-users grows.
+
+The substitute tasks are the ones to stop relying on. They will be done by someone else, or no one, at much lower cost than your time. Continuing to specialize in a substitute task is like training to be a really fast typist after the typewriter was replaced by autocomplete. The skill still has some value. It is no longer the basis for a career.
+
+The hard part of this analysis is that the distinction shifts over time. A task that is complementary today may become substitutable in two years. A task that looks like a substitute today may, with the right approach, be turned back into a complement.
+
+The honest version is that you cannot know with certainty which side of the line your tasks fall on. You can make educated guesses, watch what happens, and adjust. The mistake is to assume the line is fixed.
+
+The Third Framing: Judgment As The Stable Competency...
+
+If I had to bet on one general professional skill that will hold its value through the AI transition, it would be judgment.
+
+By judgment I mean the ability to look at a complicated situation, weigh the relevant factors, and decide what to do. The good lawyer judges which arguments will land with a particular judge. The good doctor judges when to escalate from watchful waiting to intervention. The good manager judges when to push a struggling employee versus when to back off. The good entrepreneur judges which markets to enter and when. The good editor judges which stories matter.
+
+Judgment is hard for AI because it depends on things AI does not have. Embodied experience. Cultural context. Tacit knowledge from years in a specific environment. The ability to weigh consequences in domains where the AI has only read about the consequences, not lived through them.
+
+This does not mean AI is useless for tasks that require judgment. The AI can help you gather information, identify options, lay out trade-offs, stress-test your reasoning. The AI is a useful input to the judgment, but it cannot be the judgment itself, in any context that matters. The judgment is yours.
+
+For the worker thinking about their long-term value, the implication is to keep developing judgment. Take on assignments that require it. Reflect on the decisions you make. Notice when you got something right and when you got something wrong. The judgment compounds over the years, in ways that are extremely difficult to commoditize.
+
+The corollary is that workers who have not yet developed judgment, the ones early in their careers, who traditionally learned through the kind of routine tasks that AI now does cheaply, have a real problem. The traditional career ladder, where you spent five years doing junior work to develop the experience that informs senior judgment, is partly broken by automation of the junior work. We will come back to this in a moment.
+
+The Fourth Framing: Relationships As The Other Stable Competency...
+
+The other professional asset that holds its value through automation is your network.
+
+Most consequential professional outcomes happen through humans, not through AI. The new job comes through someone who knows you and recommends you. The new client comes through someone who trusts you. The deal closes because the human on the other side believes in you. The hard problem gets solved because someone with the relevant expertise picks up the phone for you.
+
+AI cannot replace this layer of professional life. It can supplement it. It can help you draft the email that opens a relationship. It can help you prepare for the meeting that deepens one. But the relationship itself is between humans, built on trust and shared history that AI cannot manufacture.
+
+For the worker thinking about long-term resilience, this is one of the highest-return places to invest. Maintain your relationships. Build new ones. Show up for people. Make introductions. Help colleagues with their problems. Be the kind of professional that other professionals want to work with.
+
+The data on professional outcomes consistently shows that networks matter more than individual capability for most career transitions. AI does not change this. If anything, AI strengthens the effect, because if everyone has the same AI tools and the tools commoditize many traditional skills, the differentiator becomes the relationships you have built that the AI cannot have.
+
+The Fifth Framing: The Early Career Problem...
+
+I want to spend a moment on this, because it is the hardest version of the AI-at-work question, and I do not want to skip past it.
+
+The traditional model for entering most professions has been some version of this. You start as a junior. You do the routine work. The routine work gives you exposure to the domain. After years of exposure, you develop the judgment that lets you become a senior. The senior judgment becomes the value you offer for the rest of your career.
+
+This model has a problem in the AI era. The routine junior work is exactly what AI is best at automating. The exposure that used to come from doing that work is now happening at the AI level, not the human level. Companies that used to hire ten junior analysts to learn the business while doing the routine work are now hiring two junior analysts to supervise the AI doing the routine work. The pipeline is narrower.
+
+If you are early in your career, this is not your fault and it is not fair. The traditional ladder that older workers used is being partly removed for your generation. You are being asked to develop senior judgment without the years of junior experience that used to produce it.
+
+I do not have a clean answer to this. What I can offer is the following.
+
+First, take any opportunity to do real work, even if AI could do it faster. The experience is the point. The output is secondary. If you are paying your dues, pay them. The skill develops in your head, not in the AI's.
+
+Second, seek out the parts of work that AI cannot do. The client conversations. The judgment calls. The conflict resolution. The strategy meetings. The "what do we actually do about this" moments. These are where you build the skills that compound. They are also harder to access as a junior, so you may need to be aggressive about asking.
+
+Third, find mentors. The senior people in your field have the experience you cannot yet have. Their advice, their introductions, their feedback on your work, are higher leverage than they have ever been. The senior generation is, in some sense, the last cohort that fully developed in the pre-AI environment. Learn from them while they are still around.
+
+Fourth, take the AI seriously as a development tool. The AI can be a tutor of remarkable patience. Use it to learn what your senior colleagues know. Read the documents they read. Ask the AI to explain things. Build the knowledge that your boss assumes you have. The AI cannot give you experience, but it can give you context, and context is half the battle when you are starting out.
+
+The Sixth Framing: The Official Policy And The Real Policy...
+
+In most workplaces in twenty twenty-six, there is an official AI policy and a real one. They are not the same.
+
+The official policy is usually some version of "use AI responsibly within these guidelines." It addresses obvious concerns about data security, intellectual property, and customer privacy. It tries to balance enabling AI use with managing risk.
+
+The real policy is what your manager actually rewards. Some managers reward employees who use AI heavily and produce more. Other managers reward employees who do things "the right way" without AI shortcuts. Most managers have not actually thought through their preferences and react inconsistently to what they see.
+
+This is messy and confusing. The advice I would give is to read your specific situation carefully. Find out, by observation and by asking, what your specific manager and your specific organization actually value. Then operate accordingly. Not because politics is more important than producing good work. But because the work environment shapes what gets recognized as good work, and the recognition shapes your career.
+
+Some specific judgment calls to think about.
+
+Do you tell your manager when you used AI to help with something? Sometimes yes, sometimes no. In environments where AI use is celebrated, mentioning it helps you. In environments where AI use is suspect, mentioning it hurts you. Read the room.
+
+Do you put confidential information into AI tools? Almost certainly not, unless your company has a specific enterprise AI deployment with appropriate data protection. The consumer chatbots are not safe for confidential information, and the consequences of a leak could be career-ending.
+
+Do you advocate for AI tools in your team? This depends on your seniority and your relationship with your manager. As a junior, advocacy can come across as overconfidence. As a senior, advocacy is often part of your job. Calibrate.
+
+Do you compete with AI-heavy colleagues? Generally, no. Use AI yourself. The competition is between AI-augmented professionals, not between AI users and non-users. The non-users will quietly fall behind regardless of whether you compete with them.
+
+A Few Specific Scenarios...
+
+Let me close with concrete advice for a few common professional situations.
+
+If you are a manager. Your job is changing in two ways. First, you can do more individual contributor work yourself with AI help, which is tempting but probably wrong. Your value is in the leverage, not the doing. Second, your direct reports are changing how they work. Some are using AI heavily. Some are not. You need to figure out how to evaluate output when the path from problem to solution is increasingly opaque. Spend time understanding how your team is actually working. Build trust based on outcomes, not on imagined effort.
+
+If you are a creative professional. Writers, designers, musicians, video editors. The technology is improving very fast in your field. Some of what you used to do is now done by AI. Some of what you do has new tools that make you ten times faster. The professional ones I know are doing two things in parallel. They are leaning into the tasks that require irreducibly human judgment, taste, originality, and craft. And they are using AI aggressively for the production work that used to consume their time. The combination produces more output and higher-quality output than either before AI or pure AI without expertise.
+
+If you are in a regulated profession. Law, medicine, finance, accounting. Your industry has rules about AI use that are evolving rapidly. Stay current with those rules. Most regulated professions have determined that AI is a tool, not a substitute for human judgment, and that the responsible practitioner remains responsible regardless of which tools they used. Operate accordingly. Do not let the AI's confidence substitute for your own verification.
+
+If you are early in your career. Everything I said in the early career section. Read it again.
+
+If you are late in your career. You probably have the experience and the relationships that are most valuable in the AI era. The thing to add is fluency with the new tools. Not at the level of an expert. At the level of someone who knows what these tools can do and can direct them effectively. A few months of focused practice is usually enough to get to this level. The combination of senior judgment and basic AI fluency is, in twenty twenty-six, one of the most valuable professional profiles you can have.
+
+If you are unemployed or in transition. AI literacy is becoming a real differentiator in hiring. Demonstrate it. Use AI in your job search. Use it to research companies, to draft applications, to practice interviews. Be ready to talk about how you would use AI in the role you are applying for. The candidates who can do this are noticeably more competitive than those who cannot.
+
+The Bigger Point...
+
+This whole chapter has been about adapting your professional life to AI without losing yourself in the process. That framing is intentional. The risk is not just becoming obsolete. The risk is also becoming hollow.
+
+The worker who outsources too much of their thinking to AI eventually loses the ability to think for themselves. The worker who outsources too much of their writing loses the ability to write. The worker who outsources too much of their judgment loses the ability to judge. The job survives, in some technical sense. The person inside the job has become less.
+
+The better path is harder. Use AI heavily for the tasks where it is genuinely a complement. Continue developing your own abilities in the tasks where you and the AI both matter. Invest in the judgment and relationships that compound over decades. Stay engaged with your work, not just productive at it.
+
+Most workers I have talked to who seem to be navigating this well share a common quality. They do not see themselves as being in a race with AI. They see themselves as professionals who happen to use a new and powerful tool. The tool is impressive. They are also impressive. The combination is more impressive than the tool alone.
+
+That is, I think, the right relationship to have with this technology. It serves you. You direct it. You remain the professional. The work that comes out is yours.
+
+In the next chapter, we move to the most difficult version of this question. Not about you. About your children, who will live in a world that is being remade by this technology in ways that are still emerging. How do you raise them well in this new environment, when the rules you grew up with do not all apply?
+
+That is what comes next.

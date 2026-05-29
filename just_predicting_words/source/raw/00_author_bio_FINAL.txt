@@ -1,0 +1,33 @@
+================================================================
+AUTHOR BIO - FINAL LOCKED VERSION
+================================================================
+
+Selected: Version 1 (about 90 words)
+Position in book: "About the Author" page in back matter,
+also for Amazon listing and book jacket back flap.
+
+Layout tool: Adobe InDesign
+
+
+----------------------------------------------------------------
+FINAL TEXT
+----------------------------------------------------------------
+
+
+  About the Author
+
+
+  Ziad El Feghali is a technologist, educator, and entrepreneur 
+  with two decades of experience in game design, education, and 
+  technology. He co-founded Wixel Studios in Beirut and worked 
+  on Antura and the Letters, an award-winning Arabic literacy 
+  game for refugee children developed through an international 
+  consortium. He has taught at four universities in Lebanon and 
+  currently teaches Digital Publishing and Game User Experience 
+  at the Holy Spirit University of Kaslik. He is the technical 
+  co-founder of simplerOS, based in Louisville, Kentucky.
+
+
+================================================================
+END
+================================================================

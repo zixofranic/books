@@ -1,0 +1,244 @@
+A reference for terms that appear throughout this book.
+Plain-language definitions, not technical specifications.
+
+Agentic AI...
+
+AI that can plan, take actions, and execute multi-step tasks
+autonomously rather than just answering questions. The twenty twenty-five-twenty twenty-six
+frontier has shifted from chatbots to agents. Claude Code,
+Chat GPT operators, and several Chinese systems are early
+examples.
+
+AGI (Artificial General Intelligence)...
+
+The hypothetical capability of AI to perform any cognitive task
+a human can, across all domains. Different researchers define
+the threshold differently. Some think AGI is imminent. Others
+think it is decades away. Some think the concept is poorly
+defined.
+
+Alignment...
+
+The technical problem of getting AI systems to do what their
+designers intend, especially as systems become more capable.
+Major labs invest in alignment research because they believe
+current techniques may not be sufficient for more powerful
+systems.
+
+Attention...
+
+The mechanism inside a Transformer that lets the model weigh
+which parts of the input matter most for understanding any
+given word. Introduced in the twenty seventeen paper "Attention Is All
+You Need." The core trick of modern language models.
+
+Bias...
+
+The pattern by which AI systems can produce outputs that
+systematically disadvantage certain groups, usually because the
+training data reflected historical inequities. A real and
+documented problem, though one that the major labs work
+continuously to mitigate.
+
+Chat GPT...
+
+The consumer chatbot from Open AI, launched November 30, twenty twenty-two.
+The product that brought AI assistants into mainstream awareness.
+Reached 100 million users in two months.
+
+Claude...
+
+The consumer chatbot from Anthropic. Launched in twenty twenty-three. Known
+for being relatively careful, willing to push back on the user,
+and trained using Constitutional AI principles.
+
+Constitutional AI...
+
+A technique developed by Anthropic for aligning AI systems by
+giving them a written set of principles to follow. The model
+critiques and revises its own outputs against the principles.
+Discussed in Chapter Four.
+
+Context Window...
+
+The amount of text a model can consider at once. The first GPT
+models had context windows of a few thousand tokens. By twenty twenty-six,
+frontier models often have context windows of one to two million
+tokens, enough to process entire books.
+
+Deepfake...
+
+AI-generated audio, video, or images designed to look or sound
+like a real person. The technology crossed a quality threshold
+in twenty twenty-five-twenty twenty-six that makes it accessible to anyone with a smartphone.
+
+Embedding...
+
+A representation of a word or piece of text as a list of numbers
+(a vector) that captures its meaning. Words that are similar in
+meaning have embeddings that are close to each other. The basis
+of how modern AI represents language. Discussed in Chapter Three.
+
+Fine-Tuning...
+
+Additional training applied to a pre-trained model to specialize
+it for a particular task or to adjust its behavior. The first
+training is on broad text. Fine-tuning shapes the model toward
+specific uses.
+
+Foundation Model...
+
+A large AI model trained on broad data that can be adapted to
+many specific applications. GPT, Claude, Gemini, and Llama are
+all foundation models. The term emphasizes that the model is
+the foundation on which many specific products are built.
+
+Generative AI...
+
+AI systems that produce content (text, images, audio, video,
+code) rather than just classifying or analyzing existing content.
+The current AI boom is centered on generative AI.
+
+GPT (Generative Pre-Trained Transformer)...
+
+The family of language models from Open AI, beginning with GPT one
+in twenty eighteen and continuing through GPT five and beyond. The name has
+become almost synonymous with modern language models.
+
+Hallucination...
+
+The phenomenon where AI confidently produces information that is
+not true. Names of cases that do not exist. Statistics that are
+made up. Citations that lead nowhere. Discussed in detail in
+Chapter Twelve.
+
+Interpretability...
+
+The research effort to understand what is happening inside an
+AI model. The model's behavior emerges from billions of parameters.
+Interpretability research tries to make these internal workings
+legible to humans, which is essential for verifying safety.
+
+Jailbreak...
+
+A technique for bypassing the safety constraints of an AI model.
+By twenty twenty-six, sophisticated jailbreaks achieve high success rates
+against most frontier models, though defenses continue to
+improve.
+
+Large Language Model (LLM)...
+
+A type of AI model trained on large amounts of text, designed to
+predict the next word in a sequence. Chat GPT, Claude, Gemini,
+and most modern AI assistants are large language models.
+
+Llama...
+
+Meta's family of open-weight language models, released from twenty twenty-three
+through twenty twenty-five. Versions 1 through 3 made Meta the leader of the
+open-weight ecosystem. The Llama four launch in twenty twenty-five was a setback,
+and Meta pivoted away from open weights with Muse Spark.
+
+Multimodal...
+
+A model that can work with multiple types of input or output:
+text, images, audio, video. Most frontier models in twenty twenty-six are
+multimodal. Earlier models were typically text-only.
+
+Open Weight...
+
+A model whose weights (the billions of numbers that make the
+model do what it does) are publicly available. Anyone can
+download an open-weight model and run it on their own hardware.
+Contrast with closed-weight models like GPT five or Claude, which
+only the company can run.
+
+Parameters...
+
+The internal numerical values inside a neural network that get
+adjusted during training. Modern frontier models have hundreds
+of billions to trillions of parameters. Roughly speaking, more
+parameters means more capacity to learn complex patterns.
+
+Prompt...
+
+The text you give an AI model as input. The skill of writing
+prompts well is sometimes called prompt engineering, though the
+term has become less prominent as models have gotten better at
+understanding casual requests.
+
+Prompt Injection...
+
+An attack technique where an attacker embeds instructions inside
+content the AI model reads, attempting to override the model's
+intended behavior. As AI gets more agentic, this becomes a more
+serious security concern.
+
+Rag (Retrieval-Augmented Generation)...
+
+A technique where an AI model is given access to a specific
+collection of documents and instructed to base its answers on
+that collection. Often used to give AI assistants access to
+specific company knowledge while avoiding training the company
+data into the model itself.
+
+Red Teaming...
+
+The practice of having researchers actively try to break an AI
+model's safety measures. The discovered problems then get patched.
+A standard part of how frontier AI systems are developed.
+
+Reinforcement Learning From Human Feedback (RLHF)...
+
+The training technique that shaped raw word predictors into
+helpful assistants. Human raters evaluate model outputs. The
+ratings train the model to produce outputs humans prefer.
+Discussed in Chapter Four.
+
+System Prompt...
+
+A hidden block of instructions prepended to every conversation
+with an AI assistant. The system prompt shapes the assistant's
+behavior, tone, and constraints. Most users never see it. Most
+of the differences between AI products are in the system prompt
+rather than the underlying model. Discussed in Chapter Four.
+
+Token...
+
+A piece of a word that an AI model treats as a single unit. "Cat"
+might be one token. "Unbelievable" might be three tokens. The
+model reads and writes in tokens, not characters or words.
+Discussed in Chapter Three.
+
+Training Data...
+
+The text and other content used to teach a model what patterns
+to recognize and produce. Frontier models are trained on truly
+enormous amounts of data, often essentially the entire public
+internet plus licensed datasets.
+
+Transformer...
+
+The neural network architecture introduced in the twenty seventeen paper
+"Attention Is All You Need." The basis for virtually all modern
+AI assistants. Discussed in Chapter Two.
+
+Vector...
+
+See Embedding. A list of numbers that represents the meaning of
+a word or piece of text in a high-dimensional space.
+
+Weights...
+
+The actual numerical values inside a trained AI model. The
+weights determine what the model does. An open-weight model
+shares its weights publicly. A closed-weight model keeps them
+proprietary.
+
+World Model...
+
+A type of AI that learns to predict and simulate physical reality
+rather than just generating text. A frontier research area in
+twenty twenty-six, with significant investment from Google Deep Mind, Meta,
+and others. Believed by some researchers to be necessary for
+true general intelligence.

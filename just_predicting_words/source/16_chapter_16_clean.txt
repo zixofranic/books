@@ -1,0 +1,137 @@
+  Chapter Sixteen
+
+  Guardrails, How Companies Try to Keep Models in Line
+
+  The fences are real. The fences are leaky. Both things are true.
+
+Every AI company knows that their models, untamed, would do things their users do not want them to do. The previous two chapters described the risks. This chapter is about what the companies do to manage those risks.
+
+The honest summary is that they do a lot, that most of what they do works, and that none of what they do works perfectly.
+
+I want to walk you through the major techniques the companies use to keep their models inside acceptable bounds. Some of them you have already seen in earlier chapters. We are going to look at all of them together, in one place, so you understand the whole defensive system. By the end of the chapter you should be able to read an AI safety announcement from any major lab and understand what is actually being claimed.
+
+You should also, I hope, leave with a realistic sense of where the system holds and where it leaks. Both halves of that picture matter.
+
+The first layer. training the model to be helpful.
+
+This is where we started, back in chapter four. The raw model that comes out of pre-training is a wild word predictor. It does not know it is supposed to be helpful. It does not know it is in a conversation. It does not know what a user is.
+
+The first layer of safety is to teach it. Instruction tuning shows it examples of helpful responses. Reinforcement Learning from Human Feedback shapes its preferences toward what humans actually want. Constitutional AI gives it a written set of principles to follow. By the time the model reaches you, it has been shaped, layer on layer, into something that defaults to being helpful, honest, and harmless. The phrase "helpful, honest, harmless" is, in fact, the explicit goal at most major labs.
+
+This first layer does a lot of work. The vast majority of user interactions, billions per day, run fine without any further safety intervention. The model is helpful. The user gets what they need. Nothing goes wrong.
+
+For the rare interactions that do go wrong, more layers kick in.
+
+The second layer. the system prompt.
+
+Every time you talk to an AI assistant, there is a hidden block of text that gets prepended to your conversation before the model sees it. The system prompt. We met this in chapter four.
+
+The system prompt is where the company tells the model what kind of assistant to be. The tone. The topics it should avoid. The format of responses. The information it should remember to mention. The legal disclaimers it should add. The user-facing personality.
+
+For a consumer chatbot like ChatGPT or Claude, the system prompt might run several thousand words. It instructs the model on everything from "how to format code blocks" to "how to handle requests about sensitive topics" to "what to say if the user seems to be in distress."
+
+For an enterprise deployment, the system prompt is often customized further. A bank deploying an AI assistant for customer service might add instructions like "never discuss specific account balances," "always recommend the customer call a human agent for transactions over a certain amount," and "include the regulatory disclaimer at the end of every response about loan products."
+
+The system prompt is a major safety layer because it lets the company shape behavior without retraining the model. If a new failure mode is discovered, a few sentences can be added to the system prompt, and the next user interaction reflects the fix. This makes the system prompt the fastest-moving part of the defense.
+
+It is also the most fragile. Users have learned, over the years, that they can sometimes coax models into ignoring their system prompts through clever phrasing. Researchers call this prompt injection. The 2026 generation of attacks has gotten sophisticated. Hidden instructions buried in documents the model reads. Encoded text that the model interprets but humans cannot easily see. Multi-step conversations that gradually erode the model's adherence to its original instructions.
+
+Companies fight back with hardening techniques. They train models to better recognize and ignore conflicting instructions. They add classifiers that detect injection attempts. They monitor for suspicious patterns. The arms race continues.
+
+The third layer. input and output classifiers.
+
+Some queries should not be answered at all. Some responses should not be sent at all. Major AI companies deploy a second set of models that watch the conversation in real time, separate from the main model, looking for content that needs to be blocked or modified.
+
+Input classifiers examine what the user has typed before it reaches the main model. If the input matches patterns associated with abuse, manipulation, or harmful intent, the system can refuse to process it. This happens behind the scenes. The user usually does not see the classifier. They see the model's refusal, but the refusal was triggered by the classifier, not by the model deciding on its own.
+
+Output classifiers examine what the model is about to produce before it reaches the user. If the response contains certain patterns, certain kinds of information, certain unsafe content, it gets modified or replaced. Again, the user does not see this directly. They see whatever response did make it through the filter.
+
+The classifiers run on every interaction. They are tuned constantly. They are the workhorses of frontline AI safety, doing the unglamorous work of catching the things that the main model's training did not catch.
+
+The trouble is that the classifiers are themselves AI models, susceptible to the same kinds of confusion that affect the main model. In October 2025, researchers at a security firm called HiddenLayer demonstrated that OpenAI's Guardrails framework could be bypassed using straightforward techniques. The reason was structural. The classifier judging the content was itself a language model, vulnerable to the same manipulation as the one it was protecting.
+
+The classifiers help. They do not solve the problem. They are one more layer in a defense, not a wall.
+
+The fourth layer. red teaming.
+
+Before a model is released, the company tries to break it on purpose.
+
+This is called red teaming. The term comes from military exercises, where a "red team" plays the role of the enemy attacking the defenses. In AI, red teamers are paid to find every way the model can be made to misbehave. They try every prompt injection technique. They test every refusal. They probe every edge case. They escalate every conversation. They roleplay every adversarial scenario.
+
+When red teamers find a problem, the company patches it. Sometimes through additional training. Sometimes through new classifier rules. Sometimes through changes to the system prompt. The fix is rolled out. Then the red teamers try again.
+
+Most major AI labs run substantial internal red teams. They also hire external researchers. They invite the broader security community to find vulnerabilities, sometimes through bug bounty programs that pay for discovered flaws. The collective effort, across thousands of researchers, makes models meaningfully safer than they would be without it.
+
+But the red teamers have a structural problem. They are trying to find every problem. The attackers in the real world only need to find one. This asymmetry favors the attackers, particularly as the population of people probing models grows.
+
+A 2026 industry survey on jailbreak defenses put the situation bluntly. Attack sophistication has outpaced defensive capability. Advanced attacks routinely achieve ninety to ninety-nine percent success rates on open-weight models and eighty to ninety-four percent on proprietary ones. The defenses raise the cost of unsophisticated attacks. They do not hold against motivated adversaries.
+
+This is not a reason to give up on defenses. The defenses still prevent vast numbers of harmful interactions. It is a reason to be honest about what they can and cannot do. They are filters, not walls.
+
+The fifth layer. refusal training.
+
+Modern models are trained to refuse certain requests. You ask for help with something the company has decided not to help with, and the model declines. Sometimes politely. Sometimes with an explanation. Sometimes with a redirect to other resources.
+
+The categories of refusal vary by company but generally include:
+
+Direct help with violence against specific people. Creating bioweapons or chemical weapons. Generating sexual content involving minors. Specific instructions for self-harm or suicide. Detailed instructions for major cyberattacks. Producing content designed to manipulate elections through impersonation. Helping users stalk or harass specific individuals.
+
+These refusals are, in general, working. The major models reliably decline these requests. When they fail to decline, the failure usually involves a sophisticated attempt to disguise the request through some elaborate framing, and even those attempts fail more often than they succeed.
+
+The trouble with refusal training is that it tends to be over-applied. Categories of legitimate use get caught in the safety net alongside the actual abuse. Medical professionals asking questions about drug interactions get treated like patients seeking ways to hurt themselves. Security researchers asking about vulnerabilities get treated like attackers planning crimes. Writers asking the model to help with morally complex fiction get treated like the author has malicious intent.
+
+This over-refusal pattern has been a persistent problem. The companies are aware of it. They have made significant efforts to reduce it. Modern models are better at distinguishing legitimate professional or creative use from actual harm. The improvement is real, though incomplete. Many users still encounter unnecessary refusals, and many users have learned to phrase requests in particular ways to avoid them.
+
+For users, the practical implication is that refusals are not always the model's deep conviction. They are sometimes the company's risk management bumping up against your request. If a refusal seems unreasonable, you can usually try the same request phrased differently. You can also try a different AI assistant. Different companies make different choices about what to allow.
+
+The sixth layer. monitoring and iteration.
+
+Once a model is deployed, the company watches what it is doing.
+
+This is the layer most users never think about. Every major AI lab runs telemetry on the conversations happening on its platform. Not the contents of every conversation, in most cases, but enough to understand patterns. Which categories of queries are growing. Which kinds of refusals are happening. Which novel attack patterns are emerging. Which user behaviors might warrant attention.
+
+When something new shows up, the company can respond. New attack patterns get added to the training. New abuse categories get added to the classifiers. New refusal patterns get tuned to be less or more strict, depending on what the data shows. The model in production today is meaningfully different from the model in production six months ago, even if the underlying weights have not changed.
+
+This continuous iteration is one of the most underappreciated parts of how AI safety actually works. The model is not a static product. It is a service that gets updated constantly, in ways that users mostly do not see, in response to what is actually happening in deployment.
+
+The downside is the privacy question we covered in chapter fourteen. The monitoring requires data. The data is sensitive. The trade between safety and privacy is real, and different companies are striking different balances. For users, the simplest framing is that you are participating in the safety system whether you realize it or not. Your conversations help shape what the model becomes.
+
+The seventh layer. third-party infrastructure.
+
+Beyond what the AI labs do themselves, an entire industry has emerged around adding more safety layers on top of the models.
+
+Companies that deploy AI in regulated industries often add their own guardrail systems. Specialized vendors sell input and output filters that look for sensitive data, prompt injection, jailbreak attempts, and content that violates specific industry rules. AWS has its Bedrock Guardrails. Azure has Content Safety. Smaller specialized companies fill in the gaps for healthcare, finance, education, and other sectors with specific requirements.
+
+This third-party layer is, in many enterprise deployments, where the most aggressive safety work happens. A bank using AI for customer service does not just rely on the AI lab's safety. They wrap the AI in their own layers. PII detection. Domain-specific filters. Legal compliance checks. Audit logging. Human review for high-stakes outputs.
+
+The result, in enterprise contexts, is often a much more constrained AI than the same model would be in consumer chat. The lab's model is the engine. The enterprise's safety stack is the brake system. Both matter.
+
+For consumer users, the third-party layer is mostly invisible. You are using the consumer product from a major lab, with the lab's own safety stack and not much else. The major labs are usually careful with consumer products precisely because the consumer context does not have the same external safety infrastructure that enterprise contexts have.
+
+Where the whole system fails.
+
+Let me be honest about where this stack of defenses breaks down.
+
+The first failure mode is sophisticated adversaries. A motivated person who really wants to get a model to do something unsafe, who has time to study the system, who is willing to chain together multiple techniques across long conversations, will usually succeed. The defenses are calibrated against ordinary users, not against expert attackers. Princeton researchers showed in 2026 that safety alignment can be degraded with as few as one hundred fine-tuning examples on otherwise benign data. The safety is not a separate module that can be locked in. It is distributed across the model's parameters, and it can be eroded.
+
+The second failure mode is open-weight models. Once a model's weights are public, anyone can download it and run it without any of the safety infrastructure the lab built. The fine-tuned, classifier-protected, system-prompted version of the model that you talk to on the lab's website may have layers of defense. The raw version of the model, downloaded from Hugging Face, has none of them. For models that have been open-sourced, the safety is a property of how you deploy the model, not of the model itself.
+
+The third failure mode is indirect injection. A model that reads documents on your behalf, like an AI assistant integrated with your email or your file system, can be manipulated by content inside those documents. A malicious email could include instructions hidden in white-on-white text that the AI will read but the user will not. A document shared by a colleague could contain prompt injections that redirect the AI's behavior. As AI gets more agentic, doing more tasks autonomously across more data sources, this attack surface grows.
+
+The fourth failure mode is the alignment of the company itself. The safety system is only as good as the values of the people designing it. If a company decides to relax safety constraints to compete, the system relaxes. If a company decides certain content categories are politically inconvenient to refuse, those categories shift. The safety stack is a product of human decisions, and human decisions can be wrong, captured, or simply different from yours.
+
+What you should conclude from all this.
+
+Two things.
+
+First, the safety system is doing a lot of work. The vast majority of harmful interactions get prevented. The model that defaults to helpful is the result of years of careful engineering. Most users, most of the time, are better protected than they realize.
+
+Second, the safety system is not a wall. It is a collection of overlapping filters, each imperfect, that together raise the cost of misuse without making it impossible. For sophisticated attackers, the system leaks. For unsophisticated users acting in good faith, the system holds. For everything in between, the picture is more mixed.
+
+What this means in practice is that you should neither over-trust nor over-fear AI safety. Over-trusting it leads you to assume the model will never do anything wrong, which sets you up to be surprised when it does. Over-fearing it leads you to assume the safety is theater, which is also wrong. The honest stance is calibrated. The safety system catches the common stuff. The unusual stuff sometimes slips through. Plan accordingly.
+
+One more thing, before we move on. None of what I have described in this chapter is unique to AI. Every powerful technology in human history has required some combination of training, rules, monitoring, and iteration to be deployed safely at scale. Cars have brakes, traffic laws, license requirements, vehicle inspections, and law enforcement, and people still die on the roads. The expectation that AI safety should be perfect, in a way no other technology has ever achieved, is unrealistic. The expectation that AI safety should be serious, well-funded, transparent, and continuously improving, is reasonable. Most of the major labs, in 2026, are meeting the second standard with varying degrees of success.
+
+In the next chapter, we turn to what governments are doing, or trying to do, about all of this. Because the companies are not the only ones with a stake in how this technology develops. And the regulatory landscape, in 2026, is finally catching up to a technology that arrived faster than any regulator was prepared for.
+
+What comes next: regulation, and the slow, uneven attempt of governments to write rules for AI.

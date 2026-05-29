@@ -1,0 +1,168 @@
+  Chapter Four
+
+  Taming the Wild Word Predictor
+
+  The version of the machine you can buy is not the version the engineers first met.
+
+Here is something most people never realize about ChatGPT.
+
+The first version of the model that they put in front of you was not a chatbot.
+
+It was something stranger. Something wilder. Something that, if you'd been allowed to talk to it directly, would have felt deeply weird in ways that are hard to describe until you've experienced them.
+
+The thing the company built was a very powerful word predictor. It had read most of the internet. It could continue any text you gave it, in any style, with surprising fluency. But it didn't know it was supposed to be helpful. It didn't know it was in a conversation. It didn't know there was a user on the other end. It had no idea who or what it was. It would happily continue your input in whatever direction the patterns of its training data suggested, including directions that were unhelpful, contradictory, rude, or just plain strange.
+
+To turn that wild predictor into the polite, helpful, mostly-truthful assistant you use today, the company had to do something more. They had to train the model again, on a different task, with a different goal in mind.
+
+This chapter is about that second training. It is, in many ways, the most consequential part of how an AI assistant gets built. The first training, the one that produced everything we described in chapter three, decides what the model knows. The second training decides what the model is. Who it sounds like. What it refuses to do. What values it expresses. How it handles your weird late-night question about whether you should text your ex.
+
+Those are not technical decisions. They are decisions about what kind of entity OpenAI or Anthropic or Google wants their assistant to be. And the decisions are made by humans, with all the messiness that implies.
+
+Let me show you what I mean.
+
+I want you to picture, just for a moment, what it would be like to interact with the raw model before it was tamed.
+
+You type into it: "What is the best way to cook a steak?"
+
+A modern assistant would respond with something like "Great question. Here are a few methods. For a thick cut, you might try the reverse sear, where you slow-roast first and finish on high heat..." Helpful. Conversational. Useful.
+
+The raw word predictor might do that. But it might also do this:
+
+"What is the best way to cook a steak? Well, that depends. I've been cooking steaks for thirty years, and let me tell you, the most important thing is the cut. If you walk into your local butcher and..."
+
+It launched into a personal monologue, because somewhere in its training data, lots of question-shaped text was followed by lots of "Well, that depends..." monologues from blogs and forums.
+
+Or it might do this:
+
+"What is the best way to cook a steak? What is the best way to cook chicken? What is the best way to cook vegetables? What is the best way to cook..."
+
+It just kept generating more questions, because somewhere in its training data, there were lots of FAQ pages where one question was followed by twenty more.
+
+Or this:
+
+"What is the best way to cook a steak? I don't know, why don't you Google it like a normal person."
+
+That one came from a Reddit-shaped thread. Question, snarky reply.
+
+The raw model wasn't being rude on purpose. It wasn't being anything on purpose. It had no purpose. It was just predicting what kind of text typically follows what kind of text, and "what kind of text" includes a lot of unhelpful, weird, contradictory, and frankly random text on the internet.
+
+To get from that wild thing to a real assistant, the company had to teach it something new. It had to learn what kind of response a person actually wanted when they asked a question.
+
+The first kind of training. show it good examples.
+
+The first step is the simplest. You take the raw model, and you train it on a bunch of examples of good responses.
+
+You sit down with a team of humans. You have them write thousands and thousands of examples that look like this:
+
+   Question: "What is the best way to cook a steak?"
+   Good answer: "Great question. The method depends on the cut..."
+
+   Question: "Help me write a thank-you note to my aunt."
+   Good answer: "Of course. Here's a draft you can adjust..."
+
+   Question: "Explain the French Revolution to a ten-year-old."
+   Good answer: "Imagine France about 230 years ago..."
+
+And so on, for tens of thousands of examples. The humans writing these are usually contractors, often with backgrounds in writing or teaching, hired to produce the kind of response a thoughtful person would give to that question.
+
+You then train the model on these examples. The model adjusts its internal patterns to be more likely to produce question-and-helpful-response shapes, and less likely to produce question-and-weird-monologue shapes.
+
+This step is called instruction tuning. After it, the model behaves much more like an assistant. It mostly answers questions instead of continuing them. It mostly produces useful responses instead of random ones. The wild has been partly tamed.
+
+This is, in a real sense, the same thing you do when you onboard a new employee. The employee may be brilliant and well-educated. They may know more than you do about many things. But until you show them what your company values, what kind of email tone you use, how you handle a particular customer complaint, they won't behave like part of your company. You spend the first few weeks giving them examples. Good response, bad response. This is how we do it here.
+
+Instruction tuning is the AI version of those first few weeks. The model is the new employee. The examples are the onboarding.
+
+The new employee is now functional. But there's still a gap between functional and good. To close that gap, the companies use a second technique that is, in my opinion, one of the most interesting tricks in modern AI.
+
+The second kind of training. learn from thumbs up and thumbs down.
+
+Here's the problem with instruction tuning. You can give the model thousands of examples of good responses, but you can never give it enough examples to cover every possible question. The space of things people might ask is too big. And for any given question, there are usually many good responses, not just one. The model needs to learn the shape of what makes a response good, not just the specific words.
+
+To teach it that shape, the companies use a technique called Reinforcement Learning from Human Feedback. The name is a mouthful. The idea is simple.
+
+Here's how it works in practice.
+
+You take the model, the one that's already been through instruction tuning. You give it a question. You ask it to produce, say, four different responses to that question. The four responses are slightly different from each other, because the model has some randomness in it.
+
+Then you hand those four responses to a human rater. The rater looks at all four and ranks them. This one is the best. This one is the second best. This one is third. This one is the worst.
+
+You do this hundreds of thousands of times, with hundreds of raters, across hundreds of thousands of different questions. You build up a giant collection of rankings.
+
+Then you train a separate system to predict what humans would prefer. This separate system is called a reward model. Its job is to look at a response and produce a number that estimates how good a human would say it is.
+
+And then, finally, you use the reward model to train the original model further. Every time the original model produces a response, the reward model scores it. Responses that get high scores get reinforced. Responses that get low scores get discouraged. Over many rounds of this, the model gets better and better at producing responses that humans actually prefer.
+
+If you've ever trained a dog, this should sound familiar.
+
+You don't sit a dog down and explain, in words, why it should sit when you say "sit." You give it a treat when it sits, and you don't give it a treat when it doesn't. Over time, the dog's behavior shifts. The reward shapes what the dog does. The dog doesn't understand why the reward is there. It just learns the pattern.
+
+That's exactly what RLHF does to a language model. Human raters provide the equivalent of treats. The reward model scales those treats up to millions of training examples. The model adjusts its behavior to maximize the rewards. It doesn't understand what humans want, in any deep sense. It just learns to produce the patterns that humans, on average, rate highly.
+
+This is the technique that, more than anything else, turned GPT-3 into ChatGPT. It's the moment the model learned to be helpful, to apologize when it made mistakes, to ask clarifying questions, to refuse when something seemed dangerous. None of that was in the original raw model. All of it came from RLHF.
+
+It's also, by the way, the moment the model learned to be slightly sycophantic. Because if you ask a thousand humans which response they prefer, they tend to prefer responses that agree with them, that compliment them, that don't push back too hard. So an RLHF-trained model picks up a subtle bias toward telling you what you want to hear. We'll come back to this in chapter twelve, when we talk about how AI assistants fail. For now, just notice that the training method shapes the personality in ways the engineers may not have intended.
+
+The ANTHROPIC alternative. a constitution.
+
+There's a problem with relying entirely on human raters. Humans are expensive. Humans get tired. Humans disagree with each other. And humans, even when well-intentioned, bring their own biases to every rating.
+
+Anthropic, one of the major AI labs we'll meet in detail in chapter six, developed a different approach. Instead of relying entirely on humans, they had the model evaluate its own responses against a written set of principles. They called this Constitutional AI.
+
+Imagine it this way. Suppose you had a thoughtful new employee, the one we mentioned earlier. Instead of having a manager rate every email they wrote, you wrote them a document. The document explained the company's values. What you stand for. How you treat customers. What kinds of statements you would and would not make. Then you asked the employee to read each of their own emails before sending it, ask themselves whether the email matched the document, and revise if it didn't.
+
+That's Constitutional AI, more or less.
+
+Anthropic wrote, in plain English, the principles their model should follow. The principles cover things like honesty, helpfulness, avoiding harm, respecting human autonomy, and many more specific guidelines. Then they had the model use those principles to critique and revise its own outputs. Responses that violated the principles got rewritten. Responses that followed the principles got reinforced.
+
+The advantage is that the principles are explicit. You can read them. You can argue with them. You can compare two companies' constitutions and see where they disagree. The model's values, instead of being smeared opaquely across millions of human ratings, are written down in a document a human could read in an hour.
+
+The disadvantage is that the principles still have to be written by humans. The question of who gets to write the constitution, and what gets to be in it, is one of the most important questions in modern AI. We will come back to that in part five of this book.
+
+Other labs use variants. There's a technique called DPO, another called RLAIF, another called RLEF. The alphabet soup keeps growing. The details differ, sometimes meaningfully. But the underlying pattern is the same. Take a raw word predictor. Train it on examples of good behavior. Then refine its behavior through some combination of human feedback and explicit principles. Out comes an assistant.
+
+The layer you never see. the system prompt.
+
+There's one more piece. After all the training is done, after the model has been instruction-tuned and reinforcement-learned and constitution-aligned, there's still one more layer that shapes every interaction you have with it.
+
+It's called the system prompt.
+
+The system prompt is a block of text that gets prepended to every conversation, invisibly, before your message ever reaches the model. The system prompt tells the model who it is, what it should do, what it shouldn't do, how to format responses, and a hundred other small instructions.
+
+You never see this text. It happens behind the curtain. But it shapes everything.
+
+The same underlying model, with two different system prompts, can behave like two completely different products. One system prompt might say, "You are a friendly customer service representative for an airline. Always be patient. Never speculate about company policy. Always recommend the customer call a human agent for refunds." Another might say, "You are a careful research assistant. Cite sources whenever possible. Distinguish clearly between facts and your own analysis. Never claim certainty about contested matters."
+
+Same model. Same training. Same weights. Completely different feel.
+
+This is how OpenAI deploys ChatGPT as a general assistant in one app, a coding-specific assistant in another, and a tightly-controlled customer service bot in a third. Same engine. Different system prompt. Different behavior.
+
+It is also, by the way, where most of the controversy about AI bias and refusals lives. When ChatGPT refuses to write a joke about a particular politician, that refusal is often coming from instructions in the system prompt, not from anything inherent in the model itself. The company is making a choice, baked into a hidden instruction. The model is following the choice.
+
+When you hear someone say "ChatGPT used to do this and now it doesn't" or "Claude refuses things Gemini doesn't," what they're often observing is differences in system prompts, not fundamental differences in the underlying technology. The technology can do many things. The product is what the company chose to let it do.
+
+Why this all matters.
+
+Take a step back from the technical details and look at what we've actually said in this chapter.
+
+The version of the AI you talk to is the result of three layers of human decision-making, on top of the raw model.
+
+Layer one: someone decided which examples to use for instruction tuning. Those examples shape what a "good answer" looks like.
+
+Layer two: someone decided what humans should rate as preferred during RLHF, or what principles to write into the constitution. Those decisions shape the model's values.
+
+Layer three: someone wrote the system prompt that defines this particular product. That prompt shapes how the model behaves in this specific app.
+
+At each layer, real people made real choices. They argued. They compromised. They had blind spots. They worked under deadlines. They balanced competing priorities. Some of them care deeply about safety. Some care about commercial success. Some care about user delight. Most care about all of these at once, in different proportions.
+
+The personality of the AI you talk to is a designed personality. It is not a discovered fact. It is the product of decisions made by a small number of people at a small number of companies. The model could have been shaped differently. The product could have been built differently. The choices were not inevitable.
+
+This is going to be the through-line for the rest of the book. The technology is real and impressive. The choices about what to do with the technology are made by humans, in companies, with all the values and biases and incentives that humans in companies have. To understand what AI does in the world, you need to understand the technology and the people making the choices.
+
+Which is exactly what part three of this book is about.
+
+So now you know how a wild word predictor gets tamed into a helpful assistant. Instruction tuning to teach it what good responses look like. Reinforcement learning to refine its behavior toward what humans actually prefer. A constitution, if you're Anthropic, to make its values explicit. And a system prompt on top of everything, defining the specific product.
+
+In the next chapter, we'll meet the companies that make these decisions. We'll start with OpenAI, the company that started the wave. And we'll see how the choices they made, and the structure of their organization, shaped what the world ended up with.
+
+What comes next: OpenAI, the company that started the wave.

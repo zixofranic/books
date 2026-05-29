@@ -1,0 +1,206 @@
+================================================================
+COMPLETE FRONT MATTER SEQUENCE
+================================================================
+
+This document shows the complete opening of the book, page by 
+page, in the order the reader encounters it. Use this as the 
+template for KDP and print POD setup.
+
+
+----------------------------------------------------------------
+PAGE 1 (right-hand page): HALF TITLE PAGE
+----------------------------------------------------------------
+
+(Title only, centered vertically and horizontally on the page.
+Set in the title font. No subtitle, no author, no other text.)
+
+
+                       JUST PREDICTING WORDS
+
+
+----------------------------------------------------------------
+PAGE 2 (left-hand page): BLANK
+----------------------------------------------------------------
+
+(Intentionally blank. Standard book layout.)
+
+
+----------------------------------------------------------------
+PAGE 3 (right-hand page): TITLE PAGE
+----------------------------------------------------------------
+
+(Centered, with generous white space. Title in display font, 
+author at the bottom of the page.)
+
+
+                       JUST PREDICTING WORDS
+
+
+
+                          Ziad El Feghali
+
+
+----------------------------------------------------------------
+PAGE 4 (left-hand page): COPYRIGHT PAGE
+----------------------------------------------------------------
+
+(Bottom of page, small type, left-aligned.)
+
+
+  Just Predicting Words: How ChatGPT, Claude, 
+  and Modern AI Actually Work
+
+  Copyright © 2026 Ziad El Feghali
+
+  All rights reserved. No part of this book may be 
+  reproduced, stored in a retrieval system, or transmitted 
+  in any form or by any means, without the prior written 
+  permission of the author, except in the case of brief 
+  quotations embodied in critical reviews and certain other 
+  noncommercial uses permitted by copyright law.
+
+  First edition, 2026
+
+  ISBN: [to be assigned by KDP]
+
+  Published independently through Kindle Direct Publishing
+
+  The author has used artificial intelligence tools in the 
+  research, drafting, and editing of this book. See the 
+  Author's Note for further detail.
+
+  www.[author website if any]
+
+
+
+----------------------------------------------------------------
+PAGE 5 (right-hand page): DEDICATION
+----------------------------------------------------------------
+
+(Centered vertically. Italic. Generous white space above and 
+below.)
+
+
+                    To my kids, Ziad, Yasmine, and Nour.
+  
+                    You live in a glorious era 
+                    filled with challenges and opportunities.
+
+
+----------------------------------------------------------------
+PAGE 6 (left-hand page): BLANK
+----------------------------------------------------------------
+
+
+----------------------------------------------------------------
+PAGE 7-8 (right-hand page): AUTHOR'S NOTE
+----------------------------------------------------------------
+
+(Title at top, body text below.)
+
+
+                    A Note on How This Book Was Made
+
+
+  Before we begin, you deserve to know how this book came 
+  together.
+
+  The research was assisted by AI. Some of the writing, 
+  editing, and corrections were done with the help of AI. 
+  Without these tools, I could not have written a current 
+  book about a field that updates in days, not years. By 
+  the time I finished a chapter the old way, the chapter 
+  would already be out of date.
+
+  Several different language models and tools were used 
+  along the way. Some were better at research. Some were 
+  better at drafting. Some were better at catching the 
+  small errors that a tired human eye misses at midnight.
+
+  But one human gathered the pieces. One human decided what 
+  this book is about, what voice it speaks in, what it 
+  argues, what it leaves out, and what it says directly to 
+  you. The structure, the judgment, the responsibility, are 
+  mine. That part will always be a human. It is, after all, 
+  what this book is finally about.
+
+  Welcome.
+
+
+----------------------------------------------------------------
+PAGE 9 (right-hand page): TABLE OF CONTENTS
+----------------------------------------------------------------
+
+(Standard table of contents layout, right page, with page 
+numbers added at typesetting.)
+
+
+                            CONTENTS
+
+
+  A Note on How This Book Was Made
+
+
+  PART ONE: WHAT IS THIS THING?
+
+  Chapter 1    Just Predicting Words
+  Chapter 2    A Short History of Machines That Read
+  Chapter 3    Inside the Machine
+  Chapter 4    Taming the Wild Word Predictor
+
+
+  PART TWO: WHO MAKES THEM
+
+  Chapter 5    OpenAI, the Company That Started the Wave
+  Chapter 6    Anthropic, the Company That Broke Off
+  Chapter 7    Google, the Giant That Almost Lost the Future
+  Chapter 8    Meta, the Open Bet That Changed Everything
+  Chapter 9    The Other Half of the Map
+  Chapter 10   Everyone Else
+
+
+  PART THREE: WHAT IT CAN AND CANNOT DO
+
+  Chapter 11   What These Machines Are Genuinely Good At
+  Chapter 12   How These Machines Fail
+  Chapter 13   The Limits of Language
+
+
+  PART FOUR: THE RULES OF THE ROAD
+
+  Chapter 14   The Risks That Are Real
+  Chapter 15   The Risks That Are Mostly Hype
+  Chapter 16   Guardrails: How Companies Try to Keep Models 
+               in Line
+  Chapter 17   Regulation: What Governments Are Doing
+
+
+  PART FIVE: LIVING WITH THESE THINGS
+
+  Chapter 18   How to Use Them Well
+  Chapter 19   How to Handle AI at Work
+  Chapter 20   How to Talk to Your Kids About Them
+  Chapter 21   Where This Is All Going
+
+
+  APPENDICES
+
+  Appendix A   Glossary of Terms
+  Appendix B   A Timeline at a Glance
+  Appendix C   Further Reading
+
+
+  About the Author
+
+
+----------------------------------------------------------------
+PAGE 10: PART ONE OPENER (Direction 5 illustration)
+----------------------------------------------------------------
+
+(Begins the book proper. Full-page illustration in the 
+Lebanese-modernist style, followed by the chapter 1 title page.)
+
+
+================================================================
+END FRONT MATTER SEQUENCE
+================================================================

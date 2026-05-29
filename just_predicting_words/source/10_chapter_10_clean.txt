@@ -1,0 +1,141 @@
+  Chapter Ten
+
+  Everyone Else
+
+  Five labs make most of the headlines. The other half of the story is happening around them.
+
+If you only read the headlines, you would think the modern AI industry is five companies. OpenAI, Anthropic, Google, Meta, and the Chinese frontier as a single category. The last five chapters of this book have, in fact, encouraged that view, because the headline players really do matter most.
+
+But that picture is incomplete in two important ways.
+
+The first is that several other companies are doing real work that deserves to be on your map. Microsoft, Elon Musk's lab, the leading European lab, the AI-first search company, Apple, Amazon. Each of them is shaping the AI landscape in distinct ways. If you have used AI in 2026, you have probably used at least two or three of these even if you did not realize it.
+
+The second is that the AI industry is not just "the labs that make the models." There is an entire layer of companies that wraps around the model labs. Companies that build products on top of models without making the models themselves. Companies that distribute models without training them. Companies that integrate AI into existing software at vast scale. Understanding this wrapper layer is part of understanding how AI actually reaches your life.
+
+This chapter is the tour through that other half of the industry. It is shorter and faster than the previous five chapters because each player gets less space. But the tour is useful, because by the end of it, you should have a map that more accurately reflects the actual ecosystem you are living in.
+
+Let's start with the company you probably interact with most often, even though you may not think of them as an AI company.
+
+MICROSOFT, the company that wraps OPENAI.
+
+Microsoft does not make a frontier AI model. They have tried. They have invested in trying. But the AI you encounter in Microsoft products is, in almost every case, an OpenAI model with a Microsoft system prompt and Microsoft branding around it.
+
+This includes the product called Copilot, which you probably know as "the AI thing in Windows" or "the AI thing in Word" or "the AI thing in GitHub." All of those Copilots are different products. Most of them, under the hood, are OpenAI.
+
+Let me walk through what is actually going on.
+
+Microsoft Copilot, the standalone consumer chatbot you can find in Windows, the Edge browser, or the Copilot app, is OpenAI's GPT models with Microsoft's wrapper. When you talk to Copilot, you are essentially talking to ChatGPT, but with a Microsoft system prompt that gives it a slightly different personality and a different set of capabilities tied to Microsoft services.
+
+Microsoft 365 Copilot, the AI that lives inside Word, Excel, Outlook, PowerPoint, and Teams, is also primarily OpenAI-powered. When you ask Word to summarize a document, Excel to analyze data, or Outlook to draft an email, the underlying intelligence is GPT, accessed through Microsoft's infrastructure.
+
+GitHub Copilot, the coding assistant inside developer tools, started as pure OpenAI but has become more interesting. As of 2024 and 2025, GitHub Copilot lets developers choose between models. You can use GPT, Claude, or Gemini depending on the task. GitHub Copilot is, in this respect, one of the first major consumer-facing AI products to be openly multi-model.
+
+The Microsoft-OpenAI relationship is the largest commercial deal in AI history. Microsoft has invested over thirteen billion dollars in OpenAI, in exchange for various rights to use OpenAI's models in Microsoft products. The partnership has made Microsoft the largest AI distributor in the world. It has also made OpenAI substantially dependent on Microsoft, in ways that have caused friction over the years.
+
+Microsoft has also been quietly hedging. They have hired aggressively for their own AI team, recently bringing in Mustafa Suleyman (the cofounder of Google DeepMind and later founder of Inflection) to lead Microsoft AI. They have started training their own in-house model, called MAI. They have been positioning themselves to not be completely dependent on OpenAI if the relationship ever needs to end.
+
+What this means for you, the user, is important. If you use Windows, Office, or any major Microsoft product, you are likely using OpenAI technology even if you have never opened ChatGPT. The reach of Microsoft, combined with the technology of OpenAI, is one of the largest AI distribution channels on Earth. Roughly two billion people use Microsoft software in some form every month. The AI capabilities Microsoft chooses to ship, and the limits Microsoft chooses to apply, shape the daily AI experience for an enormous fraction of the world.
+
+xAI, THE LAB THAT BECAME A SPACE COMPANY
+
+In March 2023, Elon Musk founded a new AI company. He called it xAI. He recruited eleven researchers from Google, OpenAI, and Microsoft. He announced that the company would build "maximum truth-seeking AI," explicitly positioned as an alternative to what Musk described as the political correctness of the existing labs.
+
+The chatbot they built is called Grok. It launched first on X, formerly known as Twitter, in late 2023. Musk owned X. Grok had access to the firehose of real-time content flowing through X, which gave it a distinct advantage on questions about current events and social media trends. Grok also had a personality. It was modeled, by Musk's own description, on the irreverent voice of Douglas Adams's "The Hitchhiker's Guide to the Galaxy." It was willing to make jokes, take stances, and engage with politically charged questions in ways that other chatbots would not.
+
+xAI grew fast. By 2025, Musk had built a supercomputer called Colossus in Memphis, Tennessee, with over two hundred thousand GPUs. By early 2026, Colossus had grown to over five hundred thousand GPUs and was being expanded toward one million. The compute infrastructure was, by some measures, the largest dedicated AI training facility in the world.
+
+The story took unusual turns. In March 2025, Musk announced that xAI was acquiring X, the social media platform, for thirty-three billion dollars in stock. Both companies, technically, were already controlled by Musk. The acquisition rolled them into one entity. Then in February 2026, in an even more unusual move, SpaceX, Musk's space exploration company, acquired xAI. The combined entity was valued at roughly one and a quarter trillion dollars. xAI became a subsidiary of SpaceX.
+
+In May 2026, just before I wrote this chapter, Musk announced that xAI would cease to exist as a separate company. Grok and X were now part of a SpaceX division called "SpaceXAI." The lab that had started three years earlier as a corrective to OpenAI was now a unit inside a space company.
+
+The trajectory tells you something. For Musk, AI, social media, satellites, and rockets are increasingly treated as one integrated business. The strategic logic, to the extent it is public, has to do with Musk's vision of integrated technology platforms that could, in his framing, take humanity beyond Earth. The commercial logic, more cynically, has to do with consolidating control and preparing for an IPO of the combined SpaceX entity.
+
+For the user, what matters is that Grok is real. It is integrated into X. It is integrated into Tesla vehicles. It has access to real-time social data that no other AI assistant has. It is willing to engage with topics that other models refuse. It has also, repeatedly, generated content that caused significant public backlash, including false claims and offensive material. Whether Grok is a unique voice or a danger depends on what you think AI should be allowed to say. Both views have credible defenders.
+
+MISTRAL, the european challenger.
+
+Across the Atlantic, a French company called Mistral has been quietly building what is, as of 2026, the leading European AI lab.
+
+Mistral was founded in 2023 by three researchers who had worked at Meta and Google DeepMind. The premise was simple. There should be a European AI lab. The argument was that AI was too important a technology to be controlled entirely by American and Chinese companies, that European data protection and regulatory norms deserved to be reflected in major AI models, and that there was a real commercial opportunity for a high-quality lab outside the Silicon Valley orbit.
+
+Mistral made several strategic choices that distinguished them. They committed to open-weight releases when most American labs were closing up. They emphasized efficiency, building smaller models that performed competitively with larger ones. They built their own products, including a chatbot called Le Chat, but also positioned themselves as a model provider for European companies that did not want to send their data to American clouds.
+
+By 2026, Mistral has become significant. Their annual recurring revenue grew from twenty million dollars in early 2025 to four hundred million dollars in early 2026. They raised eight hundred and thirty million dollars in a single round to build data centers near Paris and in Sweden. Their valuation reached nearly fourteen billion dollars. They have released, in March 2026 alone, six major products in fifteen days, including Voxtral, an audio model line that competes directly with American leaders like ElevenLabs.
+
+Mistral matters because they prove that the frontier is not closed. A well-funded, well-staffed lab outside the United States and China can do competitive frontier work. Whether they can sustain this position over the long term, given the enormous capital advantages of their American and Chinese competitors, is an open question. But they exist, they are growing, and they have allies, including (as I write this) interesting recent reports of discussions with xAI about possible collaboration.
+
+For European readers, Mistral is particularly relevant because data processed by Mistral stays under European jurisdiction, which simplifies compliance with GDPR and other European data protection regulations. For everyone else, Mistral is interesting because they represent a genuine third pole in what might otherwise become a binary American-Chinese contest.
+
+Perplexity, the wrapper company.
+
+Perplexity is a different kind of AI company. They do not train their own frontier models. What they do is build a product on top of other people's models.
+
+Their product is, on the surface, a search engine that uses AI to answer your questions in natural language, with citations to the sources where the information came from. Under the hood, they use whatever model is best for the task. Sometimes OpenAI. Sometimes Anthropic. Sometimes Mistral. They route queries to different models based on what each model is good at, and they wrap the entire experience in a product that feels distinct from any of the underlying chatbots.
+
+What Perplexity has demonstrated is that there is a real market for AI products that do not require building your own models. By focusing on the user experience, the retrieval system, the citation handling, and the specific use case of "answering questions with sources," Perplexity has built a meaningful business in a space that the model labs themselves do not really serve.
+
+This pattern matters because it points to a larger reality of the 2026 AI industry. Most AI products that users actually use are not frontier labs. They are companies that take frontier models and build something on top of them. Cursor, the AI coding tool. Granola, the AI meeting notes app. Lindy, the AI workflow builder. Hundreds of others. Each of these companies takes models from OpenAI, Anthropic, or Google, and adds its own engineering, its own user experience, its own domain expertise, to make a product that the frontier labs themselves are not building.
+
+The product layer is, in some ways, more interesting than the model layer for ordinary users. The model is the engine. The product is the car. Most people care about cars, not engines. Perplexity, and the dozens of companies like it, are building cars.
+
+For you, this means that "what AI you use" is increasingly a question about products, not models. The same underlying GPT model can be wrapped into Perplexity, Microsoft Copilot, ChatGPT, GitHub Copilot, and a dozen other products, each of which feels different and serves different purposes. The wrapper matters as much as what is wrapped.
+
+AMAZON, the enabler.
+
+Amazon is the largest cloud computing company in the world. Through Amazon Web Services, they host roughly a third of all internet infrastructure. They also have a substantial AI strategy, and it is different from everyone else's.
+
+Amazon does build their own models. The Titan and Nova series are real, used inside Amazon's own products including the Alexa assistant. But Amazon's larger play is not their own models. It is making everyone else's models available through their cloud.
+
+Amazon Bedrock is a platform that lets developers use models from many different labs, including Anthropic, AI21 Labs, Cohere, Stability, Mistral, and others. The pitch is simple. You do not need to commit to one model. You can use Bedrock to access all of them and pick the right one for each task. Amazon takes a margin on the inference.
+
+Amazon's biggest single AI bet has been on Anthropic. They have committed up to twenty-five billion dollars to the company, making them one of the two largest backers (alongside Google). Claude runs prominently on Bedrock. The relationship is similar in scale to the Microsoft-OpenAI partnership, though structured differently.
+
+Amazon's strategy makes a particular kind of sense. They do not need to win the model race. They need to be the place where models live. As long as enterprises need to deploy AI at scale, and as long as AWS is the largest cloud provider, Amazon will benefit from whatever happens at the frontier. They are a picks-and-shovels company in the AI gold rush, and historically, picks-and-shovels has been a profitable position.
+
+What this means for you depends on whether you are a consumer or a builder. As a consumer, you may rarely interact with Amazon AI directly, although Alexa is widely deployed and the Amazon-Anthropic partnership shapes a lot of what Claude is available to do. As a builder, Amazon's Bedrock platform is one of the major distribution channels for AI capability, and the company's strategic decisions about which models to feature and how to price them affect what builders can offer their users.
+
+Apple, the late arrival.
+
+Apple is notable in this chapter for two reasons. They are one of the most valuable companies in the world. And they are, almost uniquely among the giants, deliberately behind on AI.
+
+When ChatGPT launched, Apple did not have a competitive AI assistant. Siri, their existing voice assistant, was widely regarded as obsolete. For about eighteen months, Apple watched their competitors race ahead while their own response remained quiet. In June 2024, they announced "Apple Intelligence," their AI strategy. The announcement was met with widespread disappointment. The features were modest. The timeline was slow. The promised integration of ChatGPT into Siri took longer than expected to ship and underwhelmed when it arrived.
+
+By 2026, Apple's AI position is still distinctive in a few ways. They have invested heavily in on-device AI, where small models run locally on iPhones rather than in the cloud. They have licensed external models, including Gemini from Google, to handle tasks their own models cannot. They have continued to position themselves as the privacy-focused option, arguing that AI should run on your device rather than send your data to corporate servers.
+
+Whether this strategy works is genuinely uncertain. Apple may be doing the responsible thing, building careful integrations that respect user privacy and avoid the over-promising that has plagued the rest of the industry. They may also be falling permanently behind on the most important technology shift of the era. We will know in a few years.
+
+For users of Apple products, what matters is that the AI you get from Apple is more conservative than what you would get from a frontier lab. Siri is a more limited assistant than ChatGPT. Apple Intelligence does less than Copilot. The on-device privacy story is genuinely better than the alternatives, which matters if you care about that. But the capability gap is real.
+
+THE OTHERS
+
+A few more names deserve at least a paragraph each, so you have a complete map.
+
+Cohere is a Canadian company focused on enterprise AI. Founded by Aidan Gomez, one of the eight authors of the original Transformer paper at Google. Cohere does not chase consumer chatbots. They build models tuned for business use cases, particularly retrieval-heavy applications, with strong privacy guarantees. Less famous than the consumer-facing labs, but significant in enterprise AI deployments.
+
+Inflection was founded in 2022 by Mustafa Suleyman, the cofounder of DeepMind. Their consumer chatbot, Pi, was distinctive for its warm, conversational tone. In March 2024, Microsoft executed an unusual deal in which they hired most of Inflection's team and licensed the technology, leaving the corporate shell intact but stripped of its key people. Suleyman now runs Microsoft AI. Inflection still technically exists. The story is a cautionary tale about what happens to mid-sized AI labs when the giants get hungry.
+
+IBM was, for years, the first famous AI brand. Their Watson product, which won Jeopardy in 2011, made artificial intelligence a household phrase. IBM has largely faded from the consumer AI conversation since then, but continues to do significant enterprise AI work, particularly in regulated industries like healthcare and finance.
+
+Hugging Face is technically not an AI lab. It is the platform where open-weight models live. Most of the open-source AI ecosystem, including releases from Meta, Mistral, the Chinese labs, and thousands of independent researchers, lives on Hugging Face. The company is one of the most important pieces of AI infrastructure that almost no consumer has heard of.
+
+There are many others. Stability AI, who built Stable Diffusion. Black Forest Labs, who built Flux. Runway, who is leading on AI video. Suno, on AI music. ElevenLabs, on voice. Each of these is a real company, doing significant work, building real products. We do not have space to cover them all in this book. But the AI industry, in 2026, is broader and deeper than the headline players would suggest.
+
+What this means for you.
+
+I want to make one larger point before we close this chapter.
+
+The AI ecosystem is more diverse than most coverage suggests. There are frontier model labs. There are companies that build products on top of frontier models. There are infrastructure companies that distribute models. There are companies focused on specific domains, on specific countries, on specific values. The shape of the industry, in 2026, is not five companies racing in a straight line. It is a complex ecosystem with dozens of significant players, each pursuing different strategies in different markets.
+
+This matters for several reasons.
+
+First, it means you have more choices than the headlines suggest. If you do not like ChatGPT, Claude, or Gemini, there are real alternatives. Mistral if you want European privacy. Perplexity if you want cited search. Grok if you want unfiltered. Apple Intelligence if you want on-device. Various open-source options if you want to run things yourself.
+
+Second, it means the future of AI is harder to predict than the headlines suggest. If five companies controlled the industry, you could reasonably forecast where it is going by reading their strategy memos. With dozens of players pursuing different approaches, the future is more uncertain, and more interesting. Surprises will keep happening.
+
+Third, it means the question of AI policy is more complex than any single company's behavior. Regulators trying to set rules for AI are setting rules for a wildly diverse ecosystem. What makes sense for a frontier closed-weight lab is different from what makes sense for an open-weight community. The policy conversations of the next several years will, of necessity, get more nuanced.
+
+If you have made it through this chapter and the previous five, you now have a real working map of the AI industry as of 2026. You know who the players are. You know their stated values. You know their strategies. You know how they fit together.
+
+What you do not yet know, and what the next part of this book is about, is what these systems can actually do with all this technology, money, and effort. We have spent six chapters on the people making AI. The next chapters are about the products themselves. What they can do. What they cannot do. What they should be trusted with. What they should not.
+
+What comes next: what AI is genuinely good at, with examples.

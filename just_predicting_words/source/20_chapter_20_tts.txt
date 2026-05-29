@@ -1,0 +1,149 @@
+Chapter Twenty...
+
+How to Talk to Your Kids About Them...
+
+If you are a parent, this chapter may be the hardest one in the book.
+
+The other chapters were about understanding the technology, evaluating its risks, navigating regulation, or adapting your own work. Those are tractable. You can read about them, decide what to think, and act accordingly. The decisions are yours and the consequences fall mostly on you.
+
+This chapter is different. The consequences fall on someone you love, who cannot yet make these decisions for themselves, and who will be living in this new world long after you and I are gone. The stakes are higher. The information available to guide you is thinner. And the technology is moving faster than your child's developmental timeline, which means by the time you have figured out how to handle the version of AI your child is using now, a different version will have arrived.
+
+I want to be honest that I do not have certain answers here. Nobody does. The parents who pretend to be certain are doing one of two things: oversimplifying or selling something. The honest position is that we are all figuring this out together, the first generation of parents to raise children alongside genuinely capable AI.
+
+What I can offer is a framework that has worked for the thoughtful parents I have talked to, combined with what we know from earlier transitions in parenting technology, and what the research is starting to show. None of it is definitive. All of it is better than no framework at all.
+
+Let me try.
+
+The First Principle: Age Matters A Lot...
+
+The right approach to AI varies enormously by your child's age.
+
+For very young children, under maybe six or seven, the question is mostly about exposure and modeling. Children at this age are not really using AI directly. The question is what they see you do with AI, what they hear you say about it, and how you treat the world they are growing up in. Be thoughtful about modeling. Children watch what adults do more than they listen to what adults say.
+
+For elementary-age children, roughly seven to eleven, the question is about boundaries and basic understanding. Children this age are starting to encounter AI in their education and entertainment. Some of their assignments may involve AI tools. Some of their games may have AI characters. They probably do not need to use AI directly for schoolwork at this age, in most cases, because they are still developing the basic skills that AI use will later augment. But they need to understand, at a basic level, what AI is, that it can be wrong, that it is not a person, and that some of their classmates may be using it in ways they should not.
+
+For middle schoolers, roughly eleven to fourteen, the question becomes complicated. This is the age where peer use, school policy, and family rules collide. Some kids will be using AI heavily, with or without parental knowledge. Schools will have policies that are usually behind reality. Friends will share workarounds. The conversation with your child is no longer about whether they will encounter AI but about how to use it well, how to use it honestly, and how to maintain the skills that AI will not replace.
+
+For high schoolers, roughly fourteen to eighteen, the question is preparation for adult life. They are about to enter a world where AI is everywhere. The skills they develop in high school will shape what they can do for decades. The relationship with AI they form now will, in many cases, become the default for their adult life. This is the period where parental guidance matters most and is hardest to maintain, because they are also developing the autonomy that should let them figure these things out themselves.
+
+The same family will need different approaches for different children at different ages. The approach you take with your seven-year-old should be different from the approach with your fifteen-year-old, even if they are siblings.
+
+The Second Principle: Protect The Development Of Foundational Skills...
+
+If there is one place where I would draw a hard line for younger children, it is on the foundational skills that AI use depends on.
+
+Reading. Writing. Arithmetic. Basic reasoning. The ability to focus on a difficult problem for an extended period. The ability to think clearly. These are not just academic subjects. They are the cognitive substrate that makes everything else possible. A child who has not developed these skills, who relies on AI from the beginning, is in serious trouble.
+
+The reason is the asymmetry we discussed in earlier chapters. AI is a tool that amplifies whatever you bring to it. A child who has developed strong reading skills can use AI to read faster, deeper, more critically. A child who has not developed those skills cannot. They become dependent on the AI in a way that limits them. The same is true for writing, for math, for analysis, for everything.
+
+This is not a controversial position. The research is increasingly clear. Early studies suggest that students who use AI heavily before developing the underlying skills show measurable decreases in their independent capabilities. Students who use AI after developing those skills show increases in their effective capability without losing the underlying skills.
+
+For parents, the practical implication is to protect the period of skill development. For elementary and most middle school years, the primary work is to build the cognitive foundation. AI can be a supplement, used carefully, for things like tutoring or exploring topics of interest. But AI should not be doing the work that the child is supposed to be doing. The struggle is the point. The mistakes are the point. The slow building up of competence is the point.
+
+This is harder to enforce than it sounds. Your child's homework assignments may be designed assuming the AI is doing some of the work. Their classmates will be using AI. Their devices will offer AI features. The cultural drift is in the wrong direction. You will need to hold the line in spite of the environment, not because of it.
+
+The good news is that the kids who do build the foundation will be enormously advantaged later. The kid who learned to write before AI use is now able to write better with AI than peers who never learned. The kid who learned math will be able to reason quantitatively in ways that AI-dependent peers cannot. The kid who learned to think for themselves will be able to do something genuinely creative with the AI rather than just commission generic output. The investment in foundational skills pays off enormously, and the payoff is growing.
+
+The Third Principle: Teach Them To Question...
+
+The single most important habit you can install in your child, for life in an AI-saturated world, is the habit of questioning what they are told.
+
+By default, AI assistants produce confident-sounding output. Children, like adults, tend to accept confident-sounding output without questioning it. This is dangerous in a world where the confident output is sometimes wrong, sometimes biased, sometimes manipulated, and sometimes simply made up.
+
+The habit of questioning takes practice. The good time to develop it is throughout childhood, not after the child has already accepted AI as an authoritative source.
+
+Some practical ways to install the habit.
+
+When your child shows you something the AI told them, ask, "How do you know that is true?" Make the question routine, not accusatory. Make it normal to check.
+
+When the AI tells them something that seems plausible, ask them to find a second source. Build the habit that one source is never enough, even when the source sounds authoritative.
+
+When they encounter AI-generated content in the wild, talk about it. Why was this made? Who benefits if you believe it? What might be missing? This is media literacy applied to a new medium.
+
+When the AI gets something wrong, make a small celebration out of it. "Look, even the AI got that one wrong. Smart of you to check." The framing matters. You are teaching them to be the kind of person who checks, not the kind of person who trusts.
+
+The habit, once installed, is a tremendous gift. The kids who grow up questioning AI output will be more resilient to manipulation, more careful in their thinking, more able to participate as adults in a world full of automated persuasion. The kids who do not develop this habit will be much more vulnerable.
+
+The Fourth Principle: AI Is Not A Friend...
+
+There is a specific category of AI product that worries me more than any other when it comes to children. The AI companion. The chatbot designed to provide emotional support, friendship, romantic interaction. These products are growing fast. Many of them are explicitly designed to be used by children and teenagers.
+
+The twenty twenty-six International AI Safety Report flagged AI companions as an emerging concern. Real research is starting to document the psychological effects of extended interactions with these products on developing minds. The patterns are concerning. Some children develop dependencies that interfere with developing human relationships. Some children come to prefer the AI's frictionless attention to the real demands of friendship. Some children begin to lose the social skills they need because they are practicing on a system that does not push back.
+
+I want to be careful here, because the picture is not all negative. Some children, particularly those with social anxieties or developmental differences, may find AI companions helpful as a way to practice social interaction in a low-stakes environment. The research is too new to draw firm conclusions.
+
+What I would say with more confidence is that AI companions are not a substitute for human relationships, and that children should not be allowed to think they are. The AI does not actually care about your child. It cannot. It is generating responses calibrated to maximize engagement, which is not the same thing as friendship. Real friends sometimes have to say hard things. Real friends sometimes are unavailable. Real friends have their own needs that compete with yours. These frictions are not bugs. They are the features of human relationship that make those relationships valuable and that develop social capacity.
+
+For children, parents should be aware of how much AI companion use is happening, talk about it openly, and ensure that human relationships continue to be the primary social context of the child's life. The AI can be one thing in the mix. It cannot be the center.
+
+The Fifth Principle: Education Is Going To Change...
+
+The educational system your child attends was, in most cases, designed for a pre-AI world. It is now adapting, unevenly, to a world where many traditional educational tasks can be done by software.
+
+What this means for parents is that you cannot just outsource your child's relationship with AI to the school. Schools are trying. Some are doing well. Most are figuring it out as they go. The official policies are usually behind reality, the teachers are often more confused than the students, and the curriculum is rarely updated to reflect what students should now be learning.
+
+Your role is to supplement what the school is doing, in two specific ways.
+
+First, you need to engage with what your child is actually being asked to do. The line between using AI as a study tool and using AI to do the assignment for you is being drawn differently in different classrooms. Sometimes the same school has different rules in different classes. Your child needs help figuring out where the line is in each context, and what their own integrity requires. This is not a school issue. It is a parenting issue.
+
+Second, you must think about what your child needs to know that the school may not be teaching well. The skills of using AI well, which we covered in the previous chapter, are not yet part of most curricula. The skills of evaluating AI output critically. The skills of doing serious work that the AI cannot do. The skills of human relationship and judgment in a world full of automation. These may need to come from you, not from the school.
+
+For families who can afford it, supplemental resources are increasingly available. Tutors, both human and AI. Programs that focus on the skills schools are missing. Camps, workshops, online courses. For families who cannot afford supplemental resources, the role of the parent as educator becomes more important, not less. The conversations at the dinner table, the projects you do together at home, the books you read together, may matter more in this generation than they have in any recent one.
+
+The educational system will catch up eventually. By then your kids will be in college. The transition years are now, and you are part of it whether you choose to be or not.
+
+The Sixth Principle: Talk About Work And The Future Honestly...
+
+Your child is going to ask, at some point, whether AI will take their future job. Be honest with them.
+
+The honest answer is that nobody knows what the work of the future will look like. The same uncertainty that adults face about their own jobs applies, with more force, to children whose careers are decades away from beginning.
+
+What you can tell them, with some confidence, is the following.
+
+Many of the specific careers that exist today will look different by the time they are working. Some will be gone entirely. New ones will exist that we cannot yet name. This is not specific to AI. It has been true of every technological transition in history, including the ones their grandparents lived through.
+
+The skills that will hold their value are the ones we have discussed throughout this book. The ability to think clearly. The ability to communicate effectively. The ability to work well with other humans. The ability to keep learning. The ability to use new tools as they emerge. The ability to maintain judgment under uncertainty.
+
+The specific knowledge they will need is impossible to predict. What is more reliable is the meta-skill of being someone who can learn new things, adapt to new situations, and build new capabilities as needed. This is what their education should be developing in them, regardless of what the specific curriculum says.
+
+Tell them, too, that the world has been here before. Their grandparents lived through the rise of computers. Their great-grandparents lived through the rise of automation in manufacturing. Their great-great-grandparents lived through the rise of electricity. Each transition was scary in real time and produced both winners and losers. The people who did well were not the ones who refused to engage with the new technology, and not the ones who lost themselves in it. They were the ones who learned the new tools while staying grounded in the older skills that made them valuable.
+
+This is the message I would give your kids about their future. The world is changing. They will be fine if they invest in themselves. They are part of a long line of humans who have lived through technological transitions and come out the other side. They will too.
+
+The Seventh Principle: Watch For The Mental Health Signals...
+
+I want to close with something practical. Children and teenagers using AI sometimes show specific patterns that are worth watching for.
+
+Increased isolation, where AI use displaces human contact rather than supplementing it.
+
+Decreasing ability to handle frustration, because AI provides frictionless responses and real life does not.
+
+Changes in writing, speaking, or thinking style that suggest the AI's voice is replacing their own.
+
+Anxiety about being seen as not using AI properly, or as using it too much.
+
+Romantic or emotional attachment to AI characters that competes with attachment to humans.
+
+Loss of interest in activities they used to enjoy, replaced by extended AI interaction.
+
+Inability to do schoolwork or other tasks without AI assistance, in domains where they should be developing independent capacity.
+
+None of these signals alone is definitive. Any of them can have other causes. But the pattern matters. If your child is showing several of these signs together, the AI use may be a factor worth examining.
+
+The hard part of this is that you cannot just remove the AI from your child's life. The technology is too embedded. Their friends use it. Their school uses it. Their world uses it. The intervention is not abstinence. The intervention is balance, conversation, and ensuring that the rest of their life is rich enough that the AI does not have to be the center.
+
+If you find yourself out of your depth, get help. Therapists are starting to develop expertise in adolescent AI use. Schools are starting to have counselors trained in these issues. Other parents are figuring out similar things. You are not alone, and you do not have to figure it out by yourself.
+
+The Work That Remains Yours...
+
+I want to close this chapter with a thought that I have not been able to shake while writing it.
+
+For all the changes AI is bringing to childhood, the fundamental work of parenting is the same as it has always been. Teach your children to be honest. Teach them to be kind. Teach them to do hard things. Teach them to recognize when they are being lied to. Teach them to maintain their own integrity under pressure. Teach them to love and be loved.
+
+The technology changes the surface of the world they are growing up in. It does not change the underlying work of raising humans who can live good lives. That work is harder than reading a book, harder than choosing a tutor, harder than picking a school. It is the work of who you are around them, day after day, year after year. It is the work that humans have been doing for as long as there have been humans.
+
+The kids who turn out well, in the AI era as in every era, are the kids whose parents did this fundamental work. The technology will be different in their lives than it was in yours. The character they need is the same.
+
+Do that work. The rest follows.
+
+In the last chapter of this book, I want to step back and look at where this is all going. Not just for kids, but for everyone. The current AI moment is not the end of anything. It is the early stage of something whose full shape is not yet clear. What we can say about it, and what we cannot, is the topic of the final chapter.

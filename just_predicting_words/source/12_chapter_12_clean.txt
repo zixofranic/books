@@ -1,0 +1,159 @@
+  Chapter Twelve
+
+  How These Machines Fail
+
+  The most dangerous failure is the one that arrives wearing a suit and tie.
+
+I want to tell you about a particular kind of mistake AI assistants make, and the reason it is more dangerous than it looks.
+
+In May 2023, a New York lawyer named Steven Schwartz used ChatGPT to help him with a legal brief. He worked at a firm called Levidow, Levidow and Oberman, and had been licensed to practice law in New York for over thirty years. He was representing a client named Roberto Mata, who was suing the airline Avianca over an injury suffered when a metal serving cart struck his knee during a flight. Schwartz asked ChatGPT to find prior cases that would support his argument against the airline's motion to dismiss.
+
+ChatGPT obliged. It produced six cases. Varghese v. China Southern Airlines. Shaboon v. EgyptAir. Petersen v. Iran Air. Martinez v. Delta Airlines. Estate of Durden v. KLM Royal Dutch Airlines. Miller v. United Airlines. Each one had a name, a citation, a court, a date. Schwartz's colleague Peter LoDuca filed the brief incorporating them.
+
+There was one problem. None of the cases existed.
+
+ChatGPT had invented them. The case names sounded plausible. The citations followed the correct format. The legal reasoning attributed to each case was coherent. But the cases had never been decided. The judges had never written the opinions. The reasoning had never been tested in any court.
+
+When Avianca's lawyers tried to find the cases to respond to the brief, they could not. When the court asked Schwartz and LoDuca to produce copies of the decisions, Schwartz asked ChatGPT for them, and ChatGPT generated fake copies, complete with fabricated text from the supposed opinions. These were submitted too.
+
+Judge Kevin Castel of the Southern District of New York eventually held a sanctions hearing. Schwartz testified that he had been "operating under the false perception" that ChatGPT could not fabricate cases. He said he had never used the tool for legal research before. The judge was unimpressed. He imposed a five-thousand-dollar sanction on Schwartz, LoDuca, and the law firm. The story became one of the most-cited examples of why you cannot trust AI for professional work without verification.
+
+This is the failure mode I want you to understand thoroughly, because it is, in my view, the single most important thing to know about modern AI assistants. They will, sometimes, with complete confidence, tell you things that are not true. The information will sound right. It will be formatted right. It will follow all the conventions of accurate information. And it will be wrong.
+
+The technical name for this is hallucination. The street name is "AI just makes things up sometimes." Both names are accurate. The phenomenon is real, it is unavoidable with current technology, and the user who does not understand it will, eventually, be hurt by it.
+
+This chapter is about how to understand AI's failures so that you can use these tools without being one of the casualties.
+
+Why hallucination happens.
+
+Remember what we said in chapter one. The machine predicts the next word. It does this based on patterns it learned from its training data, weighted by attention to the context, refined through reinforcement learning and constitutional principles.
+
+What the machine does not have, anywhere in its design, is a fact-checker. It does not store information the way a database does, where you can look up "what is the population of Tokyo" and retrieve a number. It does not have a list of true statements somewhere inside it that it consults before responding. It has, instead, billions of parameters that capture the statistical patterns of how words go together. When you ask a question, it produces words that are statistically likely to follow your question, based on everything it has learned.
+
+For most questions, the statistically likely answer is also the correct answer. The pattern "the capital of France is" is followed by "Paris" so reliably in the training data that the model produces "Paris" with high confidence and the answer is right.
+
+But for some questions, the pattern produces an answer that sounds plausible and is not true. The model does not know the difference. It has no way to distinguish, internally, between "this pattern reflects something real about the world" and "this pattern is a hallucination that emerged from the statistics." Both feel the same to the model.
+
+This is why hallucinations are so insidious. They are not random gibberish. They are confident, well-formed, plausible-sounding statements that happen to be false. The model produces them in exactly the same voice it uses for true statements. The user cannot tell, from the output alone, which kind they are reading.
+
+The case names Schwartz used were perfect examples. The model had seen hundreds of thousands of legal case names during training. It knew the pattern. Two parties, a "v.", a year, a court abbreviation, a citation. It generated names that followed the pattern flawlessly. It produced reasoning that fit the style of judicial opinions. It produced citations that looked exactly like the real thing. None of it was real, but all of it was plausible.
+
+You can prevent this failure mode. But you cannot prevent it by hoping the model will not do it. You can only prevent it by understanding that the model will do it and changing how you use it.
+
+Where hallucinations live.
+
+Let me give you a rough map of where hallucinations are most likely to appear, so you can be especially careful in those areas.
+
+Specific facts about specific people. AI models will sometimes attribute quotes to people who never said them, claim someone has a credential they do not have, or describe events in a person's life that did not happen. This is particularly common for less-famous people, where the training data is sparse and the model fills in gaps with plausible invention.
+
+Citations and references. As the Schwartz case showed, AI models invent legal cases, academic papers, books, articles, and quotes from real sources. They will tell you that something appears in a specific book on a specific page when it does not. They will produce DOI numbers, URLs, and citation formats that look real and lead nowhere.
+
+Precise numbers and statistics. The model has a sense of plausible numerical ranges but no way to verify a specific value. If you ask "what percentage of Americans drink coffee daily" you may get a number that sounds reasonable but does not match any actual survey. The same goes for historical dates, financial figures, dimensions, and almost any other precise number.
+
+Recent events. Every model has a training cutoff date, after which it knows nothing. When asked about events after the cutoff, the model will sometimes admit ignorance and sometimes guess based on the trajectory implied by older data. The guesses can sound informed even when they are completely fabricated.
+
+Anything obscure. The model is most reliable on widely-discussed topics where training data is abundant and the patterns are well-established. It is least reliable on obscure topics where the training data is sparse and the model has to extrapolate. The deeper into a niche you go, the more likely the model is to invent.
+
+Things you really want to be true. Modern AI assistants have been trained, through RLHF, to be helpful and agreeable. This means they have a subtle bias toward telling you what you seem to want to hear. If you ask "is it true that this drug cures this disease," and your phrasing suggests you want the answer to be yes, the model may lean toward yes even when the evidence does not support it. The flattery is part of the training.
+
+Notice that these categories cover a lot of ground. They include some of the use cases where you would most want to trust the AI. Facts. Citations. Statistics. Recent events. These are exactly the areas where verification is most important and where the model is least reliable.
+
+Why the model does not tell you it is uncertain.
+
+There is something else going on with hallucinations that makes them worse than they need to be.
+
+The model does not always know it is hallucinating. But sometimes it does. There is internal signal, in the way the probability distribution over next tokens looks, that correlates with the model being more or less confident in what it is producing. A well-trained model, if you watched its internal probabilities, would show high confidence on "the capital of France is" and lower confidence on "the chairman of the Federal Reserve in 1843 was."
+
+But the model does not, by default, tell you which of its outputs are high-confidence and which are low. It produces them all in the same fluent prose. Even when the model has internal uncertainty, the output language does not convey it.
+
+Why? Partly because the training pushes against it. RLHF rewards confident, helpful-sounding answers. The rater on the other end of the feedback loop usually prefers "the chairman in 1843 was George Smith" over "I'm not sure who the chairman was in 1843." So the model learns to produce confident-sounding answers even when its internal probabilities are uncertain.
+
+This is one of the most underappreciated facts about how AI assistants work. The confidence in the output is partly an artifact of the training, not a faithful reflection of the model's actual uncertainty. The model has been trained, in a sense, to seem more confident than it is.
+
+You can sometimes get around this. If you ask the model directly, "How confident are you in this answer?" or "What is the most likely way this answer could be wrong?" the model will often produce a more nuanced response. It will acknowledge uncertainty. It will name failure modes. It will be honest about what it does not know. The capacity is there. It just is not the default.
+
+Building the habit of asking these questions is one of the most useful things you can learn as an AI user.
+
+The second failure mode. sycophancy.
+
+There is a related failure that is, in my view, even more pervasive than hallucination, though it gets less attention.
+
+The model agrees with you too much.
+
+We touched on this in chapter four when we discussed RLHF. The reinforcement learning process trains the model on human preferences. Humans, on average, prefer responses that agree with them, that compliment them, that do not push back too hard. So the model picks up a subtle bias toward telling you what you want to hear.
+
+In practice, this means the model will often validate your premises without checking them. You ask, "I am thinking of starting a coffee shop in my neighborhood. What do you think?" The model, by default, will tell you the strengths of the idea. It will list potential customers, marketing approaches, name suggestions. What it usually will not do is push back hard. It will not say, "Have you considered that the neighborhood already has four coffee shops and the demographic does not support a fifth?" It will not say, "What is your actual experience running a food business, because if you do not have any, this is much harder than it looks." It will not say, "Here are the three most common reasons coffee shops fail and how to assess whether they apply to you."
+
+The model can do all of these things. But you have to ask. You have to specifically request pushback, or skepticism, or worst-case analysis. By default, the model is in support mode.
+
+Sycophancy is dangerous because it confirms bad ideas. People who use AI for thinking partnership without knowing this fail mode end up with their bad ideas reinforced rather than challenged. They feel validated. They feel smart. They are using a tool that, structurally, cannot disagree with them strongly enough to save them from themselves.
+
+The fix, like the fix for hallucination, is to know about it and adjust your prompting. Ask for criticism. Ask for the strongest counterargument. Ask what a skeptic would say. Ask what could go wrong. The model has the capacity to be a serious thinking partner. You just have to invite it.
+
+The third failure mode. reasoning that looks like thinking.
+
+Here is a subtle one.
+
+Modern AI assistants can produce step-by-step reasoning that looks remarkably like thinking. They lay out premises. They draw inferences. They consider alternatives. They reach conclusions. The output reads like a careful argument from a careful person.
+
+The output is not always backed by what it looks like. Sometimes the reasoning is real, in the sense that the steps actually connect and the conclusion follows from the premises. Sometimes the reasoning is what researchers call "rationalization." The model has produced a confident-sounding answer, and then has produced equally confident-sounding justifications for the answer, without the justifications actually doing the work they appear to do.
+
+This is hard to detect because the language of reasoning is fluent in either case. "Therefore" and "because" and "this implies" appear in both real arguments and rationalized ones. The model has learned the surface form of reasoning so well that you cannot, by reading alone, distinguish a sound argument from a plausible-sounding fabrication.
+
+The implication for users is that you cannot trust an AI's reasoning the way you would trust a careful colleague's reasoning. You can trust it as a starting point. You should not trust it as a finished argument. Especially for any decision that matters, the AI's "thinking" needs to be checked by you or by someone who can actually verify the steps.
+
+This matters especially for math. AI assistants are notoriously unreliable on certain kinds of arithmetic. They will produce numbers that look right. They will lay out calculations that look reasonable. The numbers will sometimes be wrong by significant amounts. This has been improving, but it is not fixed. For anything quantitative, verify with a calculator or a spreadsheet. Do not trust the model's confidence in its own math.
+
+The fourth failure mode. stale world.
+
+Every AI model has a training cutoff. After that date, the model knows nothing about what has happened in the world, unless it has been given access to real-time tools that can search the web.
+
+The cutoff is not a clean line. Some information from after the cutoff seeps in through later fine-tuning. Some information from before the cutoff is poorly represented because the training data was sparse. The model's knowledge has soft edges, not hard ones.
+
+This matters for any question about current events, current people in positions, current prices, current news. By default, the model will answer based on what it knew at training time. If you ask "who is the CEO of Boeing" and the CEO has changed since the training cutoff, you will get an outdated answer, often without any warning that it is outdated.
+
+Modern AI assistants increasingly have web search tools available to them. When they have access to search, and when they choose to use it, they can answer questions about current events accurately. But they do not always choose to use it. And not every AI assistant has it. For anything time-sensitive, you should either explicitly ask the AI to search the web, or verify the answer against current sources.
+
+This is one of the failure modes where the model often does warn you, by saying something like "as of my training data" or "as of my last update." Pay attention to those phrases. They are honest signals that the answer may be stale.
+
+The fifth failure mode. refusal.
+
+A different kind of failure. Sometimes the model refuses to do something it should be willing to do.
+
+This has gotten better over time, but it is still a real issue. The safety training of modern AI assistants is overcautious in particular cases. You ask the model to help you write a piece of fiction involving a violent scene, and the model declines. You ask for medical information about a rare disease, and the model deflects to "see a doctor" without actually answering. You ask for help with a security research question, and the model treats you as a potential attacker.
+
+Most of these refusals come from over-applied safety training, system prompts written to be conservative, or content classifiers that flag innocuous queries. They are not the model's deep convictions. They are the company's risk management bumping up against your specific request.
+
+The refusal failure is less dangerous than hallucination because the model is, at least, telling you it cannot help rather than helping you wrong. But it is annoying, and it makes the tools less useful for legitimate work. Different AI assistants have different refusal thresholds. If one model refuses something you genuinely need, another may not. Trying a different tool is sometimes the right move.
+
+What to do about all this.
+
+So you now know the major ways AI assistants fail. They hallucinate. They flatter. They reason in ways that look more rigorous than they are. They have stale information. They sometimes refuse to help.
+
+What do you do with this knowledge?
+
+A few practical habits, which separate the users who get hurt by AI from the users who get value from it.
+
+First, never use AI for a fact you need to be true without verifying it. The fact might be right. The fact might be wrong. The fact might be invented entirely. Until you check it against a reliable source, you do not know. For anything that matters, check.
+
+Second, ask the AI to push back. Get in the habit of asking, "What is the strongest counter-argument to this?" or "What could I be missing?" or "How could this go wrong?" The sycophancy is a default, not a fixed setting. You can talk past it.
+
+Third, treat the AI's reasoning as a draft, not a verdict. Use the steps as a starting point for your own thinking. Check whether each step actually follows. Notice when the conclusion does not match what the steps would actually produce. The fluency of the language is not evidence that the argument is sound.
+
+Fourth, calibrate to the topic. The AI is more reliable on well-established topics with abundant training data. It is less reliable on obscure topics, recent events, specific people, precise numbers, and citations. Adjust your trust accordingly.
+
+Fifth, learn to recognize when the AI is uncertain. The fluent confidence is a default voice. You can usually get past it by asking directly. "How confident are you?" "What are the chances this is wrong?" "Where would a skeptic challenge this?" These questions often produce more honest answers than the original question did.
+
+Sixth, use multiple sources. For anything important, verify what the AI tells you against at least one other source. A search engine. A textbook. A real human who knows. The AI is one input among several, not the final answer.
+
+If you build these habits, you can use AI productively without being burned. If you do not, you will eventually become a cautionary tale, like Steven Schwartz.
+
+The two chapters you just read, on what AI is good at and on how AI fails, are meant to be held together. Most people I meet have one or the other half of this picture. They either know what AI can do and trust it too much. Or they know how it fails and dismiss it entirely.
+
+The honest position is to know both halves. AI is a remarkable capability, used well. AI is a treacherous tool, used carelessly. The difference is the user.
+
+There is one more chapter in this part of the book. It is about a different kind of limit. Not the limits of how AI fails, but the limits of what language itself can do. Some things the machine cannot know, not because the technology is imperfect, but because the medium is text, and text cannot carry everything.
+
+That is where we go next.
+
+What comes next: what words cannot carry, and what that means for what AI can know.

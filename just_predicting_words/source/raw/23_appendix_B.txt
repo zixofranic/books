@@ -1,0 +1,162 @@
+================================================================
+APPENDIX B: A TIMELINE AT A GLANCE
+================================================================
+
+A reference for the major moments in modern AI development.
+Selected for readers who want to remember when things happened.
+Not exhaustive.
+
+
+PRE-HISTORY
+
+1956 - Dartmouth Workshop
+The summer workshop where the term "artificial intelligence" was 
+first used. Organized by John McCarthy with Marvin Minsky, 
+Nathaniel Rochester, and Claude Shannon.
+
+1970s - First AI Winter
+Funding for AI research collapses across the US and UK after 
+early systems fail to meet expectations.
+
+1980s - Second AI Winter
+Another collapse after expert systems fail to scale.
+
+2013 - word2vec
+Tomas Mikolov and colleagues at Google demonstrate that word 
+meanings can be captured as vectors. King minus man plus woman 
+equals queen.
+
+2017 - Attention Is All You Need
+Eight researchers at Google publish the Transformer paper. The 
+foundation for modern language models.
+
+
+THE GPT YEARS
+
+2018 - GPT-1
+OpenAI releases its first GPT model. 117 million parameters. 
+An academic curiosity.
+
+2019 - GPT-2
+OpenAI releases GPT-2. 1.5 billion parameters. Initially withheld 
+as "too dangerous to release." Eventually released in November 
+2019.
+
+2020 - GPT-3
+OpenAI releases GPT-3. 175 billion parameters. The first model 
+that startled even its creators with what it could do. Available 
+only through an API.
+
+
+THE CHATGPT MOMENT
+
+2022, November 30 - ChatGPT Launches
+OpenAI launches ChatGPT, a simple chat interface to a fine-tuned 
+GPT-3.5. The fastest-growing consumer product in history. 1 
+million users in 5 days. 100 million in 2 months.
+
+2022 to 2023 - The Scramble
+Google declares a code red. Anthropic releases Claude. Meta 
+releases Llama as the first major open-weight model. Microsoft 
+deepens its investment in OpenAI.
+
+
+THE FRONTIER YEARS
+
+2023, March - GPT-4
+OpenAI releases GPT-4, a major capability jump from GPT-3.5. 
+Multimodal capabilities.
+
+2023, March - Claude
+Anthropic releases its first version of Claude.
+
+2023, November - The OpenAI Board Crisis
+Sam Altman is fired by the OpenAI board, then reinstated within 
+four days after employee revolt and Microsoft pressure.
+
+2024 - The Year of Models
+Multiple major releases. GPT-4o. Claude 3 family. Gemini 1.5. 
+Llama 3. Frontier capabilities continue to expand.
+
+2024, March - Mustafa Suleyman to Microsoft
+In an unusual deal, Microsoft hires most of Inflection's team 
+and licenses the technology.
+
+2024, August - EU AI Act
+The European Union's AI Act becomes law. Implementation will 
+be staggered through 2026 and 2027.
+
+2024 - Demis Hassabis Nobel Prize
+Hassabis and John Jumper share the Nobel Prize in Chemistry for 
+AlphaFold's work on protein folding.
+
+
+THE DEEPSEEK MOMENT AND BEYOND
+
+2025, January - DeepSeek V3 Release
+A Chinese lab releases an open-weight model trained for $6M that 
+performs competitively with American frontier models. The DeepSeek 
+moment. Nvidia loses $500B in market cap in a single day.
+
+2025, April - Llama 4 Disaster
+Meta releases Llama 4. The release is later found to have used 
+different model versions for different benchmarks, gaming the 
+results. Internal consequences are severe.
+
+2025, May - Claude Code
+Anthropic launches Claude Code, an agentic coding tool. Within 
+months, it generates over $1B in annualized revenue.
+
+2025, November - LeCun Leaves Meta
+Yann LeCun departs Meta to found AMI Labs, focused on world 
+models.
+
+2025, December - Trump AI Executive Order
+US President Trump signs an executive order directing the AG 
+to challenge state AI laws that conflict with a proposed 
+federal framework.
+
+2025 - Anthropic Catches Up
+Anthropic's revenue grows from a few hundred million to tens of 
+billions over the year. The frontier gets multipolar.
+
+
+THE PRESENT MOMENT (2026)
+
+2026, January - The 2026 International AI Safety Report
+Yoshua Bengio chairs the report, warning about deepfakes, AI 
+companions, and increasing capability.
+
+2026, February - SpaceX Acquires xAI
+xAI becomes a subsidiary of SpaceX. The combined entity is 
+valued at $1.25 trillion.
+
+2026, March - Meta Pivots to Closed Weights
+Meta launches Muse Spark as its first closed-weight frontier 
+model, stepping back from its open-weight commitments.
+
+2026, March - Anthropic Pentagon Designation
+The US Pentagon designates Anthropic a supply chain risk after 
+the company refuses to remove restrictions on military use of 
+Claude.
+
+2026, April - DeepSeek V4 Release
+DeepSeek releases V4 trained largely on Huawei Ascend chips, 
+proving Chinese AI hardware has matured.
+
+2026, May - The xAI / SpaceX Consolidation
+Musk announces xAI will cease to exist as a separate company, 
+folded entirely into SpaceX's SpaceXAI division.
+
+2026, May - EU AI Act Streamlining Agreement
+EU institutions reach a provisional agreement to streamline 
+parts of the AI Act while maintaining substantive obligations.
+
+2026, August (scheduled) - EU AI Act High-Risk Provisions
+The bulk of the EU AI Act's obligations on high-risk systems 
+scheduled to take effect, with a contested proposal to delay 
+until 2027.
+
+================================================================
+END APPENDIX B
+================================================================

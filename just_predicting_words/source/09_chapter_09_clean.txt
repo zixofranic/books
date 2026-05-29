@@ -1,0 +1,119 @@
+  Chapter Nine
+
+  The Other Half of the Map
+
+  While the West was watching three labs, half a dozen others elsewhere were quietly catching up.
+
+For the first three years of the modern AI era, most coverage in Western media focused on OpenAI, then Anthropic, then Google, then sometimes Meta. These four companies, and a handful of smaller players in San Francisco and London, were treated as the frontier. The race was understood to be between them. The future was understood to be theirs to lose.
+
+Then, on a Sunday in late January 2025, a Chinese company called DeepSeek released a chatbot to the public.
+
+Within forty-eight hours, the DeepSeek app had reached number one on Apple's App Store in the United States, ahead of ChatGPT. A small American technology stock called Nvidia lost five hundred billion dollars of value in a single day. Trading desks across Wall Street called emergency meetings. Researchers at the major American AI labs were summoned for explanations.
+
+What had DeepSeek done?
+
+They had released a model that performed roughly on par with the best American models, except that its final training run had reportedly cost about six million dollars. American labs were spending hundreds of millions, sometimes billions, on equivalent training runs. The DeepSeek model was released open-weight, available for anyone to download and run on their own computers. The pricing for the API was a fraction of what OpenAI charged. The model was, in operational terms, just better at certain kinds of reasoning than what was available from anyone else.
+
+This was the DeepSeek moment. It is, in retrospect, one of the most important events in the modern AI era. Not because DeepSeek itself is the most powerful lab. It is not. But because the DeepSeek release made unavoidable a fact that the Western AI conversation had been dancing around for years. The half of the AI map that Western media had been ignoring was, in many ways, ahead of the half they had been watching.
+
+This chapter is about that other half. The Chinese labs that have, in 2026, made the AI race a genuinely multipolar affair. The reader who skips this chapter, or reads only superficially, will fundamentally misunderstand what is happening in AI right now.
+
+Let me try to do this fairly. I am not an expert on China. I have not lived there. My information comes from public sources, English-language reporting, and the publicly available research and products from the labs in question. I will try to flag where my view is limited. But the basic facts of what these labs have done are not disputed, and they deserve a real chapter in this book.
+
+THE BACKGROUND
+
+To understand the current Chinese AI ecosystem, you need to understand two pieces of context.
+
+The first is that China has been investing heavily in AI research for over a decade. By the late 2010s, Chinese universities were producing more AI research papers than American universities, often with citation counts that rivaled the best American work. Chinese AI talent, both inside China and in diaspora positions at Silicon Valley companies, has been at the cutting edge for years. The idea that AI is fundamentally a Western technology has never really been true, except in the public's imagination.
+
+The second is that, since October 2022, the United States has been actively trying to slow Chinese AI development. The Biden administration, and later the Trump administration, imposed sweeping export controls on advanced computer chips. The specific chips that the American AI labs use to train their models, made by Nvidia, were forbidden from sale to Chinese companies. The reasoning was that if AI was going to be a strategically critical technology, the United States did not want China to have it.
+
+The export controls were a deliberate attempt to crush Chinese AI development. They have not worked the way they were intended to.
+
+Instead, the export controls forced Chinese labs to innovate in different directions. They could not throw more compute at the problem. They had to be more efficient. They had to write better software, design better architectures, train smarter rather than harder. The result, paradoxically, has been a generation of Chinese AI techniques that are often more efficient than their American equivalents, because efficiency was the only path available.
+
+The DeepSeek moment in January 2025 was, in part, a public demonstration of this. The fact that a model could be trained, at least on its final run, for six million dollars and compete with models that cost a hundred times more was a direct consequence of the export controls. The constraint produced the breakthrough.
+
+This is going to be a pattern we see again. The labs we are about to discuss are doing some things differently than their Western competitors not because they are doing it wrong, but because they had to.
+
+THE PLAYERS
+
+There are six or seven Chinese AI labs that matter at the frontier in 2026. Let me introduce them briefly so you have names you can recognize.
+
+DeepSeek. The lab that caused the January 2025 moment. Owned by High-Flyer, a Chinese hedge fund. Famous for releasing extremely efficient open-weight models at very low prices. Their V4 model, released in April 2026, comes in two versions, including a 1.6 trillion parameter variant that competes with the best American closed-source offerings, at roughly one-tenth the price.
+
+Alibaba. The e-commerce giant, similar to Amazon in shape but bigger in China. Their AI division produces the Qwen series of models. As of mid-2026, Qwen has become the most-downloaded open-weight model family in the world, ahead of Meta's Llama. The Qwen app has over one hundred million monthly active users in China and growing markets in Asia and Africa.
+
+Moonshot AI. A Beijing-based startup founded by former Tsinghua University researchers. Produces the Kimi model series. Particularly strong on long-context understanding (their models handle far longer inputs than most American models) and on agentic AI (where a model can break a task into subtasks and execute them autonomously). Their Kimi K2.6 model, released in April 2026, scored competitively with Claude and GPT-5 on coding benchmarks.
+
+Zhipu AI. Another Beijing-based lab. Produces the GLM series. Notable for being China's first large language model developer to list publicly, with a Hong Kong IPO in January 2026, and for releasing some of the strongest reasoning models in the open-weight ecosystem.
+
+ByteDance. The parent company of TikTok. Like Meta, ByteDance has been using AI inside its products for years. They have released models, including the Seed and Doubao series, that are increasingly competitive with Western offerings. ByteDance's distribution advantages through TikTok give them a uniquely powerful platform.
+
+Baidu. China's largest search engine company. Their ERNIE chatbot was one of the first major Chinese consumer AI products. Less prominent at the frontier in 2026 than they were in 2023, but still significant.
+
+Tencent. The owner of WeChat, the messaging app that essentially is the internet for over a billion Chinese users. Tencent has integrated AI into its products at enormous scale. They distributed over one hundred and forty million dollars in cash bonuses through their AI chatbot during the 2026 Lunar New Year, in a campaign that resembled the marketing tactics that built WeChat itself.
+
+That is not a complete list. There are also MiniMax, 01.AI, StepFun, and others doing significant work. The Chinese AI ecosystem is large and varied. But these names give you the basic geography.
+
+What they are good at.
+
+Generalizing about Chinese AI labs is dangerous, because they are doing different things. But some patterns are clear in 2026.
+
+Chinese labs are particularly strong at efficiency. The export controls forced this. They have produced models that achieve competitive performance with far less compute than American models, and they have written training techniques that have started to influence the rest of the field. The DeepSeek architecture innovations, particularly something called "Multi-Head Latent Attention," are now studied by researchers everywhere.
+
+They are particularly strong at open-weight releases. With Meta stepping back from the open-weight position in early 2026, the Chinese labs have effectively become the leaders of the open-weight ecosystem. Qwen, DeepSeek, Kimi, GLM are all available for download. Anyone in the world can run them on their own hardware. The implications for AI access in developing countries, and for AI research in general, are large.
+
+They are particularly strong at agentic AI. Several Chinese models, including Kimi K2 and its successors, are designed from the ground up for agent workflows, where the AI can plan, take actions, use tools, and complete multi-step tasks. The benchmarks have shifted in 2026 from pure language understanding to agentic capability. Chinese labs have, in many cases, led this shift.
+
+They are particularly strong at pricing. DeepSeek V4 Flash, released in April 2026, costs twenty-eight cents per million output tokens. The equivalent OpenAI or Anthropic model is one hundred times more expensive. For high-volume applications, the Chinese pricing makes American models economically uncompetitive in many markets.
+
+They are also, increasingly, strong at running on Chinese hardware. The Huawei Ascend chips, designed in China to replace Nvidia chips that cannot be imported, have improved significantly. DeepSeek V4 was trained largely on Ascend hardware. The American export controls were supposed to prevent this. The Chinese semiconductor industry has accelerated under the pressure of the controls, and the gap between Chinese and American AI hardware is narrowing.
+
+What they are not good at.
+
+Let me be honest about the other side too.
+
+Chinese AI models have hard limits that American models do not. All of them have built-in content restrictions on topics sensitive to the Chinese government. They will not discuss Taiwan's political status in the way Western models will. They will not discuss the 1989 events at Tiananmen Square. They will produce, in many cases, content that aligns with Chinese government positions rather than providing neutral information.
+
+This is not a quirk or a bug. It is a legal requirement. Chinese AI companies operate under regulations that require their products to "uphold core socialist values" and to refrain from "subverting state power." The censorship is built in, both technically and culturally. Even when the models are released open-weight, the censorship is baked into the training data and the alignment process. You can sometimes remove some of it through fine-tuning. You cannot fully escape it without retraining from scratch.
+
+If you care about politically uncensored AI, Chinese models are not the right choice. This is a real and important limitation. It also reflects, in fairness, a different set of assumptions about what AI should do and how it should serve a society. Different countries are making different choices. The Chinese approach is one of those choices.
+
+Beyond the political limitations, Chinese labs sometimes lag American labs in what AI researchers call "post-training" quality. This is the work we discussed in chapter four, the RLHF and constitutional approaches that give a model its conversational personality. Several observers have argued that American labs, particularly Anthropic and OpenAI, are still ahead at this specific craft. Chinese models score well on technical benchmarks but sometimes feel less polished in extended conversation. Whether this gap is real and durable, or just temporary, is debated.
+
+Finally, there are real questions about data jurisdiction. If you use a Chinese AI service, your queries flow through Chinese servers, subject to Chinese law. For Western businesses with regulatory requirements (HIPAA in healthcare, GDPR in Europe, various financial regulations), this is a genuine compliance issue. Most Western businesses cannot use Chinese AI services for these reasons, even if the technical performance is competitive.
+
+The geopolitical dimension.
+
+I would be writing this chapter dishonestly if I did not name what is also going on here. The competition between American and Chinese AI labs is not just a commercial rivalry. It is part of a larger geopolitical contest between two superpowers.
+
+The United States and China are, as I write this, in a slow and careful technology cold war. AI is central to this contest. Both governments believe, with reason, that whoever leads in AI will have significant strategic advantages over the next several decades. Both governments are using policy tools to advance their domestic AI industries and constrain the other's.
+
+The American tools have included export controls on chips, restrictions on technology transfer, and sanctions on specific companies. The Chinese tools have included aggressive industrial policy, massive state investment in AI research, and (according to American officials) intellectual property theft.
+
+The Chinese AI labs sit inside this larger context. They are companies, with commercial pressures and competitive strategies. They are also, in various ways, instruments of national strategy. The Chinese government supports them. They support, in various ways, the goals of the Chinese state. The relationship is not as simple as "private companies pursuing profit," and pretending otherwise would be naive.
+
+The same is true, in fairness, of American AI labs. They are also instruments of national strategy, even when they describe themselves as private companies pursuing commercial goals. The American government also supports them. The relationship is also not as simple as it appears.
+
+What this means for the rest of us is that AI development is now, structurally, a contest between two state-supported industrial complexes. The technical questions and the geopolitical questions cannot be cleanly separated. The choices about which AI to use, which to build with, which to trust, are increasingly choices about which side of a geopolitical contest you are willing to align with.
+
+What this means for you.
+
+If you are a Western user, you probably are not using Chinese AI directly. The export of Chinese AI services into Western markets has been limited, partly by Chinese regulation, partly by Western caution, partly by simple unfamiliarity. The Chinese AI labs you have read about in this chapter are mostly using their products inside China and in markets aligned with China.
+
+But you are affected by them in indirect ways. The pricing pressure they put on American labs has driven prices down across the industry. The efficiency innovations they have pioneered have been incorporated into American training techniques. The open-weight releases they continue to make are used by developers and researchers worldwide. Many of the open-source AI tools you might use already, if you are technical, are built on top of Chinese models.
+
+If you are in a country aligned with neither superpower (a category that includes much of Africa, much of Latin America, much of Southeast Asia, and parts of Europe), Chinese AI may already be a significant part of your AI consumption. DeepSeek usage in Africa is, by some estimates, two to four times higher than in other regions, partly because of the price, partly because of the open-weight availability, partly because of the lighter regulatory footprint. The AI you encounter in your everyday life may already be made by companies you have never heard of, operating from cities most Westerners cannot find on a map.
+
+In the larger picture, the Chinese AI ecosystem ensures that the future of AI will not be defined by Silicon Valley alone. Whatever you think about Chinese geopolitics, this is probably good news for the rest of the world. A world in which AI is controlled by a few companies in one country is a more fragile world than one in which capability is distributed across multiple poles. The price of that distribution is the political complications we just discussed. But the basic fact of a multipolar AI future is, in 2026, no longer in question.
+
+So now we have met the major players. OpenAI, Anthropic, Google, Meta, and the Chinese frontier. There are others. xAI, Mistral, Microsoft, Apple, Amazon. And a whole layer of companies that build products on top of these models without making the models themselves. They matter too, and the next chapter is about them.
+
+What unites all of these labs, despite their many differences, is that they are all building variations of the same basic technology. The Transformer architecture. The next-word predictor. Scaled up. Trained on enormous data. Aligned through some combination of human feedback and explicit principles. Deployed as products with system prompts and safety classifiers.
+
+You now have, I hope, a real sense of the largest players. Who is making AI. Where they came from. What they believe. What they are racing toward.
+
+But the AI landscape is not just these five entities. The next chapter introduces the rest of the map, the other companies whose work shapes what AI actually feels like in 2026.
+
+What comes next: the other half of the industry, from Microsoft and xAI to Mistral, Apple, and the wrapper companies you have already used.

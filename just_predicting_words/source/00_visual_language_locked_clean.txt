@@ -1,0 +1,108 @@
+VISUAL LANGUAGE
+Locked from the tokenization diagram (Chapter 3).
+Applied to every diagram in the book.
+
+The locked palette.
+
+   #F5EFE3   Cream background
+   #2C2A26   Ink, primary marks and text
+   #D85A30   Terracotta, accent for input or central concept
+   #9C3818   Deep clay, machine state and secondary emphasis
+   #4A4742   Charcoal, descriptive labels in italic
+
+Use three colors plus the background, never more, in any single
+diagram. Most diagrams use two plus background.
+
+The locked conventions.
+
+TOKENS
+   Thin-ruled rectangles containing the token text.
+   Border: ink, 0.75pt stroke, very subtle 2pt corner radius.
+   Text inside: serif, ink color, centered.
+   Every place a token appears in any diagram in this book, it
+   uses this convention. No exceptions.
+
+What the human writes.
+   When showing the original human input, the box gets a
+   terracotta-colored text fill.
+   This signals "this is the starting point" and draws the
+   reader's eye to it first.
+
+What the machine sees.
+   When showing the machine's internal representation, the
+   element uses ink color for primary marks and deep clay for
+   numbers or machine-specific data.
+
+Numbers and machine-formatted content.
+   Always monospace. Always deep clay color.
+   This visually separates "what the machine computes" from
+   "what the human reads."
+
+TRANSFORMATIONS
+   Dashed lines (3pt dash, 3pt gap).
+   Used when one thing becomes another thing.
+   Solid lines are reserved for actual connections, references,
+   or attention flows.
+
+MARGIN LABELS
+   Italic serif, charcoal, small (13pt).
+   Sit in the left margin, providing meta-context for what is
+   shown in the diagram body.
+   Examples: "What the human writes" / "What the machine sees" /
+   "After embedding" / "Inside the attention layer"
+
+CAPTIONS
+   Italic serif, charcoal, small (13pt).
+   Sit beneath a thin horizontal rule near the bottom of the
+   diagram.
+   Optional. Used only when the diagram benefits from a
+   one-sentence interpretation.
+
+STROKE WEIGHTS
+   Box borders: 0.75pt
+   Connection lines: 0.75pt
+   Transformation lines: 0.5pt dashed
+   Section rules: 0.5pt at 30% opacity
+
+Typography in diagrams.
+   Body text and token text: EB Garamond (or Georgia substitute)
+   Numbers and machine output: JetBrains Mono (or monospace
+   substitute)
+   Labels and captions: EB Garamond italic, smaller size
+
+The teaching discipline.
+
+Every diagram must answer the question: what does the reader
+learn from this?
+
+If the diagram cannot complete this sentence with something
+specific, it should not be in the book.
+
+Every diagram must pass the Tufte test, the Alammar test, the
+Urban test, and the prose-pairing test. (See illustration
+strategy document for details.)
+
+What remains to be drawn.
+
+Following this locked language, the priority order is:
+
+1. The Chapter 3 sequence (uses the same example sentence to
+   build progressively):
+   - Vector embedding diagram (tokens become positions in space)
+   - Vector space as geography (the meaning-map)
+   - Attention (one token looking at the others with weight)
+
+2. The Chapter 4 diagram:
+   - The two trainings (pre-training and post-training)
+
+3. The Chapter 16 diagram:
+   - Layers of safety (the seven-layer defense, with visible
+     gaps)
+
+4. The chapter-opener metaphor images (21 of them, lower
+   priority, simpler style)
+
+5. The part dividers (5 of them, pure typography, lowest
+   priority)
+
+End visual language.

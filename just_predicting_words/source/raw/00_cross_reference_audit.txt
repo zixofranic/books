@@ -1,0 +1,279 @@
+================================================================
+CROSS-REFERENCE AUDIT
+Every reference to another chapter, checked for accuracy.
+================================================================
+
+Methodology: I extracted every cross-reference from each chapter's
+prose body, then verified whether the claim about the referenced 
+chapter is actually accurate.
+
+Format: 
+  [Chapter X, line Y] says "Z about chapter N"
+  ✓ CORRECT or ✗ WRONG, with explanation
+
+
+----------------------------------------------------------------
+CHAPTER 1 (Just Predicting Words)
+----------------------------------------------------------------
+
+[Ch1, line 102] "The technical name for this is *attention*, 
+and we'll dig into it properly in Chapter Three."
+✓ CORRECT. Chapter 3 covers tokens, vectors, and attention.
+
+[Ch1, line 156] "In the next chapter, we'll take a short tour 
+through how this whole technology came to be."
+✓ CORRECT. Chapter 2 is the history.
+
+
+----------------------------------------------------------------
+CHAPTER 2 (A Short History of Machines That Read)
+----------------------------------------------------------------
+
+[Ch2, line 86] "We met this idea in the last chapter, with the 
+cocktail party."
+✓ CORRECT. Chapter 1 introduces the cocktail party analogy for 
+attention.
+
+[Ch2, line 134] "We covered this briefly in the last chapter 
+and we'll dig into the details in chapter four."
+✗ PROBLEM. Chapter 1 does NOT cover RLHF. It is mentioned only 
+in chapter 4. The "last chapter" reference here is wrong.
+
+[Ch2, line 180] "We will dig into how it works in the next 
+chapter."
+✓ CORRECT. Chapter 3 covers the Transformer mechanics.
+
+[Ch2, line 190] "The next chapter opens up the machine and shows 
+you what's actually inside."
+✓ CORRECT. Chapter 3 opens up the machine.
+
+
+----------------------------------------------------------------
+CHAPTER 3 (Inside the Machine)
+----------------------------------------------------------------
+
+[Ch3, line 72] "We saw one of them in the last chapter, the 
+word2vec discovery that king minus man plus woman equals queen."
+✓ CORRECT. Chapter 2 introduces word2vec and the king/queen 
+example.
+
+[Ch3, line 78] "When I said in chapter one that the machine is 
+a kind of mirror held up to humanity's writing..."
+✓ CORRECT. Chapter 1 uses the mirror metaphor.
+
+[Ch3, line 86] "the one I used in chapter two"
+✓ CORRECT. Refers to the king-queen example.
+
+[Ch3, line 112] "Now do you remember the cocktail party from 
+chapter one?"
+✓ CORRECT.
+
+[Ch3, line 118] "When you read the 2017 paper title from the 
+last chapter..."
+✓ CORRECT. Chapter 2 mentions "Attention Is All You Need."
+
+[Ch3, line 168] "The next chapter is about... how it gets shaped 
+into something useful."
+✓ CORRECT. Chapter 4 is about post-training.
+
+
+----------------------------------------------------------------
+CHAPTER 4 (Taming the Wild Word Predictor)
+----------------------------------------------------------------
+
+[Ch4, line 14] "The first training (the big one we talked about 
+in chapter three)..."
+✗ PROBLEM. Chapter 3 talks about tokens, vectors, and attention 
+inside a trained model, NOT about the first training process 
+itself. Pre-training as a process is introduced more fully in 
+chapter 4. The reference is misleading.
+
+[Ch4, line 109] "We'll come back to this in chapter fourteen, 
+when we talk about how AI assistants fail."
+✗ PROBLEM. Sycophancy is actually addressed in chapter 12 
+(failures), not chapter 14 (real risks). Chapter 12 line 87 
+explicitly discusses sycophancy.
+
+[Ch4, line 117] "Anthropic, one of the major AI labs we'll meet 
+in detail in chapter ten..."
+✗ PROBLEM. Anthropic is covered in chapter SIX, not chapter ten. 
+Chapter 10 is "Everyone Else" (Microsoft Copilot, xAI, Mistral, 
+etc.). This is a significant error.
+
+[Ch4, line 179] "In the next chapter, we'll meet the companies 
+that make these decisions. We'll start with OpenAI."
+✓ CORRECT. Chapter 5 is OpenAI.
+
+
+----------------------------------------------------------------
+CHAPTER 5 (OpenAI)
+----------------------------------------------------------------
+
+[Ch5, line 47] "We met this story in chapter two, but it's worth 
+revisiting from OpenAI's perspective."
+✓ CORRECT. Chapter 2 covers the GPT story.
+
+[Ch5, line 67] "We've covered this moment in chapter one and 
+chapter two."
+✓ CORRECT. Refers to the ChatGPT launch moment.
+
+
+----------------------------------------------------------------
+CHAPTER 6 (Anthropic)
+----------------------------------------------------------------
+
+[Ch6, line 15] "I am going to try to give Anthropic the same 
+treatment I gave OpenAI in the last chapter."
+✓ CORRECT.
+
+[Ch6, line 51] "The current generation of AI safety techniques 
+(the RLHF and constitutional AI methods we discussed in chapter 
+four)..."
+✓ CORRECT. Chapter 4 covers both.
+
+[Ch6, line 67] "By 2024, Anthropic had introduced what it called 
+Constitutional AI publicly. We covered this in chapter four."
+✓ CORRECT.
+
+
+----------------------------------------------------------------
+CHAPTER 9 (Chinese Frontier)
+----------------------------------------------------------------
+
+[Ch9, line 88] "This is the work we discussed in chapter four, 
+the RLHF and constitutional approaches..."
+✓ CORRECT.
+
+
+----------------------------------------------------------------
+CHAPTER 12 (How These Machines Fail)
+----------------------------------------------------------------
+
+[Ch12, line 27] "Remember what we said in chapter three. The 
+machine predicts the next word."
+✗ PROBLEM. The "machine predicts the next word" claim is 
+established as the central thesis in CHAPTER ONE, not chapter 
+three. Chapter 3 explains the mechanics of how. The line should 
+reference chapter one.
+
+[Ch12, line 87] "We touched on this in chapter four when we 
+discussed RLHF."
+✓ CORRECT. Chapter 4 introduces sycophancy as an RLHF artifact.
+
+
+----------------------------------------------------------------
+CHAPTER 14 (Risks That Are Real)
+----------------------------------------------------------------
+
+[Ch14, line 115] "the safety classifiers we discussed in chapter 
+four are partly designed to prevent it"
+✗ PARTIAL PROBLEM. Chapter 4 discusses RLHF, Constitutional AI, 
+and system prompts. Classifiers as a separate safety layer are 
+not really discussed in chapter 4. They are discussed in detail 
+in chapter SIXTEEN (Guardrails). The reference should be to 
+chapter sixteen, or could say "the safety measures we discussed 
+in chapter four and will discuss further in chapter sixteen."
+
+
+----------------------------------------------------------------
+CHAPTER 15 (Risks That Are Mostly Hype)
+----------------------------------------------------------------
+
+[Ch15, line 41] "the interpretability... which we discussed 
+in Chapter Six"
+✓ CORRECT. Chapter 6 covers Anthropic's interpretability work.
+
+
+----------------------------------------------------------------
+CHAPTER 16 (Guardrails)
+----------------------------------------------------------------
+
+[Ch16, line 15] "This is where we started, back in chapter four. 
+The raw model that comes out of pre-training is a wild word 
+predictor."
+✓ CORRECT.
+
+[Ch16, line 27] "The system prompt. We met this in chapter four."
+✓ CORRECT.
+
+[Ch16, line 105] "the privacy question we covered in chapter 
+fourteen"
+✓ CORRECT. Chapter 14 covers privacy as a real risk.
+
+
+----------------------------------------------------------------
+CHAPTER 17 (Regulation)
+----------------------------------------------------------------
+
+[Ch17, line 66] "We discussed the practical consequences of 
+this in chapter nine."
+✓ CORRECT. Chapter 9 covers Chinese political constraints on AI.
+
+[Ch17, line 70] "As we saw in chapter nine, Chinese labs have 
+been doing real work at the frontier despite the constraints."
+✓ CORRECT.
+
+
+----------------------------------------------------------------
+CHAPTER 18 (How to Use Them Well)
+----------------------------------------------------------------
+
+[Ch18, line 58] "We covered this in chapter twelve."
+✓ CORRECT. Chapter 12 covers AI failure modes including 
+hallucination.
+
+[Ch18, line 108] "With important caveats about the limits we 
+discussed in chapter thirteen..."
+✓ CORRECT. Chapter 13 covers the limits of language including 
+embodied experience and emotional understanding.
+
+
+----------------------------------------------------------------
+CHAPTER 21 (Where This Is All Going)
+----------------------------------------------------------------
+
+[Ch21, line 41] "The risks I described in chapter fourteen..."
+✓ CORRECT.
+
+[Ch21, line 43] "The risks I described in chapter fifteen..."
+✓ CORRECT.
+
+
+================================================================
+SUMMARY OF ERRORS TO FIX
+================================================================
+
+1. CHAPTER 2, line 134: "We covered this briefly in the last 
+   chapter" is wrong about RLHF. Chapter 1 doesn't cover RLHF.
+   FIX: Remove the back-reference, or revise to acknowledge 
+   that the concept will be properly covered in chapter four.
+
+2. CHAPTER 4, line 14: "the big one we talked about in chapter 
+   three" is misleading. Chapter 3 covers the mechanics inside 
+   a model, not the training process itself.
+   FIX: Revise to reference the right material accurately.
+
+3. CHAPTER 4, line 109: "We'll come back to this in chapter 
+   fourteen" is wrong about sycophancy. Sycophancy is in 
+   chapter 12.
+   FIX: Change to "chapter twelve."
+
+4. CHAPTER 4, line 117: "Anthropic... in chapter ten" is wrong. 
+   Anthropic is chapter six.
+   FIX: Change to "chapter six."
+
+5. CHAPTER 12, line 27: "Remember what we said in chapter three. 
+   The machine predicts the next word." This central claim is 
+   from chapter ONE.
+   FIX: Change to "chapter one."
+
+6. CHAPTER 14, line 115: "the safety classifiers we discussed in 
+   chapter four" is partially wrong. Classifiers are covered in 
+   chapter 16, not chapter 4. Chapter 4 covers RLHF, 
+   Constitutional AI, and system prompts.
+   FIX: Either change to "chapter sixteen" or revise the 
+   sentence to acknowledge it spans both.
+
+================================================================
+END AUDIT
+================================================================

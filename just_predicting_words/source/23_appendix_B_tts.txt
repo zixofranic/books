@@ -1,0 +1,151 @@
+A reference for the major moments in modern AI development.
+Selected for readers who want to remember when things happened.
+Not exhaustive.
+
+Pre-History...
+
+nineteen fifty-six - Dartmouth Workshop
+The summer workshop where the term "artificial intelligence" was
+first used. Organized by John McCarthy with Marvin Minsky,
+Nathaniel Rochester, and Claude Shannon.
+
+nineteen seventies - First AI Winter
+Funding for AI research collapses across the US and UK after
+early systems fail to meet expectations.
+
+nineteen eighties - Second AI Winter
+Another collapse after expert systems fail to scale.
+
+twenty thirteen - word2vec
+Tomas Mikolov and colleagues at Google demonstrate that word
+meanings can be captured as vectors. King minus man plus woman
+equals queen.
+
+twenty seventeen - Attention Is All You Need
+Eight researchers at Google publish the Transformer paper. The
+foundation for modern language models.
+
+The GPT Years...
+
+twenty eighteen - GPT one...
+
+Open AI releases its first GPT model. 117 million parameters.
+An academic curiosity.
+
+twenty nineteen - GPT two...
+
+Open AI releases GPT two. 1.5 billion parameters. Initially withheld
+as "too dangerous to release." Eventually released in November
+twenty nineteen.
+
+twenty twenty - GPT three...
+
+Open AI releases GPT three. 175 billion parameters. The first model
+that startled even its creators with what it could do. Available
+only through an API.
+
+The Chat GPT Moment...
+
+twenty twenty-two, November 30 - Chat GPT Launches
+Open AI launches Chat GPT, a simple chat interface to a fine-tuned
+GPT three point five. The fastest-growing consumer product in history. 1
+million users in 5 days. 100 million in 2 months.
+
+twenty twenty-two to twenty twenty-three - The Scramble
+Google declares a code red. Anthropic releases Claude. Meta
+releases Llama as the first major open-weight model. Microsoft
+deepens its investment in Open AI.
+
+The Frontier Years...
+
+twenty twenty-three, March - GPT four
+Open AI releases GPT four, a major capability jump from GPT three point five.
+Multimodal capabilities.
+
+twenty twenty-three, March - Claude
+Anthropic releases its first version of Claude.
+
+twenty twenty-three, November - The Open AI Board Crisis
+Sam Altman is fired by the Open AI board, then reinstated within
+four days after employee revolt and Microsoft pressure.
+
+twenty twenty-four - The Year of Models
+Multiple major releases. GPT-4o. Claude three family. Gemini one point five.
+Llama three. Frontier capabilities continue to expand.
+
+twenty twenty-four, March - Mustafa Suleyman to Microsoft
+In an unusual deal, Microsoft hires most of Inflection's team
+and licenses the technology.
+
+twenty twenty-four, August - EU AI Act
+The European Union's AI Act becomes law. Implementation will
+be staggered through twenty twenty-six and twenty twenty-seven.
+
+twenty twenty-four - Demis Hassabis Nobel Prize
+Hassabis and John Jumper share the Nobel Prize in Chemistry for
+Alpha Fold's work on protein folding.
+
+The Deep Seek Moment And Beyond...
+
+twenty twenty-five, January - Deep Seek V three Release
+A Chinese lab releases an open-weight model trained for $6M that
+performs competitively with American frontier models. The Deep Seek
+moment. Nvidia loses $500B in market cap in a single day.
+
+twenty twenty-five, April - Llama four Disaster
+Meta releases Llama four. The release is later found to have used
+different model versions for different benchmarks, gaming the
+results. Internal consequences are severe.
+
+twenty twenty-five, May - Claude Code
+Anthropic launches Claude Code, an agentic coding tool. Within
+months, it generates over $1B in annualized revenue.
+
+twenty twenty-five, November - Le Cun Leaves Meta
+Yann Le Cun departs Meta to found AMI Labs, focused on world
+models.
+
+twenty twenty-five, December - Trump AI Executive Order
+US President Trump signs an executive order directing the AG
+to challenge state AI laws that conflict with a proposed
+federal framework.
+
+twenty twenty-five - Anthropic Catches Up
+Anthropic's revenue grows from a few hundred million to tens of
+billions over the year. The frontier gets multipolar.
+
+The Present Moment (twenty twenty-six)...
+
+twenty twenty-six, January - The twenty twenty-six International AI Safety Report
+Yoshua Bengio chairs the report, warning about deepfakes, AI
+companions, and increasing capability.
+
+twenty twenty-six, February - Space X Acquires X AI
+X AI becomes a subsidiary of Space X. The combined entity is
+valued at $1.25 trillion.
+
+twenty twenty-six, March - Meta Pivots to Closed Weights
+Meta launches Muse Spark as its first closed-weight frontier
+model, stepping back from its open-weight commitments.
+
+twenty twenty-six, March - Anthropic Pentagon Designation
+The US Pentagon designates Anthropic a supply chain risk after
+the company refuses to remove restrictions on military use of
+Claude.
+
+twenty twenty-six, April - Deep Seek V four Release
+Deep Seek releases V four trained largely on Huawei Ascend chips,
+proving Chinese AI hardware has matured.
+
+twenty twenty-six, May - The X AI / Space X Consolidation
+Musk announces X AI will cease to exist as a separate company,
+folded entirely into Space X's Space X AI division.
+
+twenty twenty-six, May - EU AI Act Streamlining Agreement
+EU institutions reach a provisional agreement to streamline
+parts of the AI Act while maintaining substantive obligations.
+
+twenty twenty-six, August (scheduled) - EU AI Act High-Risk Provisions
+The bulk of the EU AI Act's obligations on high-risk systems
+scheduled to take effect, with a contested proposal to delay
+until twenty twenty-seven.

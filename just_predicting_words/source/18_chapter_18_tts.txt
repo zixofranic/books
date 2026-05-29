@@ -1,0 +1,160 @@
+Chapter Eighteen...
+
+How to Use Them Well...
+
+We have spent seventeen chapters on what these systems are, who built them, what they can and cannot do, what their risks are, and how they are being regulated. Now we get to the part where you put any of this to use.
+
+This chapter is the most practical one in the book. I want to tell you, as concretely as I can, how to actually use AI assistants well. What habits separate the users who get real value from the ones who get frustration. What prompts work better than others. What kinds of tasks to bring to AI and what kinds to keep for yourself. How to think about the relationship over time.
+
+Most of what I am about to say is not technically deep. It is not secret knowledge. It is, in many cases, advice that experienced users have figured out independently and now repeat to each other. The reason it is worth writing down is that most casual users have not yet picked it up. They are still in the search-engine mode of using AI, expecting a tool to spit out the right answer to a question. The shift to thinking-partner mode, to collaborator mode, is where the value compounds.
+
+Let me try to walk you through it.
+
+The First Rule: Tell It What You Are Trying To Do...
+
+This is the single most important thing you can change about how you use AI, and most people skip it.
+
+When you go to Chat GPT or Claude with a request, you tend to phrase it the way you would phrase a Google search. A few keywords. A short question. You assume the AI can figure out what you actually want.
+
+The AI can do better than that, but only if you give it more to work with. Tell it the context. Tell it the goal. Tell it the constraints. Tell it the audience. Tell it the format you want. Tell it what you have tried already. Tell it what would make a response feel useful to you.
+
+Compare these two requests.
+
+The first: "Write me a job description for a marketing manager."
+
+The second: "I need a job description for a marketing manager at a Series B SaaS company. The company sells project management software to construction firms. The role reports to the head of marketing and will manage one junior marketer. The candidate needs three to five years of experience, ideally in B2B SaaS for technical buyers. The salary range is one hundred and twenty to one hundred and fifty thousand dollars. We want to attract candidates who care about craft, not just metrics. Please write it in a warm but professional tone, about four hundred words, with sections for the role, the team, the qualifications, and the company. Avoid corporate jargon like 'rockstar' or 'ninja.'"
+
+The first request produces a generic job description that you will have to rewrite. The second produces a draft that needs minor edits.
+
+The reason most users do not write the second kind of prompt is that it takes more effort. It feels like you are doing the work yourself. But the work you are doing is the work of specifying, which is the work the AI cannot do for you. Once you specify, the AI does the writing fast and well. The trade is more than worth it.
+
+This is the basic asymmetry of AI assistance. The AI is fast and capable but generic. You are slow but specific to your situation. The combination is more productive than either alone. But only if you do your part.
+
+The Second Rule: Treat It As A Conversation, Not A Search...
+
+Search engines are transactional. You ask. They answer. You move on.
+
+AI assistants are conversational. You ask. They answer. You react. You refine. You push back. You ask a follow-up. The first answer is rarely the answer you want. The fifth answer often is.
+
+Most users miss this because they do not realize they can. They get a first response from the AI, see that it is not quite right, and either accept it or give up. The good user keeps going.
+
+"Make it shorter."
+"Less formal."
+"Can you try a version that emphasizes the technical aspects more?"
+"What if I cut the third paragraph and started with the fourth?"
+"What would a skeptical reader push back on here?"
+"Help me find the one line that is actually the point."
+
+This kind of iteration is where real quality emerges. The AI is patient. It does not get annoyed. It does not feel like its previous attempt is being criticized. You can keep refining for as long as you have energy, and each iteration usually improves the result.
+
+The right mental model is that you are working with a junior collaborator who has read enormously, types fast, has no ego, and needs your direction to produce something genuinely good. Direct them. Use them. Push them.
+
+The Third Rule: Verify What Matters...
+
+We covered this in chapter twelve. I am restating it here because it is essential to using AI well, and easy to forget once you have been using it for a while.
+
+The AI will sometimes confidently produce things that are not true. Names of cases that do not exist. Statistics that sound right but are wrong. Quotes attributed to people who never said them. Citations that lead to dead URLs.
+
+For anything that matters, verify. Cross-check the AI's claims against a source you trust. Not always. Not for every fact. But for any claim where being wrong would cost you something.
+
+This is especially important for:
+
+Names of specific people and what they said. The AI will sometimes attribute quotes incorrectly or invent quotes entirely. If you are going to use a quote, find the original source.
+
+Specific numbers and statistics. The AI's sense of plausible numerical ranges is good. Its precision is unreliable. For anything numerical that matters, find the source.
+
+Legal, medical, and financial claims. The AI can be a useful starting point, but the stakes are too high to rely on its output alone. Verify with a professional or with primary sources.
+
+Citations, references, and links. The AI sometimes invents these. Check that they actually exist before using them in anything you publish.
+
+Recent events. The AI may have stale information. For anything time-sensitive, ask the AI to search the web, or check current sources yourself.
+
+The discipline of verification feels like extra work. It is. The alternative is to occasionally publish something embarrassingly wrong, or to make a decision based on a confidently stated falsehood. The verification discipline is the cost of using AI safely. It is also the discipline that separates expert users from casual ones.
+
+The Fourth Rule: Know Which Model To Use For Which Job...
+
+By twenty twenty-six, there are many different AI assistants, and they have different strengths. Picking the right one for the job is part of the skill.
+
+For long-form writing, careful reasoning, and tasks that benefit from a thoughtful collaborator, Claude tends to be strong. For broad capability across a wide range of tasks, Chat GPT remains the most general-purpose option. For coding, both Claude and Chat GPT have specialized variants worth using. For research that requires up-to-date information with sources, Perplexity often beats the generalist chatbots. For analysis of long documents, the models with large context windows (Claude and Gemini) are the right choice.
+
+If you are doing something where data privacy matters, like working with confidential client information or sensitive personal details, the major consumer chatbots may not be the right choice. Look at services with explicit no-retention policies, or use models running locally on your own device.
+
+If you are doing something where the AI's outputs will be used in a context that has compliance requirements, like healthcare or finance, the consumer chatbots are usually not the right choice. Enterprise versions of these products, or specialized vendors, have appropriate safeguards.
+
+The point is not that you need to be an expert in every AI tool. The point is that picking the right tool matters more than most users realize. If you find yourself frustrated with one tool, try another for the same task. The variation across tools is meaningful, and getting better with practice.
+
+The Fifth Rule: Use It For Thinking, Not Just Output...
+
+Most users start by using AI to produce things. Emails. Documents. Code. Summaries. The output is the goal.
+
+Experienced users discover that the more valuable use is often the thinking, not the output. They use AI to think through problems, to stress-test ideas, to find blind spots, to articulate something they have not yet articulated.
+
+This works because the AI is a good externalization tool. It responds to whatever you put in front of it. It can adopt different perspectives. It can ask you questions. It can challenge your assumptions. The conversation is the value, and the conversation produces clearer thinking than you would do alone.
+
+Some practical examples.
+
+You are trying to decide whether to take a job offer. Open a conversation with the AI. Describe the offer. Describe your current situation. Describe what you are torn about. Ask the AI to help you articulate the trade-offs. Ask it what a skeptic of taking the job would say. Ask it what a champion would say. Ask it to identify questions you have not yet asked yourself. By the end of an hour, you will probably know what you want to do, not because the AI told you, but because the conversation made you say it out loud.
+
+You are stuck on a hard problem at work. The same approach. Describe the problem. Describe what you have tried. Describe what is not working. Ask the AI to help you reframe the problem. Ask what people in adjacent fields might do. Ask it to challenge your assumptions about what the problem even is. The reframing often unlocks the solution.
+
+You are processing something emotionally difficult. With important caveats about the limits we discussed in chapter thirteen, AI can be a useful thinking partner here too. Not a replacement for friends or therapists. But a way to articulate what you are feeling, hear it reflected back, and find your own clarity. Many users have found AI helpful here. Many have also found it can become a substitute for human connection in ways that are not healthy. Be honest with yourself about which is happening.
+
+In all of these cases, the AI is not telling you the answer. It is helping you find your own answer through a conversation that you control. That is the highest use of these tools. It is also the use that most people miss.
+
+The Sixth Rule: Be Honest About What You Are Delegating...
+
+When you use AI to write something, you are making a choice about authorship. The thing the AI produces, with your direction, is something you are about to present as your work.
+
+There is nothing wrong with this in most contexts. You have always been able to use ghostwriters, editors, research assistants, and collaborators. The AI is a new kind of collaborator. The work that comes out the other end is yours in the same sense that a CEO's speech is theirs even though a speechwriter drafted it.
+
+But you do need to be honest with yourself, and sometimes with others, about what you delegated. There is a difference between using AI to draft an email and signing it, versus claiming you personally crafted every word. There is a difference between using AI to brainstorm a strategy and presenting it as your strategic insight, versus pretending you came up with the ideas without help.
+
+The line moves depending on context. In personal writing, full disclosure of AI use is becoming a norm in some circles and not others. In professional contexts, the rules vary by industry and employer. In academic contexts, the rules are still being worked out, with some institutions banning AI use entirely and others requiring disclosure.
+
+The general principle that has worked for most users is this. Do not claim more credit than you deserve. Do not pretend to skills you do not have. Do not let the AI's output substitute for your own thinking when your thinking is what was supposed to be on offer. If you would feel uncomfortable having your AI use revealed, that is a sign you have crossed a line.
+
+Most uses are well within the comfortable zone. Drafting routine emails, summarizing documents, producing first drafts, generating ideas. These do not require disclosure in most contexts. Just do not lose track of the difference between you and the tool.
+
+The Seventh Rule: Never Stop Developing Your Own Abilities...
+
+This is the rule that gets harder over time, and matters most.
+
+When the AI is good at something, the temptation is to stop developing your own ability in that area. Why learn to write well if the AI will do it for you? Why learn to code if the AI will code for you? Why learn to think clearly if the AI will think clearly for you?
+
+The answer, in my view, is that the AI is a tool, and tools work better in skilled hands. The writer who can write well, who uses AI to write faster, produces better writing than the writer who cannot write at all and relies on the AI for everything. The coder who understands software, who uses AI to code faster, builds better software than the coder who is entirely dependent on the AI to handle complexity they themselves cannot reason about.
+
+This is not just about output quality. It is about the kind of person you become. The skill of writing teaches you to think clearly. The skill of coding teaches you to break problems into parts. The skill of analysis teaches you to see what is actually going on. These skills are valuable even if you never need to deploy them without AI help. The AI amplifies what you bring. If you bring nothing, the amplification is small.
+
+The hardest version of this rule applies to children, which is a whole chapter on its own and where we go next. For adults, the version is simpler. Do not let the AI hollow you out. Use it to do more. Do not use it to be less.
+
+The good users I know have all internalized some version of this. They use AI heavily. They also continue to practice their craft. They write things by hand sometimes, even when the AI could do it faster. They work through problems on paper before asking the AI for help. They read books, talk to humans, think their own thoughts, and let the AI be one tool in a larger life. The AI is in their work. It is not the whole of their work.
+
+A Few Practical Tips...
+
+Beyond the seven rules, here are some practical habits that high-quality users tend to have.
+
+Save your good prompts. When you find a prompt formulation that produces consistently good results, save it. You will use it again. Many users keep a personal library of prompts for their common tasks.
+
+Use different conversations for different topics. Most AI chat interfaces let you keep the conversation going indefinitely. Resist the temptation to use one long thread for everything. Start a new conversation when the topic changes. This keeps the AI focused.
+
+Ask for the structure before the content. If you are working on something long, ask the AI to give you an outline first, then iterate on the outline, and only then have it write the sections. This produces much better long-form output than asking for the whole thing at once.
+
+Use the AI to review its own work. After it produces something, ask it to critique its own output. What is weakest? What is missing? What would a tough reviewer push back on? The AI is often surprisingly good at evaluating its own first drafts.
+
+Set up custom instructions when the tool allows. Most major AI assistants let you set persistent preferences. Tell it how you write. Tell it what you care about. Tell it what tone to use. The defaults are generic. The customizations make every conversation better.
+
+Learn at least one keyboard shortcut. The friction of switching between your work and the AI is real. The users who use AI most effectively have made the transition seamless, usually through keyboard shortcuts or browser extensions. This is small but adds up.
+
+The Bigger Picture...
+
+The skill of using AI well is, increasingly, a real skill. Not as deep as the skill of, say, programming. But meaningful enough that the gap between expert and novice users is large and growing.
+
+The expert users get more done. They produce better work. They handle harder problems. They make fewer mistakes. They keep their own abilities sharp while leveraging the AI for scale.
+
+The novice users get frustrated. They produce generic output. They run into refusals they do not know how to work around. They occasionally publish things that turn out to be wrong because they did not verify. They lose abilities they could have kept, and gain less than they could have.
+
+The good news is that the skill is learnable, and the curve is not steep. Most of what I described in this chapter you can start doing tomorrow. The seven rules. The practical habits. The basic discipline of treating AI as a collaborator that needs direction.
+
+The other piece of good news is that the skill is, increasingly, valuable in itself. Knowing how to use AI well is becoming part of the skill set of most professionals. The employee who can leverage AI does in a day what a colleague does in a week. The student who can use AI well learns faster than one who cannot. The business owner who deploys AI effectively does more with less staff. These compounding advantages are real and probably permanent.
+
+In the next chapter, we narrow the focus to one of the contexts where this matters most. Your work. How AI is changing what professional work looks like, and how to adapt to it without losing what makes you, you.

@@ -1,0 +1,91 @@
+================================================================
+AUTHOR BIO DRAFTS, v0.3 - accurate framing
+================================================================
+
+Corrections from v0.2:
+- Antura framed correctly: one of three directors, consortium 
+  project led by others, with game design involvement.
+- Teaching is at universities in Lebanon only, not the US.
+- Wixel is framed as co-founder and managing partner without 
+  inflating individual responsibility.
+
+
+----------------------------------------------------------------
+VERSION 1: THE STANDARD BIO (about 90 words)
+Best for: Amazon listing, book jacket back flap
+----------------------------------------------------------------
+
+Ziad El Feghali is a technologist, educator, and entrepreneur 
+with two decades of experience in game design, education, and 
+technology. He co-founded Wixel Studios in Beirut and worked 
+on Antura and the Letters, an award-winning Arabic literacy 
+game for refugee children developed through an international 
+consortium. He has taught at four universities in Lebanon and 
+currently teaches Digital Publishing and Game User Experience 
+at the Holy Spirit University of Kaslik. He is the technical 
+co-founder of simplerOS, based in Louisville, Kentucky.
+
+
+----------------------------------------------------------------
+VERSION 2: THE LONGER BIO (about 140 words)
+Best for: book jacket back panel, "About the Author" page
+----------------------------------------------------------------
+
+Ziad El Feghali is a Lebanese-American technologist, educator, 
+and entrepreneur. He co-founded Wixel Studios in Beirut, where 
+he spent fifteen years as Managing Founder working on games and 
+educational products. He contributed game design work on Antura 
+and the Letters, an Arabic literacy game for refugee children 
+developed through an international consortium across Lebanon, 
+Spain, and Germany. He was named one of Executive Magazine's 
+Top 20 Lebanese Entrepreneurs in 2012 and received the EY 
+Interactive Young Entrepreneur Award in 2010. He has taught at 
+four universities in Lebanon, including ongoing courses on 
+Digital Publishing and Game User Experience at the Holy Spirit 
+University of Kaslik. He is the technical co-founder of 
+simplerOS, a property-technology platform based in Louisville, 
+Kentucky. He works in Arabic, English, and French.
+
+
+----------------------------------------------------------------
+VERSION 3: THE SHORT BIO (about 50 words)
+Best for: tight spaces, conference programs, social media
+----------------------------------------------------------------
+
+Ziad El Feghali is a Lebanese-American technologist and educator. 
+He co-founded Wixel Studios in Beirut and worked on Antura and 
+the Letters, an Arabic literacy game for refugee children. He 
+teaches at the Holy Spirit University of Kaslik and is the 
+technical co-founder of simplerOS, based in Louisville.
+
+
+----------------------------------------------------------------
+WHAT CHANGED FROM v0.2
+----------------------------------------------------------------
+
+1. Antura framed accurately. No more "Director and Product Owner 
+   who led the multinational team." Now: "worked on" or 
+   "contributed game design work on" with the consortium framing 
+   making clear the project was a multi-party international 
+   effort, not a Wixel-led one.
+
+2. Teaching framed accurately. "Four universities in Lebanon," 
+   not "five universities in Lebanon and the United States."
+
+3. Wixel still mentioned as fifteen years and co-founder, but 
+   without the "led a team of ten" inflation. The Managing 
+   Founder title is real per the resume so that stays.
+
+4. Removed "Director, Product Owner, and Game Designer" since 
+   that overstates relative role compared to other directors. 
+   Replaced with "contributed game design work" which is honest 
+   about scope.
+
+5. Trilingual capability kept in Version 2 (factual).
+
+6. Awards kept in Version 2 (factual, individual recognition).
+
+
+----------------------------------------------------------------
+END BIO DRAFTS v0.3
+----------------------------------------------------------------

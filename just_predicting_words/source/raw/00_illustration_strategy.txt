@@ -1,0 +1,452 @@
+================================================================
+ILLUSTRATION STRATEGY FOR JUST PREDICTING WORDS
+Research-based principles for visualizing complex AI systems
+================================================================
+
+This document supersedes parts of the original artistic_direction.txt.
+The artistic system (palette, typography, page size) still holds.
+What changes is the PURPOSE of the visuals. They must teach. They
+must not just decorate.
+
+
+================================================================
+THE FUNDAMENTAL SHIFT
+================================================================
+
+The original artistic direction over-indexed on decorative visuals.
+Part dividers as geometric compositions. Chapter openers as visual
+"haiku." That was wrong for a book that exists to teach how AI
+actually works.
+
+The right model is what Jay Alammar did in "The Illustrated 
+Transformer" - the post that became the standard reference for 
+how this stuff gets explained, was translated into 12 languages, 
+and is used in courses at Stanford, MIT, Harvard, Princeton, 
+CMU. Combined with Tufte's principles of information design.
+
+Every visual must answer: WHAT DOES THE READER LEARN FROM THIS?
+If the answer is "the chapter looks pretty," cut the visual.
+If the answer is "the reader sees the concept become clear,"
+keep it.
+
+
+================================================================
+TUFTE'S PRINCIPLES (the foundation)
+================================================================
+
+Edward Tufte, the most influential thinker on information design,
+established principles we will follow:
+
+1. MAXIMIZE DATA-INK RATIO
+   Every mark on the page should carry information. Decorative
+   ink is suspect. The ratio of "ink that teaches" to "ink that
+   decorates" should be as high as possible.
+
+2. NO CHARTJUNK
+   No boxes around things just because they need a box. No 3D
+   effects. No gradients. No drop shadows. No decorative
+   borders. Every visual element must justify its presence.
+
+3. GRAPHICAL INTEGRITY
+   Visual representations must match the underlying reality.
+   If something is bigger in the diagram, it should be bigger
+   in the concept. If two things are connected, they really
+   are connected.
+
+4. MICRO/MACRO READING
+   Good information design works at two scales simultaneously.
+   You see the overall pattern at a glance. You can zoom into
+   any detail and it still makes sense. Most popular AI
+   diagrams fail this test. They give you the macro or the
+   micro, never both.
+
+5. LAYERING AND SEPARATION
+   When showing multiple things at once, layer them visually.
+   The most important layer is most prominent. Supporting
+   information is subordinated. This is how complexity becomes
+   navigable.
+
+6. SMALL MULTIPLES
+   When showing variations, show them as a series of small
+   comparable diagrams rather than one large diagram with
+   variations marked inside it. This is one of Tufte's most
+   powerful insights.
+
+7. NARRATIVE
+   Diagrams that tell a story work better than static
+   snapshots. Show before and after. Show the sequence of
+   transformation. Move the eye through a path of meaning.
+
+
+================================================================
+THE ILLUSTRATED TRANSFORMER MODEL (Alammar's approach)
+================================================================
+
+Jay Alammar's "The Illustrated Transformer" is the most successful
+visual explanation of how AI models work that has ever been
+produced for a general audience. What he does that works:
+
+1. PROGRESSIVE DISCLOSURE
+   He never shows everything at once. He starts with the simplest
+   possible picture, then adds one element at a time. By the end,
+   you understand the full complexity. But you got there by
+   understanding each layer first.
+
+2. CONCRETE EXAMPLES BEFORE ABSTRACT NOTATION
+   Before he shows a formula, he shows what the formula does on
+   a specific example. The example becomes the mental model. The
+   formula is just the notation for that mental model.
+
+3. THE SAME EXAMPLE THROUGHOUT
+   He uses one sentence throughout the entire essay. The reader
+   does not need to re-orient with each new diagram. The
+   continuity carries them through.
+
+4. CONSISTENT VISUAL LANGUAGE
+   Every "token" is a small box. Every "vector" is a row of cells.
+   Every "attention weight" is a thin line. The reader learns the
+   visual vocabulary in the first diagram and reuses it through
+   all subsequent diagrams.
+
+5. SPATIAL METAPHORS THAT MATCH THE CONCEPT
+   When information "flows" through the network, his diagrams
+   literally show arrows of flow. When two things are being
+   compared, they are placed side by side. When something is
+   stacked, the diagram is stacked. The visual structure mirrors
+   the conceptual structure.
+
+6. NO UNNECESSARY ABSTRACTION
+   He never uses an abstraction where a concrete picture would
+   work. When he could draw a matrix, he draws labeled cells
+   instead. When he could draw a function, he draws a process
+   diagram. Abstractions only enter when the concrete pictures
+   become too cluttered.
+
+
+================================================================
+THE THREE TYPES OF VISUALS THIS BOOK NEEDS
+================================================================
+
+Based on the research, this book actually needs THREE distinct
+visual categories, each with its own discipline.
+
+
+----------------------------------------------------------------
+TYPE 1: CONCEPT-TEACHING DIAGRAMS
+----------------------------------------------------------------
+
+These are the workhorses. They appear inside chapters at moments
+when the prose has set up an idea and the reader is ready to see
+it visualized. They follow the Alammar progressive-disclosure
+model.
+
+Examples we need in this book:
+
+  TOKENIZATION (Chapter 3)
+  Show one sentence being broken into tokens. Each token in a
+  small box. Each character that joined into a token highlighted.
+  No more. The reader sees: "Oh, this is how words become
+  pieces."
+
+  VECTOR SPACE / WORD EMBEDDING (Chapter 3)
+  Show a 2D projection of word positions. "King" near "queen."
+  "Doctor" near "hospital." The arithmetic of king - man + woman
+  = queen drawn as actual arrows on the map. The reader sees:
+  "Oh, this is what 'meaning as geography' actually looks like."
+
+  ATTENTION (Chapter 1 and Chapter 3)
+  The cocktail party metaphor as a literal diagram. One figure
+  at the center. Six conversations around them. Lines of varying
+  thickness connecting the figure to each conversation,
+  representing attention weight. The reader sees: "Oh, this is
+  what 'attention' means as a mechanism."
+
+  THE TWO TRAININGS (Chapter 4)
+  A simple before-and-after. Left side: a chaotic cloud of text
+  becoming a "raw word predictor." Right side: human feedback
+  ratings shaping that predictor into a tuned assistant. The
+  reader sees: "Oh, the model learns twice, in two different
+  ways."
+
+  LAYERS OF SAFETY (Chapter 16)
+  Concentric circles or stacked filters, each labeled with one
+  of the seven safety layers. Some have visible gaps. The reader
+  sees: "Oh, safety is not a wall, it is overlapping filters."
+
+  THE REGULATORY APPROACHES (Chapter 17, optional)
+  Three small panels side by side. EU as a structured pyramid.
+  US as a patchwork of squares. China as a centralized hub.
+  Small multiples in the Tufte sense. The reader sees: "Oh,
+  countries are taking different approaches."
+
+  THREE TRAJECTORIES (Chapter 21)
+  A simple branching diagram. Single path becomes three at a
+  fork. Each labeled. The reader sees: "Oh, the future is
+  uncertain in this specific way."
+
+Style discipline for Type 1:
+- Black ink lines on cream background. Dusty blue for technical
+  layers. Terracotta only for emphasis.
+- 0.75pt to 1pt strokes. Consistent throughout.
+- Labels in EB Garamond small caps for parts. Inter for measurements.
+- White space inside and around. Generous margins.
+- Use the same example sentence wherever possible across diagrams.
+- Show transformation. Show flow. Show comparison. Avoid static
+  snapshots.
+
+Roughly 8-10 of these in the whole book. Each one earned by the
+prose around it. Each one teaching something the prose cannot
+teach as efficiently in words alone.
+
+
+----------------------------------------------------------------
+TYPE 2: METAPHOR ILLUSTRATIONS (chapter openers)
+----------------------------------------------------------------
+
+These are different. They are not teaching the mechanism of AI.
+They are illustrating the metaphor that the chapter uses to
+frame its argument. They give the reader a visual anchor for
+what the chapter is about, before they start reading it.
+
+This is what Direction 4 (illustrative-metaphorical) was always
+meant to be. But now we are clearer about its purpose. The
+chapter opener is the visual equivalent of a chapter title. It
+sets up the metaphor.
+
+Examples reconsidered:
+
+  CHAPTER 1 (Just Predicting Words)
+  The cocktail party scene, but treated as a metaphor opener,
+  not a technical diagram. One figure leaning slightly toward
+  one conversation. Other conversations visible as text bubbles.
+  The visual itself does no teaching. It just plants the
+  metaphor.
+
+  CHAPTER 12 (How They Fail)
+  A compass pointing confidently in the wrong direction. Single
+  image. No labels. The visual says: "confident but wrong" before
+  the chapter does.
+
+  CHAPTER 17 (Regulation)
+  A patchwork quilt, with stitching visible between very
+  different fabric squares. One image. The reader picks up:
+  "different approaches being sewn together imperfectly."
+
+Style discipline for Type 2:
+- Terracotta and ink on cream. Limited palette.
+- Hand-drawn feel preferred. Slight wobble in lines. Not
+  machine-perfect.
+- Asymmetric composition. Single focal point.
+- No labels. The image speaks alone, supported by the chapter
+  title beside or below it.
+- Generous white space. The image breathes.
+
+These are quieter than Type 1. They do not teach a mechanism.
+They establish a frame.
+
+21 of these total, one per chapter.
+
+
+----------------------------------------------------------------
+TYPE 3: PART DIVIDERS (the lowest priority)
+----------------------------------------------------------------
+
+These were the visual category I started with, which was a
+mistake. Part dividers are the LEAST important visual category
+in this book. They appear five times. They exist mostly to give
+the reader a pause between sections.
+
+In hindsight, they should be the simplest possible visual move.
+Just typography. A part number. A part title. A short epigraph
+maybe. No illustration at all.
+
+This frees up budget and attention for Types 1 and 2 where it
+actually matters.
+
+Style for Type 3:
+- Pure typography on cream background.
+- Part number in Fraunces, very large.
+- Part title in Fraunces, large.
+- Optional one-line epigraph in italic.
+- That is the entire visual.
+
+5 of these total.
+
+
+================================================================
+THE REVISED VISUAL BUDGET
+================================================================
+
+Type 1 (concept-teaching diagrams):           8 to 10
+Type 2 (chapter-opener metaphor images):     21
+Type 3 (part dividers, pure typography):      5
+                                              -----
+TOTAL:                                       34 to 36
+
+The number is similar to before. But the distribution of effort
+and the discipline of each type is now correct.
+
+
+================================================================
+THE EXAMPLE-DRIVEN APPROACH
+================================================================
+
+One critical Alammar insight that should govern all Type 1
+diagrams: use the same example throughout the book.
+
+Right now, different chapters reach for different examples. We
+should pick ONE example sentence and reuse it in every concept
+diagram. This builds reader familiarity and reduces cognitive
+load.
+
+Candidates:
+
+  "The cat sat on the mat."
+  Too simple. Does not have enough relationships to demonstrate
+  attention well.
+
+  "I want to text my ex."
+  Already in Chapter 4 as the example for system-prompt
+  handling. Slightly informal but distinctive. Has emotional
+  loading that makes it memorable.
+
+  "Build me a website that sells handmade ceramics."
+  More realistic of how people use AI. Has multiple semantic
+  parts that demonstrate attention. Might be too long.
+
+  "The doctor put on her coat and walked into the hospital."
+  Used in Chapter 3 already for vector-space demonstration
+  (doctor/hospital cluster). Has a pronoun reference that
+  attention can resolve. Has enough words to demonstrate
+  tokenization meaningfully.
+
+RECOMMENDATION: Use "The doctor put on her coat and walked into
+the hospital" as the through-line example for all Type 1
+diagrams. It is already in the manuscript. It demonstrates
+multiple AI concepts. It has enough complexity to be useful and
+not so much that it is overwhelming.
+
+
+================================================================
+PROGRESSIVE DISCLOSURE FOR THE TECHNICAL DIAGRAMS
+================================================================
+
+Following Alammar, the technical diagrams in Chapter 3 should
+build progressively. Each diagram shows ONE new thing on top of
+what the reader has already understood.
+
+DIAGRAM 1: Tokenization
+  Show: "The doctor put on her coat and walked into the
+  hospital" split into 10 tokens. Each token in its own small
+  box, in a row.
+  Teaches: words become tokens.
+
+DIAGRAM 2: Vector embedding
+  Show: the same 10 tokens, but now each token has a small array
+  of numbers next to it. The arrays are simplified to 4 cells
+  each (the actual vectors are much longer but 4 communicates
+  the idea).
+  Teaches: tokens become vectors. The numbers ARE the meaning.
+
+DIAGRAM 3: Vectors as geography
+  Show: a 2D map. The 10 tokens placed as dots on the map. "The"
+  and "and" near each other in one corner. "Doctor" and
+  "hospital" near each other in another. Distance shows
+  relationship.
+  Teaches: vectors are positions in meaning-space.
+
+DIAGRAM 4: Attention
+  Show: the same sentence. One token highlighted ("her"). Lines
+  of varying thickness from "her" to every other token. Thickest
+  line goes to "doctor" because that is what "her" refers to.
+  Teaches: attention is the model choosing which other words to
+  listen to.
+
+The same sentence carries through all four diagrams. The reader
+never has to re-orient. They just see the layers being added.
+
+
+================================================================
+WHAT THIS MEANS FOR THE FIRST ARTWORK TO PRODUCE
+================================================================
+
+The Part One divider I produced earlier should be scrapped.
+
+Instead, the right first artwork to produce is a TYPE 1 DIAGRAM
+that tests the visual language we will use throughout the book.
+
+I recommend: TOKENIZATION DIAGRAM for Chapter 3.
+
+Why this is the right first test:
+1. It is the simplest of the Type 1 diagrams.
+2. It establishes the visual vocabulary (tokens as small boxes)
+   that will be reused throughout.
+3. It introduces the through-line example sentence.
+4. If we get this right, the rest of the chapter 3 sequence
+   follows naturally.
+5. If we get it wrong, we learn the corrections cheaply.
+
+After tokenization works, we build vector embedding on top of it
+using the same tokens. Then we add the map. Then attention. By
+the end, we have all four chapter 3 diagrams forming a coherent
+sequence.
+
+THEN we revisit the chapter-opener metaphors with what we have
+learned about the visual language. THEN we do the part dividers
+last, as pure typography, because they are the simplest.
+
+
+================================================================
+PRINCIPLES TO TEST EVERY VISUAL AGAINST
+================================================================
+
+Before any visual goes into the book, it must pass these tests:
+
+THE TUFTE TEST
+   Is every mark on the page carrying information?
+   Could I remove anything without losing meaning?
+   Does the visual hierarchy match the conceptual hierarchy?
+
+THE ALAMMAR TEST
+   Does this visual teach one thing the reader did not know
+   before?
+   Could a reader explain the concept by looking at this image?
+   Does it use the same visual vocabulary as adjacent diagrams?
+
+THE URBAN TEST (Wait But Why)
+   Could I draw this on a napkin for a friend?
+   Is it warmer than a textbook but smarter than a meme?
+
+THE CHAPTER-PROSE TEST
+   Does this visual come at the exact moment the reader needs
+   it, after the prose has set it up?
+   Would the reader pause, then turn the page, and feel
+   confirmed?
+
+If a visual fails any test, redesign it or cut it.
+
+
+================================================================
+WHAT TO READ AND STUDY BEFORE PRODUCING THE FIRST VISUAL
+================================================================
+
+Three references that should shape what we produce:
+
+1. Jay Alammar, "The Illustrated Transformer"
+   https://jalammar.github.io/illustrated-transformer/
+   The gold standard for visualizing this exact subject matter
+   for a general audience.
+
+2. Edward Tufte, "Envisioning Information"
+   The principles, in their pure form. Chapter on small
+   multiples is particularly relevant.
+
+3. Bret Victor, "Up and Down the Ladder of Abstraction"
+   http://worrydream.com/LadderOfAbstraction/
+   On how to make abstract concepts navigable through visual
+   progressive disclosure.
+
+
+================================================================
+END ILLUSTRATION STRATEGY
+================================================================

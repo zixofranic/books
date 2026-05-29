@@ -1,0 +1,147 @@
+  Chapter Eleven
+
+  What These Machines Are Genuinely Good At
+
+  Pick the right job. The right job is not what most people are using them for.
+
+Let me tell you about a small frustration I have with how most people use AI assistants.
+
+They treat them like search engines.
+
+They go to ChatGPT or Claude and ask, "What's the population of Brazil?" or "When was the Eiffel Tower built?" Then, if the answer is correct, they think the AI is useful. If the answer is wrong, they think the AI is broken. Either way, they have just used a very expensive tool to do a job that Google does better.
+
+This is not the AI's fault. It is a problem of expectations. We were taught, over twenty years of using search engines, that the way you ask a computer for information is by typing a question. So when we got a new kind of computer that responds in natural language, we used it the way we already knew how to use computers. We asked it questions.
+
+AI assistants can answer questions, sort of. They are not the best tool for it, especially for facts that change or facts that are precise. The right tools for questions are still search engines, supplemented by AI when you want a synthesis rather than a list of links.
+
+The AI assistants are good at something else. Several something elses, actually. And once you start using them for those things, the relationship changes. The tool stops feeling like a fragile substitute for search and starts feeling like a different kind of capability altogether.
+
+This chapter is a tour of what those somethings are. I want you to come out of it with a working sense of when AI is genuinely the right tool, and when it isn't. We'll get to the failures in the next chapter. For now, the wins.
+
+The first thing. writing that you can steer.
+
+The single best use of AI assistants today is for writing tasks where you, the human, know roughly what you want to say but do not want to do all the typing.
+
+Drafting an email that needs a particular tone. Outlining a presentation. Writing a job description. Drafting a contract from a template. Rewriting a paragraph in a different register. Translating a piece of writing into clearer language. Tightening a long passage into a short one. Expanding a short note into a full document. Producing a first draft of anything, knowing you'll edit it.
+
+Notice what these tasks have in common. The human knows the goal. The human knows the audience. The human knows roughly what the output should look like. What the human does not want to do is the labor of producing the first draft from a blank page.
+
+The AI is exceptionally good at producing first drafts. It will get the tone roughly right. It will hit most of the major points. It will save you, conservatively, half the time the task would otherwise take. It will also make small mistakes, miss things you would not miss, and occasionally produce a sentence so generic it should be deleted on sight.
+
+The trick is to treat the AI's output as raw material, not finished work. You ask the AI to draft. You read the draft. You take what's useful, fix what's not, and add what's missing. The result is a final piece of writing that is genuinely yours, produced in a fraction of the time it would have taken from scratch.
+
+I want to be careful here, because writing is also where AI is most misused. People who outsource the thinking, not just the typing, end up with writing that is fluent but soulless. Writing that says nothing in many words. Writing that any AI could have produced for any author. If you let the AI do your thinking, you get the AI's thinking, which is no one's thinking in particular. If you do the thinking and let the AI do the typing, you get your thinking, made faster.
+
+The difference matters. Especially for things that other humans will actually read.
+
+The second thing. translation and rewording.
+
+If you have ever needed to read something in a language you do not speak fluently, modern AI assistants are a small miracle.
+
+This is true for foreign languages, where the quality of frontier AI translation has, in the last few years, surpassed what general-purpose machine translation services used to provide. The WMT24 industry benchmark, the closest thing the translation field has to an Olympics, ranked Claude 3.5 first in nine of eleven language pairs in 2024, ahead of GPT-4 and ahead of the dedicated translation engines tested at the time. In a separate Lokalise blind study in 2025, professional translators rated Claude's output as acceptable seventy-eight percent of the time, the highest of any tool tested. Google Translate is still useful for quick lookups across a wider set of languages. DeepL, the specialized engine, still wins for formal written content in European language pairs. But for understanding the meaning of a complex passage in a language you do not know, pasting it into a frontier AI assistant and asking for a translation will give you something more accurate, more nuanced, and more readable than any general-purpose tool that existed five years ago.
+
+But the more interesting case is translation within a single language. Different registers, different reading levels, different professional vocabularies. If you have a dense legal document and you want to understand it as a regular person, AI can rewrite it in plain English. If you have plain English notes from a meeting and you want them in the formal language of a corporate memo, AI can do that. If you have a technical specification and you want to explain it to a non-technical executive, AI can do that. If you have a paragraph that reads well to specialists but baffles ordinary readers, AI can translate it without changing the meaning.
+
+This is, in some ways, the most underrated use of AI. Most professional work involves a constant translation between registers. A doctor explaining a diagnosis to a patient. A lawyer summarizing a brief for a client. An engineer presenting to executives. A teacher adapting a lecture for different age groups. All of these are translation tasks, and modern AI does them well.
+
+The honest caveat is that the AI's translation is only as good as its understanding of the source. For specialized or unusual content, the AI may produce a translation that sounds plausible but misses key technical details. You should still verify, particularly when the stakes are high. But as a starting point, the translation is reliable enough to save real time.
+
+The third thing. analyzing something you provide.
+
+This one is genuinely transformative once you get the habit.
+
+AI assistants are very good at reading something you give them and then answering questions about it, summarizing it, extracting structure from it, or noticing things in it. The key word is "give them." Not "ask them to look up." Provide the content. Then ask the questions.
+
+If you have a long document, you can paste the whole thing into a modern AI assistant and ask, "What are the three main arguments here?" The AI will read the document and answer accurately, far more reliably than it would have if you had just asked the question without the document.
+
+If you have a contract, you can paste it in and ask, "What are the obligations on each party? What happens if the contract is broken? What is unusual about this contract compared to standard agreements?" The AI will give you something useful.
+
+If you have a transcript from a meeting, you can paste it in and ask, "Who said what about the budget question? What decisions were made? What were the open issues at the end?" The AI will produce notes that would have taken you twenty minutes to extract by hand.
+
+If you have a research paper outside your field, you can paste it in and ask, "Explain the main finding in plain English. What were the limitations? What would I need to know to evaluate whether this is reliable?" You will get a useful summary.
+
+If you have a confusing email from a vendor, you can paste it in and ask, "What are they actually asking me to do? What would a reasonable response look like?"
+
+The pattern is the same in every case. You bring the source material. The AI does the cognitive labor of reading carefully, structuring, and answering. The combination is more powerful than either piece on its own.
+
+This is, by the way, the technique that turns AI from a curiosity into a productivity tool for knowledge workers. Most knowledge work involves reading something, understanding it, and producing some structured output based on it. AI is good at that loop. Very good.
+
+The fourth thing. code and technical work.
+
+If you write software, you already know this. If you do not, the speed of change in this area may surprise you.
+
+AI assistants in 2026 can write working code in dozens of programming languages. They can debug code that does not work. They can explain unfamiliar code that you have to maintain. They can translate code from one language to another. They can refactor old code to use modern patterns. They can write tests for code that lacks them. They can generate the configuration files, deployment scripts, and boilerplate that experienced developers used to spend hours producing.
+
+The thing that was new in 2025 was that this capability shifted from "AI writes a snippet you paste into your code" to "AI works alongside you continuously, with access to your entire project." Tools like GitHub Copilot, Cursor, and Claude Code became, for working developers, more like junior partners than reference materials. They read the code you have. They suggest changes that fit it. They take instructions like "add error handling to this function" or "refactor this class to be more testable" and produce the changes, with you reviewing.
+
+The economic impact of this, just within software engineering, has been significant but more nuanced than the marketing suggests. The best research available, including a McKinsey survey of forty-five hundred developers and a study from DX that analyzed data from over one hundred thirty-five thousand developers, shows that AI coding tools reduce time on routine coding tasks by roughly forty-six percent and save the average developer about three and a half hours a week. Daily AI users merge sixty percent more pull requests than non-users. By early 2026, AI-authored code makes up around twenty-seven percent of all production code, up from twenty-two percent just one quarter earlier. Eighty-four percent of developers report using or planning to use AI in their development process.
+
+The honest qualifier, which the marketing usually skips, is that individual developer output rising does not always translate into proportional business gains. Companies that deployed AI tools aggressively often did not reduce headcount. They redirected engineers to higher-value work. The METR study, the most rigorous randomized controlled trial to date, has shown that under certain conditions experienced developers can actually be slower with AI tools than without, because the time spent reviewing AI outputs offsets the time saved producing them. The picture is real productivity gains, with real limits. Not a revolution, exactly. But a meaningful shift.
+
+For non-developers, this capability is more relevant than you might think. Many people who do not consider themselves programmers actually do small bits of programming. The spreadsheet formula that needs adjusting. The simple website that needs updating. The script that automates a tedious task. AI assistants have, for the first time, made these small programming tasks accessible to people who would never have tried them before. You do not need to learn the language to get the AI to write the code. You just need to describe what you want, well enough that the AI can produce something that works.
+
+The honest limit here is that AI-generated code is not always correct. It is, on average, surprisingly good. It is also, occasionally, confidently wrong. For code that matters, you should still verify. For code that does not matter, you can mostly trust the output. Learning which is which is part of becoming a competent user.
+
+The fifth thing. brainstorming and thinking partners.
+
+This one is harder to describe but, in my view, one of the most genuinely useful applications.
+
+Sometimes you need a thinking partner. You have a problem. You have some ideas. You want to talk through them, hear pushback, see other angles. Twenty years ago, you would find a colleague. Ten years ago, you might post on a forum. Today, you can have that conversation with an AI assistant, and it will, in many cases, be a more productive conversation than you would have with most humans.
+
+This sounds melancholy. It is not meant to be. Humans are still better at certain kinds of thinking partnership than AI is. The friend who knows you. The mentor who has done the work you are trying to do. The trusted colleague who will tell you the hard truths. These remain irreplaceable.
+
+What AI is good at is the kind of thinking partner that is endlessly patient, knowledgeable across nearly every domain, has no ego, has nothing to prove, will engage with whatever weird half-formed idea you bring to it, and is available at three in the morning.
+
+This sounds trivial until you actually try it. Most people, when given access to a tireless thinking partner, do not use it well. They ask it questions and then walk away. The trick is to treat it as a conversation, not a query. Bring an idea. Tell the AI what you are trying to figure out. Ask it to push back. Ask it for other angles. Disagree with it. Refine your thinking through the exchange. Reach a conclusion that is better than the one you started with.
+
+This is the use case that I, personally, find most valuable in AI assistants. Not because the AI has better ideas than I do. It does not. But because the act of articulating an idea to something that responds intelligently is, by itself, generative. You think more clearly when you have to explain. You see flaws when you have to defend. You discover what you actually believe when you have to write it down.
+
+The AI is, in this sense, an externalization tool. A way of pulling your thinking out of your own head where you can look at it. It happens to be a tool that talks back. That feature, when used well, makes the externalization more productive than a private journal or a whiteboard. When used badly, it produces the illusion of thinking rather than the real thing.
+
+The sixth thing. teaching and explaining.
+
+If you want to learn something, modern AI assistants are a remarkable resource.
+
+This is not because they always tell you the truth. They do not. We will get to that in the next chapter. It is because they can produce explanations calibrated to your current level of understanding, in real time, with as much patience as you need.
+
+If you want to understand something you have never studied, you can tell the AI your starting point and ask it to teach you. "I don't know any economics. Explain inflation like I'm a curious adult." The AI will produce an explanation, and if it goes too fast or too slow, you can tell it, and it will adjust. You can ask follow-up questions. You can challenge the explanation. You can ask for analogies, examples, counterexamples. You can ask it to test you on what you just learned.
+
+This is, in many ways, what a great tutor does. A great tutor does not just deliver information. They calibrate to the student. They notice where the student is confused. They produce explanations on demand, in different formats, until the student understands. Great tutors are expensive. AI tutors are not.
+
+The honest caveat, again, is that the AI is not always correct. For learning something serious, you should cross-check what the AI tells you against textbooks, expert sources, or actual humans who know the topic. The AI is a starting point, not the final authority. But as a starting point, it is, for self-directed learners, one of the most powerful tools ever created.
+
+For parents helping with homework, this matters. For adults pursuing self-education, this matters. For students in countries without strong educational systems, this matters most of all. The asymmetry of access to good teachers, which has been a fundamental feature of human inequality, is changing. Imperfectly, slowly, but changing. AI tutors do not replace good schools. But they make a much better educational floor available to anyone with an internet connection.
+
+The seventh thing. structured extraction.
+
+This one is technical sounding but extremely useful.
+
+Most of the world's information lives in messy formats. Emails. PDFs. Web pages. Photographs of documents. Voice memos. Handwritten notes. Spreadsheets with inconsistent columns. Customer service transcripts. Surveys with free-text responses.
+
+For any work that involves turning messy information into structured information, AI is transformative. You can hand the AI a pile of unstructured input and ask it to produce a structured output. A list. A table. A specific format. With specific fields. Extracted from sources that would have been hours of manual work to organize.
+
+A lawyer with three hundred discovery documents can ask the AI to identify which ones mention a particular party and what they say. A researcher with sixty interview transcripts can ask the AI to identify common themes and pull the most relevant quotes from each. A salesperson with two hundred customer emails can ask the AI to sort them into priority levels and identify common requests. A homeowner with five contractor estimates can ask the AI to put them in a comparable format so the differences are visible at a glance.
+
+This use case is, in my experience, the one that surprises new users most. People expect AI to write essays. They do not expect it to take a messy input and produce a neat output that matches a specific structure they describe. But that capability, applied to the right kinds of work, is where AI delivers the most dramatic time savings.
+
+A general pattern.
+
+If you look at these seven uses together, you'll notice they share something.
+
+In every case, the user provides judgment, context, and verification. The AI provides scale, speed, and breadth.
+
+You decide what the email should say. The AI drafts it. You verify.
+You provide the document. The AI summarizes it. You verify.
+You describe what you want the code to do. The AI writes it. You test it.
+You bring the half-formed idea. The AI explores it with you. You decide what to think.
+You ask to learn something. The AI explains. You confirm against other sources.
+
+The pattern is collaborative. The AI is not replacing your thinking. It is amplifying your throughput. The judgment, the context, the verification, all stay with you. Everything else is faster.
+
+This is the right frame for using AI well. Not as an oracle. Not as a search engine. Not as a magic answer machine. As a very capable assistant that needs your guidance to do useful work, and that, with your guidance, can do an enormous amount of useful work very quickly.
+
+Anyone who tells you AI is useless is using it wrong. Anyone who tells you AI can replace human judgment is using it wrong in the other direction. The honest position is in the middle. AI is genuinely useful for a specific kind of work, when used by a human who knows what they want. The skill is learning what kind of work that is, and how to ask for it.
+
+We have just spent a chapter on that. Now we need to spend the next chapter on the other half. Because for all the things AI is good at, there are things it does badly. Sometimes confidently. Sometimes catastrophically. And the user who doesn't know the difference is the user most likely to get hurt.
+
+What comes next: how AI fails, and why it sometimes fails worst when it looks most confident.

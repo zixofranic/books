@@ -1,0 +1,161 @@
+================================================================
+APPENDIX C: FURTHER READING
+================================================================
+
+A short, opinionated list of things to read if you want to go 
+deeper than this book did. Organized by topic. Some books, some 
+papers, some essays. The list is short on purpose. You can find 
+many more recommendations elsewhere. These are the ones I think 
+are worth your time.
+
+
+IF YOU WANT TO UNDERSTAND HOW THE TECHNOLOGY WORKS
+
+"Attention Is All You Need" (Vaswani and colleagues, 2017)
+The original Transformer paper. Technical, but the introduction 
+and conclusion are accessible to non-specialists. Worth at least 
+skimming for the historical importance.
+
+"The Illustrated Transformer" (Jay Alammar)
+The clearest visual explanation of how the Transformer works, 
+suitable for non-technical readers willing to engage. Available 
+free online.
+
+"Co-Intelligence: Living and Working with AI" by Ethan Mollick 
+(2024)
+A practical, optimistic guide to using AI tools effectively. 
+Mollick is a Wharton professor who has been a leading voice on 
+AI in education and business.
+
+
+IF YOU WANT TO UNDERSTAND THE COMPANIES
+
+"Empire of AI" by Karen Hao (2025)
+A deeply reported book on the rise of OpenAI and the broader 
+industry. Hao is one of the journalists who has covered this 
+beat longest and most thoroughly.
+
+"The Maniac" by Benjamin Labatut (2023)
+A literary book about the foundations of computing and AI, told 
+through the lives of John von Neumann and others. Reads like 
+fiction, illuminates the philosophical roots of where we are now.
+
+"Genius Makers" by Cade Metz (2021)
+The story of how deep learning happened. Predates the ChatGPT 
+moment but provides essential context for who the people are 
+who built modern AI.
+
+
+IF YOU WANT TO UNDERSTAND THE RISKS
+
+"The Alignment Problem" by Brian Christian (2020)
+The clearest treatment of the technical and philosophical 
+problem of building AI systems that do what we actually want 
+them to do. Predates the current AI boom but the issues have 
+only become more pressing.
+
+"Weapons of Math Destruction" by Cathy O'Neil (2016)
+On algorithmic bias and its consequences for ordinary people. 
+Pre-AI-boom but essential background on the bias issues we 
+covered in Chapter Fourteen.
+
+"Atlas of AI" by Kate Crawford (2021)
+A critical perspective on the physical, environmental, and 
+labor costs of building AI systems. Important counter-weight 
+to the dominant narrative of AI as ethereal software.
+
+
+IF YOU WANT TO UNDERSTAND AI POLICY
+
+"The 2026 International AI Safety Report" (Yoshua Bengio, chair)
+The most comprehensive current overview of AI risks and the 
+state of safety research. Available free online from the UK 
+government.
+
+"AI Snake Oil" by Arvind Narayanan and Sayash Kapoor (2024)
+A skeptical view of AI hype, focused on distinguishing legitimate 
+AI applications from snake oil. A useful corrective to industry 
+boosterism.
+
+The Stanford AI Index Report (Annual)
+A comprehensive annual review of where AI capabilities, 
+deployments, and policies stand. The 2026 edition is the most 
+recent. Available free online.
+
+
+IF YOU WANT TO HEAR FROM THE PEOPLE BUILDING THIS
+
+"Machines of Loving Grace" (Dario Amodei, 2024)
+An essay by the CEO of Anthropic arguing for an optimistic 
+vision of what AI could do for humanity. Worth reading even if 
+you disagree, because it is the clearest statement of the 
+worldview behind one of the leading labs.
+
+"Situational Awareness" (Leopold Aschenbrenner, 2024)
+An essay laying out the case for transformative AI arriving 
+within this decade. Influential among AI researchers. Argues 
+for what this book called the "second trajectory."
+
+"AI 2027" (Daniel Kokotajlo and colleagues)
+A widely-read scenario laying out one specific way AI could 
+develop over the next few years. Speculative but careful.
+
+
+IF YOU WANT TO THINK ABOUT WHAT AI MEANS FOR HUMANS
+
+"The Coming Wave" by Mustafa Suleyman (2023)
+On AI and synthetic biology as the defining technologies of the 
+century. Suleyman is one of the central figures in the field 
+and writes with insider knowledge.
+
+"Filterworld" by Kyle Chayka (2024)
+On the effects of algorithmic curation on culture and identity. 
+Not specifically about AI in the LLM sense, but essential 
+background for thinking about how AI shapes the texture of 
+modern life.
+
+"Determined" by Robert Sapolsky (2023)
+On free will and human agency. Not about AI, but reading it 
+alongside AI material gives you a much richer perspective on 
+what we are and what we are not.
+
+
+IF YOU JUST WANT TO STAY CURRENT
+
+The Marginalian, by Maria Popova
+Not AI-specific but consistently good thinking about technology 
+and culture.
+
+The newsletters One Useful Thing (Ethan Mollick) and Import AI 
+(Jack Clark) are two of the most reliable sources for staying 
+current with the field.
+
+For deeper coverage, the AI sections of The New York Times, 
+The Atlantic, The Information, and Bloomberg Technology are 
+generally good. The MIT Technology Review covers AI extensively 
+and well.
+
+For research updates, Anthropic's blog, OpenAI's blog, Google 
+DeepMind's blog, and the AI safety section of arxiv are where 
+new technical work appears first.
+
+
+A FINAL NOTE
+
+The list above is a snapshot from 2026. By the time you are 
+reading this, half of it may be dated. The good news is that 
+the people doing serious thinking about AI tend to keep doing 
+serious thinking, so the authors above are mostly worth following 
+for whatever they write next. Use their work as a starting point 
+and follow your curiosity from there.
+
+Reading widely and thinking carefully is, in my view, the best 
+preparation for what is coming. This book has tried to give you 
+a foundation. The rest is up to you.
+
+Thank you for reading.
+
+================================================================
+END APPENDIX C
+END OF BOOK
+================================================================

@@ -1,0 +1,286 @@
+================================================================
+CHAPTER 2: A SHORT HISTORY OF MACHINES THAT READ
+================================================================
+
+Working draft v0.1
+Voice: smart friend over coffee, warm with occasional lightness,
+"I" available but reader-centered, no em dashes, audio-tested
+
+Opener illustration: Direction 4 (illustrative-metaphorical).
+Concept: A small sailboat at the bottom of a tall wave, suggesting 
+something small that built up to something enormous. Or: a timeline 
+of dots, getting closer together as they approach 2022 (acceleration 
+made visual). Caption: "for a long time, nothing happened. Then 
+everything did."
+
+
+----------------------------------------------------------------
+TITLE PAGE
+----------------------------------------------------------------
+
+  Chapter Two
+
+  A Short History of Machines That Read
+
+  *For sixty years, almost nothing worked. Then, suddenly, 
+  it all did.*
+
+
+----------------------------------------------------------------
+CHAPTER OPENING
+----------------------------------------------------------------
+
+Here is something strange about the history of artificial intelligence.
+
+For most of it, the people working on it were wrong about how close they were.
+
+In the summer of 1956, a small group of mathematicians and computer scientists gathered at Dartmouth College for a workshop. The proposal for the workshop had been written the year before, in August 1955, by four researchers. John McCarthy of Dartmouth. Marvin Minsky of Harvard. Nathaniel Rochester of IBM. Claude Shannon of Bell Labs. The opening of their proposal is one of the most famous overconfident statements in the history of science. They wrote that they would "proceed on the basis of the conjecture that every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it." They proposed a two-month study with ten researchers, and they expected that a carefully selected group working together for a summer would make significant advances.
+
+Two months. Ten people. One summer.
+
+That was 1956. Sixty-six years before ChatGPT.
+
+The Dartmouth group did not solve intelligence in two months. They did not solve it in two years. By the 1970s, the field had hit such a wall that funding dried up across the United States and Britain. By the late 1980s, when computers had gotten much faster, the field tried again, hit another wall, and crashed again. People started calling these periods "AI winters." The plural is doing a lot of work in that phrase.
+
+For most of the second half of the twentieth century, if you had told a serious AI researcher that a chatbot would one day write a passable wedding speech, debug a Python script, and explain the French Revolution to a child, all in the same hour, they would have politely told you that you did not understand how hard this was.
+
+And then, around 2017, something changed.
+
+This chapter is the story of what changed. It is not a deep history. It is the punchy version, designed to give you the key moments so the rest of the book makes sense. By the end of this chapter you'll know how we got from "machines cannot understand language" to "machines do all of this and more, every second of every day."
+
+It is a story with a few heroes, a few villains, a few accidents, and one paper from 2017 that nobody outside computer science has heard of, but that almost certainly changed your life.
+
+Let's begin.
+
+                                · · ·
+
+THE OLD WAY: TEACHING MACHINES TO READ BY GIVING THEM RULES
+
+For most of the history of AI, the way you got a computer to understand language was to tell it the rules.
+
+You would sit down with a team of linguists and write out, in painful detail, what a sentence looks like. A sentence has a subject, a verb, and usually an object. The subject is usually a noun, but it can be a noun phrase, or a pronoun, or sometimes a gerund. Nouns can be modified by adjectives. Adjectives can be ordered. You say "the big red ball," not "the red big ball." Don't ask why. It just is. Verbs come in tenses. Tenses interact with auxiliary verbs in ways that look simple but turn out to have something like two hundred edge cases when you try to formalize them. And so on, for years, by hand.
+
+This was called rule-based or symbolic AI. It dominated the field for decades. And it worked, sort of. You could build a system that handled simple commands, parsed legal documents in a narrow domain, or translated phrasebook-level sentences from one language to another. As long as the inputs were tidy and the world was small, the systems held.
+
+The problem was that the world is not tidy and not small.
+
+Take a sentence as simple as "The trophy did not fit in the suitcase because it was too big."
+
+What does "it" refer to? You know instantly. It refers to the trophy. You know this because trophies that don't fit in suitcases are too big, and suitcases that can't hold trophies are too small. The clue is the word "big."
+
+Now try writing a rule that captures this. You would need to encode knowledge about trophies and suitcases and the physics of fitting things into other things. And you'd need similar rules for every other sentence in the language. Every metaphor. Every idiom. Every joke. Every casual sentence about a cat sitting on a mat, which assumes you know what a cat is and what a mat is and what sitting is and what "on" means.
+
+You can't write enough rules. Nobody can. Not in a hundred years. Not in a thousand.
+
+For most of the twentieth century, this is where AI got stuck. Researchers kept writing more rules, designing more elaborate systems, and discovering more edge cases. The grammar grew, and the world kept being bigger than the grammar.
+
+By the early 2010s, a different idea had been quietly building for a long time. The idea was simple but radical. Instead of telling the machine the rules, what if you just showed it a lot of text and let it figure out the rules on its own?
+
+                                · · ·
+
+THE NEW WAY: LEARN BY EXAMPLE
+
+Try this. I'm going to give you a word, and I want you to tell me which of two other words is more similar to it.
+
+The word is "doctor." Choose between "hospital" and "Wednesday."
+
+You said "hospital." Obviously. Everyone says "hospital." It would be strange to even pause on this.
+
+But how do you know? You weren't taught a rule that says "doctor is more similar to hospital than to Wednesday." Nobody ever sat you down and explained that. You picked it up because, over a lifetime of reading and listening, the word "doctor" and the word "hospital" appeared near each other constantly. They co-occur. They live in the same neighborhood of language. "Wednesday" lives somewhere else entirely.
+
+This is what computer scientists call distributional semantics, and it is a really old idea in linguistics, going back to the 1950s. The slogan version, coined by the British linguist John Rupert Firth, is: *"You shall know a word by the company it keeps."*
+
+For decades, this was just an interesting observation. Then in 2013, a researcher at Google named Tomas Mikolov and his colleagues figured out how to actually use it.
+
+They built a tool called word2vec. Here is what it did, in plain English. You give it a huge amount of text, like all of Wikipedia. It reads through the text and tries to predict, for every word, which words appear near it. As it does this, it builds up, for each word in the language, a list of numbers. The list is long, often three hundred numbers per word. Each number represents some aspect of the word's "company."
+
+The astonishing thing is what these number lists could do. You could, mathematically, take the numbers for "king," subtract the numbers for "man," add the numbers for "woman," and the result was extremely close to the numbers for "queen." The system had learned the concept of gender, sort of, without anyone telling it what gender was. It had figured out, from patterns in text, that "king" and "queen" differ in the same way that "man" and "woman" differ.
+
+You could do this for countries and capitals. Paris minus France plus Germany came out close to Berlin. The system had learned the concept of "capital of," without ever being told there was such a thing.
+
+This was the first time anyone had seen a machine extract meaning from raw text at scale. It was, to people inside the field, a small earthquake.
+
+But word2vec had a limit. It knew about words. It did not know about sentences. It could tell you that "dog" and "puppy" are similar. It could not tell you what "the dog chased its tail" actually meant, or how that meaning depended on the order of the words.
+
+For that, the field needed something bigger.
+
+                                · · ·
+
+THE BREAKTHROUGH NOBODY OUTSIDE COMPUTER SCIENCE NOTICED
+
+In June 2017, eight researchers at Google published a paper. The paper was titled, with the kind of confidence that is funny in retrospect, "Attention Is All You Need."
+
+It described a new design for neural networks, called the Transformer. Without going into the math, the Transformer did one big thing differently from the architectures that came before it. The earlier systems read text one word at a time, building up a kind of running memory of what they had seen. They struggled with long passages, because they tended to forget the beginning by the time they got to the end. The Transformer did not work like that. It looked at the entire input all at once, and it computed which parts of the input were most related to which other parts. It paid attention.
+
+We met this idea in the last chapter, with the cocktail party. You at the dinner are not listening to all six conversations equally. You weight some inputs more than others, based on relevance. The Transformer does the same thing with words in a sentence. Every word looks at every other word and decides which ones matter most for understanding it.
+
+This sounds modest. It was not modest. It changed everything.
+
+The Transformer was faster to train than the older architectures. It scaled better with more data and more computing power. It just worked, on a wider range of language tasks than anyone had expected. Within two years of the paper being published, the Transformer had replaced almost every other architecture in serious natural language work.
+
+If you remember nothing else technical from this book, remember this one fact. The Transformer is the architecture inside every major AI assistant you have ever used. ChatGPT, Claude, Gemini, all of them. The 2017 paper is the seed from which the entire current moment grew. It was written by eight people, most of whom were not famous, at one of many research labs at Google. Almost nobody outside the field noticed it at the time. And it changed the world.
+
+I want to sit with that for a moment. We have a habit, when we look at history, of assuming that big changes have big announcements. The major shift, you imagine, will be on the front page of the newspaper. There will be a press conference. The thing that changes everything will arrive with appropriate fanfare.
+
+It almost never works that way. The thing that changes everything usually arrives in a technical paper, read by a few hundred people, and the world quietly reorganizes itself around it over the next decade.
+
+That is what the 2017 paper did.
+
+                                · · ·
+
+THE BET: WHAT IF WE JUST MADE IT BIGGER?
+
+The Transformer was now the architecture. Various companies and research labs started building Transformers and seeing what they could do.
+
+Here is where a company called OpenAI made a specific bet that almost no one else was willing to make. OpenAI's bet was on scale.
+
+A neural network has things called parameters, which are the dials the system adjusts during training. The earliest Transformers had a few million parameters. OpenAI's hypothesis was that if you took the Transformer and made it much, much bigger, and trained it on much, much more text, qualitatively new abilities would emerge.
+
+This was not the consensus view. Most researchers thought you would hit diminishing returns. You would scale up and get a slightly better version of what you had, the way scaling up a car factory gets you slightly more cars. They thought you needed clever new architectures and clever new training tricks, not just more of the same thing at a bigger size.
+
+OpenAI thought otherwise. They named their models GPT, which stands for Generative Pre-trained Transformer. The first one, in 2018, had 117 million parameters. It was an academic curiosity, slightly interesting, not really useful.
+
+The second one, in 2019, had 1.5 billion parameters. OpenAI famously held it back at first, saying it was too dangerous to release. Critics rolled their eyes. The model was eventually released. The world did not end. But it was clear, to people paying attention, that something was happening as the numbers got bigger.
+
+The third one came in 2020. It had 175 billion parameters.
+
+GPT-3 was the first model that made people inside the field sit up and say, "Wait. Something new is going on here."
+
+It could write essays in styles you had asked for. It could continue a story you started, in your style, with surprising coherence. It could answer questions about facts it had absorbed from its training data. It could write working code in a dozen programming languages. It could translate. It could summarize. It could imitate the voices of writers it had been trained on.
+
+It did all of this without anyone telling it how. It had just been trained to predict the next word, on a truly enormous amount of text, with a truly enormous number of internal dials, and the result was something that looked, at first glance, eerily like understanding.
+
+You could try GPT-3 in 2020. But you had to be a developer with an API key, and you had to know what you were doing, and it was not really a consumer product. The general public did not notice. The press barely noticed. Inside the tech world, GPT-3 was a sensation, the topic of obsessive discussion, the model that suggested the field had turned a corner. Outside the tech world, almost nobody had heard of it.
+
+That was about to change.
+
+                                · · ·
+
+THE NIGHT THE WORLD NOTICED
+
+OpenAI knew GPT-3 was powerful. They also knew that, in its raw form, it was not all that useful. It would happily continue any text you gave it, in any style, including styles that were unhelpful or strange or rude. It was not, in the modern sense, an assistant. It was a very capable text predictor that did not yet know how to be helpful.
+
+To turn it into an assistant, OpenAI used a training technique called Reinforcement Learning from Human Feedback. We'll dig into the details in chapter four. The short version is: they hired a lot of human raters, had them evaluate different responses from the model, and used those ratings to teach the model what kinds of responses humans actually wanted.
+
+After enough of this training, the raw text predictor became something that felt like a chatbot. They wrapped it in a simple interface with a single text box. They made the interface free. They put it on the internet on November 30, 2022.
+
+The internal expectations at OpenAI were modest. The team thought they would get a few thousand users, mostly developers and AI enthusiasts. They were prepared for the possibility that this might be the small step that paved the way for a bigger launch later.
+
+Instead, ChatGPT went viral within hours. People sent it to their friends. Their friends sent it to their friends. By the end of the first day, it was clear that something unusual was happening. By the end of the first week, it was clear that something unprecedented was happening. A million users in five days. A hundred million in two months. The fastest-growing consumer product in human history.
+
+This was not because the underlying technology was new. GPT-3 had existed for two years. The Transformer was five years old. The basic idea of language modeling was older than that. None of the pieces were brand new.
+
+What was new was the *interface*. A simple text box. No setup. No login wall in the way. No documentation to read. Just type, and a thoughtful-sounding response comes back. For the first time, normal people, with no technical knowledge, could try the thing for themselves and feel the strange new presence of it.
+
+And once they felt it, they could not unfeel it. The cat was out of the bag. The world rearranged itself around this new fact within months.
+
+                                · · ·
+
+THE EXPLOSION
+
+Everything that has happened since ChatGPT launched is, in some sense, the world catching up to what had quietly happened years earlier.
+
+Google, which had invented the Transformer and quietly used it inside many of its products for years, panicked publicly. The company declared a code red. It hurried out its own AI assistant, called Bard, then renamed it Gemini, and poured tens of billions of dollars into competing with the company that had taken Google's own research and turned it into the future of computing.
+
+Anthropic, founded by former OpenAI employees who had concerns about the way OpenAI was scaling, released its own assistant, Claude. Anthropic positioned itself as the safety-conscious option, and many serious users (the people who would later read books like this one) gravitated toward it.
+
+Meta, the company that owns Facebook and Instagram, took a different approach. They released their model, called Llama, with the weights freely downloadable by anyone. This was a strategic move with deep implications. Once a model's weights are public, anyone can run it, modify it, fine-tune it. The genie cannot be put back in the bottle.
+
+Microsoft, which had quietly invested over thirteen billion dollars in OpenAI and would, by 2026, end up spending over a hundred billion dollars on the broader partnership when you include infrastructure and hosting, integrated GPT into every product it made. Word. Excel. Outlook. Their search engine, Bing.
+
+Amazon poured similar money into Anthropic.
+
+Sovereign wealth funds joined the chase. So did countries. The United Arab Emirates, Saudi Arabia, France, Japan, China, all started large-scale AI initiatives. In China specifically, a wave of new labs emerged. DeepSeek, Qwen, Moonshot, Baichuan, names you might not yet have heard but that we will meet later in this book. They turned out to be very good at this.
+
+By the time you are reading this, in 2026, the major AI labs release new model generations every few months. Each one is more capable than the last. Each one absorbs a little more of the cognitive labor that knowledge workers used to do. The pace is faster than any technology shift in living memory, faster than the rise of the internet, faster than the rise of mobile phones.
+
+The buildout has slowed for nobody. Some people in the field believe the curve will continue exponentially for years, taking us into a world that is harder and harder to recognize. Others believe the curve will flatten out, that current models are close to as good as they will get without major new ideas. Both groups have credentialed researchers. The honest answer is that nobody really knows.
+
+What everyone agrees on is this. We are not going back. The world before November 2022 is gone. The world we live in now contains, as a permanent feature, machines that predict the next word at scale, and the consequences of that fact are still rolling out around us in real time.
+
+                                · · ·
+
+WHAT YOU NEED TO KNOW FROM THIS CHAPTER
+
+We just covered seven decades in about three thousand words. Let me name the four things that matter from this for the rest of the book.
+
+The first is that the old approach (writing rules by hand) hit a wall and the new approach (learning from examples) worked dramatically better. This is not just a technical detail. It is a philosophical shift. It means that the systems we are talking about for the rest of this book learned what they know mostly from us, from human-written text, rather than from designers' decisions about what they should know. They are, in a real sense, distilled from us.
+
+The second is that the Transformer is the underlying architecture. We will dig into how it works in the next chapter. For now, just know that the Transformer is the engine, and every assistant you've ever used has one inside it.
+
+The third is that scale matters more than almost anyone predicted. Most of what makes modern AI feel modern is not a clever new idea, it is the same idea executed at a size nobody used to think was possible. This has real implications for who can build these systems (only people with vast amounts of money and computing power) and for who controls them (a small number of companies).
+
+The fourth is that the moment when normal people noticed (November 2022) was years after the moment when this technology became plausible (2017) or actual (2020). The lag between technical breakthrough and public awareness was more than five years. The next breakthroughs may already be happening in research papers right now, and you and I will not feel them for another five or six years. Worth remembering.
+
+                                · · ·
+
+So that's the history. Sixty years of struggle, one paper that quietly changed everything, three years of scaling, and one November night when the world woke up. Now we know how we got here.
+
+The next chapter opens up the machine and shows you what's actually inside.
+
+                                · · ·
+
+*What comes next: tokens, vectors, and the attention trick, explained without math.*
+
+
+----------------------------------------------------------------
+END CHAPTER 2
+----------------------------------------------------------------
+
+WORD COUNT: ~3,000 words. About 22 minutes of audio at conversational 
+pace. Slightly longer than Chapter 1 because the history needs the 
+narrative space. Future chapters will mostly be in the 2,200-2,800 
+range.
+
+
+REAL-WORLD ANALOGIES PLANTED IN THIS CHAPTER
+
+1. "Proceed with significant progress in two months", Dartmouth 
+   overconfidence (setting up the theme of "always wrong about how 
+   close we are")
+2. "The trophy did not fit in the suitcase because it was too big", 
+   the classic disambiguation problem
+3. "Doctor vs hospital vs Wednesday", distributional semantics from 
+   the inside (the reader feels themselves doing what word2vec does)
+4. "King minus man plus woman equals queen", the word2vec magic 
+   moment, simplified
+5. "Paris minus France plus Germany equals Berlin", capital-of 
+   relation
+6. The cocktail party callback, re-using the Chapter 1 example to 
+   plant attention deeper
+7. "Scaling a car factory gets you slightly more cars", the 
+   conventional wisdom about diminishing returns
+8. The simple text box interface, what made ChatGPT viral
+9. "The cat was out of the bag", colloquial, lands the moment
+
+
+AUDIO PRODUCTION NOTES
+
+[AUDIO NOTE, opening] Slower pace through the McCarthy story. The 
+"Two months." line should be its own beat, with a real pause before 
+and after.
+
+[AUDIO NOTE, trophy/suitcase example] Read "What does 'it' refer 
+to?" with genuine curiosity in the voice, like you're asking the 
+listener for real.
+
+[AUDIO NOTE, "You said 'hospital.' Obviously."] Slight smile in 
+the voice. This is one of the warm moments in the chapter.
+
+[AUDIO NOTE, "the Transformer is the architecture inside every 
+major AI assistant you have ever used"] This is a load-bearing 
+sentence. Slow down. Let it land.
+
+[AUDIO NOTE, "Two months." (Dartmouth)] and "A million users in 
+five days." Both of these short sentences are doing the same 
+rhetorical work: numerical punch. Read them with similar weight.
+
+[AUDIO NOTE, "We are not going back."] This is the emotional 
+crescendo of the chapter. Pause before. Let it sit. Then continue 
+quietly into "The world before November 2022 is gone."
+
+[AUDIO NOTE, closing "tokens, vectors, and the attention trick"] 
+Energy back up. Carry into Chapter 3.
+
+
+CHAPTER COMPLETED. Ready for review or to continue to Chapter 3.

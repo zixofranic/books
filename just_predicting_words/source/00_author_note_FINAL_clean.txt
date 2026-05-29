@@ -1,0 +1,25 @@
+  A Note on How This Book Was Made
+
+  Before we begin, you deserve to know how this book came
+  together.
+
+  The research was assisted by AI. Some of the writing,
+  editing, and corrections were done with the help of AI.
+  Without these tools, I could not have written a current
+  book about a field that updates in days, not years. By
+  the time I finished a chapter the old way, the chapter
+  would already be out of date.
+
+  Several different language models and tools were used
+  along the way. Some were better at research. Some were
+  better at drafting. Some were better at catching the
+  small errors that a tired human eye misses at midnight.
+
+  But one human gathered the pieces. One human decided what
+  this book is about, what voice it speaks in, what it
+  argues, what it leaves out, and what it says directly to
+  you. The structure, the judgment, the responsibility, are
+  mine. That part will always be a human. It is, after all,
+  what this book is finally about.
+
+  Welcome.

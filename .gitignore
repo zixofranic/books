@@ -1,0 +1,31 @@
+# --- Rendered audio + packaged audiobooks (large binaries — NEVER commit) ---
+**/audio_v2/
+**/audio/
+**/sections/
+*.wav
+*.mp3
+*.m4b
+*.m4a
+*.aac
+*.flac
+
+# --- Large image / design binaries ---
+*.psd
+# (book covers live under audio_v2/, already excluded)
+
+# --- Python / build artifacts ---
+**/__pycache__/
+*.pyc
+*.pyo
+
+# --- Local tooling / OS ---
+.claude/
+.DS_Store
+Thumbs.db
+
+# --- Secrets (defensive; none expected in this tree) ---
+.env
+.env.*
+
+# --- Other books not yet added to this repo (pending owner decision) ---
+ai_history/

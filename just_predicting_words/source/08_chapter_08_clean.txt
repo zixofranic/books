@@ -1,0 +1,131 @@
+  Chapter Eight
+
+  Meta, the Open Bet That Changed Everything
+
+  They tried something nobody else would try. It worked, then it didn't, then nobody's sure what comes next.
+
+To understand why Meta matters in the story of AI, you have to understand what almost nobody else did.
+
+Every other major AI lab we have met so far, OpenAI, Anthropic, Google, kept their best models locked behind APIs. You could use the model. You could pay for the use. But you could not have the model itself. The actual weights, the billions of numbers that make the model do what it does, stayed inside the company that made it.
+
+Meta did something different. They built models. And then they gave them away.
+
+Not literally for free in every case. The license had restrictions for very large companies. But for anyone running a startup, a research project, a personal experiment, a niche product, Meta's models were downloadable. You could put them on your own computer. You could run them without paying anyone. You could modify them. You could build a business on top of them. You could fine-tune them for your specific industry. You could fork them like a piece of open-source software.
+
+This was a radical move. It went against the basic commercial logic of the AI race. If a model costs hundreds of millions of dollars to train, why would you give it away?
+
+Mark Zuckerberg's answer was strategic, not charitable. By making the models freely available, Meta would commoditize the layer that its competitors were trying to charge for. Developers would build on Meta's models because they were free. An ecosystem would form. Meta's models would become the foundation, and Meta would benefit from the foundation regardless of which companies built what on top.
+
+For about three years, this bet looked brilliant. Meta's Llama series, released in versions 1 through 3, became the most-used open models in the world. Researchers used them. Startups built products on them. Universities trained their students on them. The Chinese AI labs, who could not legally use proprietary American models, used Llama as their starting point. The open-weight ecosystem flourished, and Meta was at the center of it.
+
+Then it all started to fall apart.
+
+This chapter is the story of the bet that almost worked, what went wrong, and what is happening now. It is the most recent and most still-developing of the company stories in this book. As I write this in 2026, Meta's AI strategy is in flux. The reader of this book in 2027 or 2028 may be holding a different end of the story than the one I can describe now.
+
+That is fine. The arc still matters. The choices Meta made, and the lessons from how those choices played out, will shape the AI industry regardless of how Meta itself ends up.
+
+The company before the bet.
+
+Meta is the parent company of Facebook, Instagram, WhatsApp, and Threads. Three billion people use one of those products every day. Whatever you think about Meta as a company, the scale of its reach is not in dispute. Meta has more direct access to global communication than any organization in human history.
+
+This matters because Meta has, for years, used AI inside its products. The algorithm that decides what shows up in your Instagram feed is AI. The recommendations on Reels are AI. The translation when someone writes in a language you do not speak is AI. The moderation that catches hate speech is AI. The targeting that puts ads in front of you is AI.
+
+Meta was doing serious AI work long before ChatGPT. Their FAIR group, Facebook AI Research, was one of the premier AI research labs in the world. The head of that group, Yann LeCun, won the Turing Award (computer science's equivalent of the Nobel Prize) in 2018 for foundational work on neural networks. The company had compute. It had research talent. It had data.
+
+What it did not have, before 2022, was a public-facing AI assistant. Meta's AI was infrastructure. It made the products work. But it was not a product itself.
+
+When ChatGPT launched and changed the world's expectations of AI, Meta had to decide what to do. Their answer was unusual.
+
+The open weight bet.
+
+In February 2023, Meta released a model called Llama. Initially it was research-only, available to academics on request. Within a few weeks, the weights had leaked publicly and were available for anyone to download. Meta did not try to put the toothpaste back in the tube. Instead, in July 2023, they officially released Llama 2 with a permissive license, free for commercial use except by the largest companies. In April 2024, Llama 3. The open-weight movement now had a clear, well-funded leader.
+
+Zuckerberg wrote a public letter framing the strategy. The argument went like this. Closed models, by their nature, concentrate power in a small number of companies. Those companies decide what the models can and cannot do, what they say and refuse to say, what users can build on top of them. Open models, by contrast, distribute that power. They let researchers verify what models are actually doing. They let smaller companies compete with giants. They let developing countries build local AI without paying tribute to Silicon Valley. They make AI a public resource, not a proprietary one.
+
+This argument resonated with a lot of people. AI safety researchers, who could now actually inspect a model rather than just guess at what was inside it. Startup founders, who could build companies without paying API fees that would crush their margins. Educators, who could use real AI in classrooms without sending student data to a corporate server. Governments, who could deploy AI in sensitive contexts without relying on American cloud providers.
+
+The criticism was equally serious. By making powerful models freely available, Meta was, the argument went, making it easier for bad actors to misuse them. A closed model can be patched. A model whose weights are public, in the wild, on a million laptops, cannot. Critics argued that the open-weight strategy was, in effect, externalizing the safety problem onto society as a whole.
+
+Both arguments had merit. Honest people disagreed. They still do.
+
+For about three years, Meta was the most important player in the open-weight ecosystem. Their releases set the standard. Their decisions shaped what others did. Other labs, including Google, started releasing open-weight models partly because Meta had made the strategy viable.
+
+The llama 4 disaster.
+
+In April 2025, Meta released Llama 4. It was supposed to be the breakthrough that put Meta firmly in the frontier of AI capability.
+
+Instead, it was a disaster.
+
+The model itself was technically real. The benchmark scores reported at launch suggested it was competitive with the best models from OpenAI and Anthropic. The launch generated significant press attention. The open-weight community celebrated.
+
+Then the reality set in. The version of the model that Meta had submitted to one of the leading benchmark leaderboards was, it turned out, not the same version that Meta had released publicly. The publicly released version performed worse than the benchmark version. Reviewers running the public model on independent tests reported results that did not match the launch claims.
+
+In January 2026, Meta's outgoing chief AI scientist, Yann LeCun, confirmed publicly what many had suspected. The launch had been gamed. In an interview with the Financial Times, LeCun said the team had "fudged a little bit" by using different versions of the model for different benchmarks to make the numbers look better than they actually were.
+
+This was not a small thing. Trust in benchmark results is one of the load-bearing assumptions in the AI industry. If you cannot trust that a model is what it says it is, you cannot make purchasing decisions, research decisions, or policy decisions based on its reported capabilities. Meta had not just released a disappointing model. They had damaged a piece of infrastructure that the whole field depended on.
+
+Internally, the consequences were severe. Mark Zuckerberg, according to LeCun's own account in the Financial Times, lost confidence in the team that had produced Llama 4. The entire generative AI organization at Meta was, in LeCun's later words, "sidelined."
+
+LeCun himself was reorganized out of his role. By November 2025, he had left Meta to found his own startup, Advanced Machine Intelligence Labs, focused on what he called "world models," a different approach to AI that he had publicly argued was more promising than the large language model approach Meta was committed to.
+
+Meta then did something almost unprecedented for a company its size. They blew up their existing AI organization and built a new one from scratch.
+
+The superintelligence labs pivot.
+
+In mid-2025, Meta announced the formation of Meta Superintelligence Labs (the name is itself a statement). To lead it, Zuckerberg paid an astonishing price. He spent fourteen and a half billion dollars to acquire forty-nine percent of Scale AI, a company that provided data labeling services for AI training. As part of the deal, Scale's twenty-eight-year-old cofounder, Alexandr Wang, joined Meta as chief AI officer.
+
+The sixty-five-year-old Turing Award winner Yann LeCun, on paper at least, reported to a twenty-eight-year-old executive. The cultural friction was, by all accounts, real. LeCun had publicly described large language models as a "dead end" for reaching true AI. Wang was building Meta's strategy entirely around large language models. They could not coexist, and they did not. LeCun left.
+
+The new Meta Superintelligence Labs spent eight months rebuilding the AI stack. They hired aggressively, sometimes paying senior researchers eight and nine figure compensation packages. They invested heavily in compute. They prepared their next major model.
+
+When that model arrived in early 2026, it was called Muse Spark, and it broke with everything Meta had done before.
+
+Muse Spark was not open-weight.
+
+The model weights were not released. Access was limited to Meta's own products and a small invite-only group of partners. Meta said it hoped to open-source future versions, but it would not commit to doing so. The company that had defined the open-weight ecosystem had, with this release, chosen to play by the same rules as OpenAI and Anthropic.
+
+The reasons were not made fully public, but the implication was clear. The competitive pressure had become too intense. The risk of releasing weights that competitors, particularly Chinese labs, could clone and use against Meta had become too great. After Chinese labs had built on Llama to produce models that competed with Meta's own offerings, the strategic logic of giving everything away started to look different.
+
+For the open-weight community, this was a significant moment. The most visible advocate for open AI had quietly stepped back. Other labs continued releasing open weights, but Meta's withdrawal changed the texture of the field.
+
+Where things stand now.
+
+As I write this in May 2026, Meta's AI strategy is genuinely in flux. The Muse Spark model exists. It has decent benchmark scores. But the open-weight strategy that defined Meta for three years has been at least partly abandoned, with no clear public commitment about what comes next.
+
+The company continues to spend at enormous scale. Meta's 2026 capital expenditure budget is expected to be between one hundred and fifteen and one hundred and thirty-five billion dollars, almost all of it AI-related. They have announced fifteen thousand layoffs alongside the AI restructuring, redistributing the resources from cut roles into AI infrastructure and talent.
+
+Internally, the company is in transition. Wang's leadership is new. The senior researchers who built Llama have mostly left. The new team is, as one observer described it, "the most expensive AI team ever assembled." Whether that translates to leading-edge products remains to be seen.
+
+The broader question for the open-weight movement is whether someone else picks up the leadership role Meta has stepped back from. The Chinese labs have, in many ways, taken over. Qwen, from Alibaba, has become the most-downloaded open model ecosystem in the world. DeepSeek has shipped models that compete with frontier closed-source offerings at a fraction of the cost. Mistral, the French company, continues releasing strong open models. The open-weight world has not died. It has just changed leadership.
+
+Whether Meta's pivot proves wise depends on questions we cannot yet answer. If Muse Spark and its successors compete successfully with the closed-source frontier, Meta will look prescient. If the open-weight strategy was the actual right answer and Meta has abandoned it under temporary commercial pressure, the company may have given up its most distinctive strategic position for a fight it cannot win.
+
+What META believes now.
+
+The stated views of the people running Meta's AI work have shifted significantly with the leadership change. Let me try to summarize what they appear to believe now.
+
+The first belief, articulated by Alexandr Wang in his public statements, is that the path to powerful AI runs through scale, data quality, and rapid iteration. This is the standard frontier-lab view. It places Meta in the same camp as OpenAI and Google.
+
+The second belief, less openly stated but clearly operational, is that open-weight releases are a strategic tool, not a moral commitment. Meta will release weights when doing so serves their interests, and will withhold them when doing so does not. This is a much more pragmatic position than the one Mark Zuckerberg articulated in his 2024 open-source manifesto.
+
+The third belief is that Meta's distribution scale matters more than any single model. Three billion daily users is an enormous advantage. The argument is that Meta does not need to have the best model. It needs to have a competitive model that it can put in front of more people than any competitor can reach. The model is in service of the distribution, not the other way around.
+
+The fourth belief, expressed mostly by the now-departed LeCun, who is pursuing this thesis at his own new lab, is that the current LLM-based approach has fundamental limits, and that real AGI will require different architectures based on world models. Meta has invested in world model research alongside its LLM efforts. It is hedging.
+
+These beliefs are not as crisp as the ones at OpenAI or Anthropic. Meta is in transition. The strategy that worked for three years is being replaced by something else, and that something else is not yet fully defined. The next few years will clarify what Meta becomes.
+
+What this means for you.
+
+If you use Facebook, Instagram, WhatsApp, or Threads, you interact with Meta's AI hundreds of times a day, whether you notice or not. The personalization, the recommendations, the content moderation, the translation, the ads, are all AI mediated. Meta's choices about how those systems work affect you directly.
+
+If you are a developer or builder, the Meta story matters in a different way. The open-weight era that Meta led is, at least for now, less open than it was. The era when you could expect Meta to release a frontier-quality model that you could run locally is, perhaps, over. You may need to look elsewhere for the next generation of openly available models. The Chinese labs have, in many ways, become the new leaders here.
+
+If you are thinking about AI policy or AI safety, the Meta story is instructive in a different way. It is the clearest case study yet of the tensions between commercial competition and open-weight commitments. Meta wanted to be the open company. The pressures of the competitive environment made it costly to remain so. They retreated. The question of whether anyone can build a frontier AI company while remaining genuinely open is still open. Meta has made the question feel harder.
+
+The bigger lesson, beyond Meta itself, is that the structure of the AI industry is not yet settled. The companies, the strategies, the philosophies are still in motion. What looks like the dominant approach this year may be replaced by something else in two or three years. The early AI race had three players in 2022. By 2026 there are easily a dozen serious labs, including some I have not yet discussed in this book.
+
+That is where we go next. To the other half of the global AI map. The half that almost no Western reader is paying attention to.
+
+We go to China.
+
+What comes next: the Chinese frontier and the AI race the West almost missed.

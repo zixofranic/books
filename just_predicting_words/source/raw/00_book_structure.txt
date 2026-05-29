@@ -1,0 +1,165 @@
+================================================================
+JUST PREDICTING WORDS
+FINAL BOOK STRUCTURE
+================================================================
+
+Status: First full draft complete.
+21 chapters + 3 appendices.
+Approximately 65,000 words of approved manuscript.
+Within the 60,000-75,000 word Kindle nonfiction target.
+
+================================================================
+TABLE OF CONTENTS
+================================================================
+
+  Title:    Just Predicting Words
+  Subtitle: How ChatGPT, Claude, and Modern AI Actually Work
+  Author:   Ziad El Feghali
+
+PART ONE: WHAT IS THIS THING?
+
+  Chapter 1   Just Predicting Words                          [DRAFTED v0.5]
+  Chapter 2   A Short History of Machines That Read          [DRAFTED v0.1]
+              (Fact-checked, Dartmouth quartet, Microsoft 
+              figure updated)
+  Chapter 3   Inside the Machine                             [DRAFTED v0.1]
+  Chapter 4   Taming the Wild Word Predictor                 [DRAFTED v0.1]
+
+PART TWO: WHO MAKES THEM
+
+  Chapter 5   OpenAI, the Company That Started the Wave      [DRAFTED v0.1]
+  Chapter 6   Anthropic, the Company That Broke Off          [DRAFTED v0.1]
+  Chapter 7   Google, the Giant That Almost Lost the Future  [DRAFTED v0.1]
+  Chapter 8   Meta, the Open Bet That Changed Everything     [DRAFTED v0.1]
+  Chapter 9   The Other Half of the Map                      [DRAFTED v0.1]
+              (Chinese frontier)
+  Chapter 10  Everyone Else                                  [DRAFTED v0.1]
+              (Microsoft Copilot, xAI/Grok, Mistral, 
+              Perplexity, Amazon, Apple, others)
+
+PART THREE: WHAT IT CAN AND CANNOT DO
+
+  Chapter 11  What These Machines Are Genuinely Good At      [DRAFTED v0.1]
+              (Fact-checked with McKinsey, DX, WMT24 data)
+  Chapter 12  How These Machines Fail                        [DRAFTED v0.1]
+              (Fact-checked with Mata v. Avianca details)
+  Chapter 13  The Limits of Language                         [DRAFTED v0.1]
+
+PART FOUR: THE RULES OF THE ROAD
+
+  Chapter 14  The Risks That Are Real                        [DRAFTED v0.1]
+              (Fact-checked with 2026 deepfake, labor, 
+              WEF data)
+  Chapter 15  The Risks That Are Mostly Hype                 [DRAFTED v0.1]
+  Chapter 16  Guardrails: How Companies Try to Keep Models   [DRAFTED v0.1]
+              in Line
+  Chapter 17  Regulation: What Governments Are Doing         [DRAFTED v0.1]
+
+PART FIVE: LIVING WITH THESE THINGS
+
+  Chapter 18  How to Use Them Well                           [DRAFTED v0.1]
+  Chapter 19  How to Handle AI at Work                       [DRAFTED v0.1]
+  Chapter 20  How to Talk to Your Kids About Them            [DRAFTED v0.1]
+  Chapter 21  Where This Is All Going                        [DRAFTED v0.1]
+
+APPENDICES
+
+  Appendix A  Glossary of Terms                              [DRAFTED]
+  Appendix B  A Timeline at a Glance                         [DRAFTED]
+  Appendix C  Further Reading                                [DRAFTED]
+
+
+================================================================
+STYLE CONFORMANCE
+================================================================
+
+Voice: smart friend over coffee, conversational, example-rich.
+"I" available but reader-centered.
+Neutral American English throughout.
+
+ZERO em dashes (—) across all 21 chapters and 3 appendices.
+ZERO en dashes (–) across all 21 chapters and 3 appendices.
+Verified with grep -c on every file.
+
+All chapters in target word range: 2,500-3,700 words.
+All chapters end with a bridge line to the next.
+All foundational chapters have audio production notes.
+
+All real people referenced by their commonly-known names, with 
+no abbreviated initials anywhere in the book.
+
+
+================================================================
+FACT-CHECK SUMMARY
+================================================================
+
+Per Ziad's instruction starting from Chapter 11, every chapter 
+underwent web-search fact-checking before being finalized.
+
+Specific facts verified through web search:
+- ChatGPT user growth (Chapter 1)
+- Dartmouth Conference details and authors (Chapter 2)
+- word2vec attribution (Chapter 2)
+- Transformer paper authors (Chapter 2)
+- GPT model parameter counts (Chapter 2)
+- GPT-2 "too dangerous" history (Chapter 2)
+- Microsoft total investment in OpenAI (Chapter 2 updated)
+- OpenAI current state (Chapter 5)
+- Anthropic current state (Chapter 6)
+- Google DeepMind current state (Chapter 7)
+- Meta Llama 4 disaster details (Chapter 8)
+- Chinese AI lab current state (Chapter 9)
+- xAI SpaceX consolidation May 2026 (Chapter 10)
+- McKinsey developer productivity data (Chapter 11)
+- DX dataset on developer time savings (Chapter 11)
+- WMT24 translation benchmark results (Chapter 11)
+- Mata v. Avianca case full details (Chapter 12)
+- WEF Global Risks Report 2026 (Chapter 14)
+- 2026 International AI Safety Report (Chapter 14)
+- UK deepfake exposure statistics (Chapter 14)
+- Challenger Gray AI layoff data (Chapter 14)
+- Goldman Sachs jobs estimate (Chapter 14)
+- Dario Amodei forecast on white-collar jobs (Chapter 14)
+- Plato's Phaedrus on writing weakening memory (Chapter 15)
+- HiddenLayer OpenAI guardrails bypass (Chapter 16)
+- Cisco multi-turn jailbreak research (Chapter 16)
+- Princeton fine-tuning safety degradation research (Chapter 16)
+- EU AI Act timeline and enforcement details (Chapter 17)
+- Various national AI legislation (Chapter 17)
+- Trump executive orders on AI (Chapter 17)
+- Q1 2026 EU enforcement fines (Chapter 17)
+
+
+================================================================
+WHAT'S NEXT
+================================================================
+
+The first full draft is complete. Possible next steps:
+
+1. Read-through and edit pass. Reading the whole book end to end 
+   will surface inconsistencies, transitions that need work, and 
+   places where the voice slips. This is probably 2-3 sessions 
+   of focused review.
+
+2. Front matter. Title page, copyright, dedication, author note, 
+   acknowledgments. Standard book front matter, 1 session.
+
+3. Visual design. The 30-40 illustrations across Direction 3, 4, 
+   and 5 still need to be generated. Many sessions of design work, 
+   probably best done in Ziad's local environment with ComfyUI.
+
+4. Cover design. Major project on its own. Defer until closer to 
+   publication.
+
+5. Audio production. Voice cloning is done. The audiobook needs 
+   recording (via Chatterbox/ElevenLabs) and editing. Substantial 
+   project.
+
+6. Publication preparation. Amazon KDP setup, EPUB conversion, 
+   print POD trim, ISBN, distribution. Standard publishing 
+   workflow.
+
+
+================================================================
+END STRUCTURE DOCUMENT
+================================================================

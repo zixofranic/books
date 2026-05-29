@@ -1,0 +1,104 @@
+Just Predicting Words...
+
+...
+
+...
+
+Final Book Structure...
+
+...
+
+...
+
+Table Of Contents...
+
+...
+
+Title: Just Predicting Words
+Subtitle: How Chat G.P.T., Claude, and Modern A.I. Actually Work
+Author: Ziad El Feghali
+
+...
+
+Part One: What Is This Thing?...
+
+...
+
+Chapter 1 Just Predicting Words [DRAFTED v0.5]
+Chapter 2 A Short History of Machines That Read [DRAFTED v0.1]
+(Fact-checked, Dartmouth quartet, Microsoft
+figure updated)
+Chapter 3 Inside the Machine [DRAFTED v0.1]
+Chapter 4 Taming the Wild Word Predictor [DRAFTED v0.1]
+
+...
+
+Part Two: Who Makes Them...
+
+...
+
+Chapter 5 Open A.I., the Company That Started the Wave [DRAFTED v0.1]
+Chapter 6 Anthropic, the Company That Broke Off [DRAFTED v0.1]
+Chapter 7 Google, the Giant That Almost Lost the Future [DRAFTED v0.1]
+Chapter 8 Meta, the Open Bet That Changed Everything [DRAFTED v0.1]
+Chapter 9 The Other Half of the Map [DRAFTED v0.1]
+(Chinese frontier)
+Chapter 10 Everyone Else [DRAFTED v0.1]
+(Microsoft Copilot, X A.I./Grok, Mistral,
+Perplexity, Amazon, Apple, others)
+
+...
+
+Part Three: What It Can And Cannot Do...
+
+...
+
+Chapter 11 What These Machines Are Genuinely Good At [DRAFTED v0.1]
+(Fact-checked with McKinsey, DX, WMT24 data)
+Chapter 12 How These Machines Fail [DRAFTED v0.1]
+(Fact-checked with Mata v. Avianca details)
+Chapter 13 The Limits of Language [DRAFTED v0.1]
+
+...
+
+Part Four: The Rules Of The Road...
+
+...
+
+Chapter 14 The Risks That Are Real [DRAFTED v0.1]
+(Fact-checked with twenty twenty-six deepfake, labor,
+WEF data)
+Chapter 15 The Risks That Are Mostly Hype [DRAFTED v0.1]
+Chapter 16 Guardrails: How Companies Try to Keep Models [DRAFTED v0.1]
+in Line
+Chapter 17 Regulation: What Governments Are Doing [DRAFTED v0.1]
+
+...
+
+Part Five: Living With These Things...
+
+...
+
+Chapter 18 How to Use Them Well [DRAFTED v0.1]
+Chapter 19 How to Handle A.I. at Work [DRAFTED v0.1]
+Chapter 20 How to Talk to Your Kids About Them [DRAFTED v0.1]
+Chapter 21 Where This Is All Going [DRAFTED v0.1]
+
+...
+
+Appendices...
+
+...
+
+Appendix A Glossary of Terms [DRAFTED]
+Appendix B A Timeline at a Glance [DRAFTED]
+Appendix C Further Reading [DRAFTED]
+
+...
+
+Style Conformance...
+
+...
+
+ZERO em dashes (—) across all 21 chapters and 3 appendices.
+ZERO en dashes (–) across all 21 chapters and 3 appendices.

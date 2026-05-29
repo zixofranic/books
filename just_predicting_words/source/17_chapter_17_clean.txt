@@ -1,0 +1,117 @@
+  Chapter Seventeen
+
+  Regulation, What Governments Are Doing
+
+  Rules for a technology that arrived faster than any regulator was prepared for.
+
+There is an old joke about software regulation that goes like this. Every meaningful new technology arrives, on average, about ten years before the lawyers, regulators, and lawmakers figure out what to do about it. By the time they have written the rules, the technology has moved on, and the rules are aimed at the version that existed when the consultation period started.
+
+AI is, by this measure, slightly ahead of schedule. The technology arrived in late 2022. The first serious regulatory framework arrived in the summer of 2024. The implementation of that framework is staggered through 2026 and 2027. Other major jurisdictions are catching up. The rules are imperfect. They are also more substantive, faster, than anyone in 2022 would have predicted.
+
+This chapter is about those rules. I want to walk you through what governments are actually trying to do about AI, where the major regulatory regimes stand, and what they are likely to look like in the next few years. I will not try to predict which approach will turn out to be right. The honest answer is that nobody knows yet, and the experiments are still running.
+
+What I can give you is a clear picture of the landscape, so you can read about new AI regulation without feeling lost.
+
+The european union. the big one.
+
+The European Union has the most ambitious AI regulation in the world. It is called the AI Act, and it is the regulation that everyone else, in some sense, is reacting to.
+
+The AI Act became law in August 2024. Its main idea is straightforward. AI systems get categorized by risk level, and different categories get different rules.
+
+The lowest category, minimal risk, gets almost no obligations. This includes things like spam filters, video game AI, and many recommendation systems. The Act does not interfere.
+
+The next category, limited risk, gets transparency obligations. This includes chatbots and AI-generated content. The Act requires users to know when they are talking to an AI rather than a human, and requires AI-generated content to be labeled.
+
+The third category, high risk, gets serious obligations. This includes AI used in employment decisions, credit scoring, education, critical infrastructure, law enforcement, and other consequential domains. Companies deploying high-risk AI must conduct risk assessments, ensure data quality, maintain human oversight, document everything, and comply with detailed technical standards.
+
+The highest category, unacceptable risk, is banned outright. This includes social scoring of citizens, real-time biometric identification in public spaces, AI systems designed to manipulate human behavior in harmful ways, and a few other categories the Europeans decided no commercial AI should be doing.
+
+The Act applies to anyone selling AI services to European users, regardless of where the company is based. This is the GDPR approach. The EU regulates anything that affects EU citizens, whether the company is in Frankfurt or San Francisco. American AI companies that want European customers must comply with the AI Act.
+
+The implementation has been staggered. The ban on unacceptable-risk systems took effect in February 2025. The rules on general-purpose AI models came into force in mid 2025. The bulk of the high-risk provisions are scheduled to take effect on August 2, 2026, although as I write this in May 2026, there is a serious proposal to delay this deadline by sixteen months to December 2027. The European Commission, the Council, and the Parliament reached a provisional agreement in early May 2026 to streamline the Act, reduce some compliance burdens for smaller companies, but otherwise keep the substance intact.
+
+Enforcement will be real once it begins. Major enforcement powers come into force in August 2026, with most member states still standing up their national authorities and the European AI Office building out its team. The maximum penalty under the Act is thirty-five million euros or seven percent of global annual revenue, whichever is higher. For a company like OpenAI or Google, the upper bound of that fine could be tens of billions of dollars.
+
+Whether the EU AI Act will work as intended is genuinely debated. Critics argue that the compliance burden is so heavy that it pushes AI development out of Europe. Supporters argue that the Act will become the global standard, just as GDPR did for data protection, and that companies will end up applying European rules globally because compliance with one strict regulator is cheaper than compliance with many different ones.
+
+We will not know who is right for a few years. What we know now is that the AI Act exists, it is being enforced, it shapes how major AI companies behave, and other countries are watching closely as they design their own rules.
+
+The united states. a patchwork.
+
+The United States has no comprehensive federal AI law. In a country where federal action has been politically difficult for years, this is not surprising. What the US has instead is a complicated patchwork of executive orders, agency guidance, and state laws.
+
+The federal picture has shifted with the change in administrations. In October 2023, President Biden issued Executive Order 14110, which established a framework for safe AI development, required testing for the largest models, and assigned various federal agencies specific responsibilities. In January 2025, President Trump revoked that order and issued Executive Order 14179, which oriented federal policy toward removing barriers to AI development rather than imposing safety requirements. In December 2025, Trump signed another order directing the Attorney General to challenge state AI laws that conflict with a proposed national framework. In March 2026, the White House released its national AI policy framework, which is a set of legislative recommendations to Congress, not law itself.
+
+The state picture is even more complicated. As of 2026, more than a dozen states have enacted or proposed their own AI laws. California, New York, Colorado, Illinois, Utah, and others have each gone their own direction. California's approach focuses on transparency and disclosure. Colorado has implemented comprehensive risk-based regulation similar to the EU's approach but applied at the state level. New York is moving toward a reporting framework. Illinois has focused on AI in employment decisions.
+
+The result is that a company deploying AI across the United States may face fifty different rules, with the federal government simultaneously trying to preempt the strictest of those rules while not yet having passed anything to replace them. This is, by any standard, a mess.
+
+The political fight is ongoing. State attorneys general can still bring enforcement actions under consumer protection laws. State legislatures continue passing their own AI rules. Federal legislation may eventually emerge, but the timeline is unclear. For now, US-based AI companies operate under a regulatory environment that is best described as evolving rapidly in multiple, sometimes conflicting, directions.
+
+The honest summary is that the US has chosen not to lead on AI regulation, at least at the federal level. Whether this turns out to be wise or short-sighted will depend on how the technology develops and on which problems become urgent. For now, the largest market for AI products has the weakest unified rules about how those products should work.
+
+China. state control from the start.
+
+China has taken a very different approach. Rather than trying to figure out how to regulate AI after the technology arrived, the Chinese government has been writing AI rules from the beginning, structured around the priorities of the Chinese state.
+
+The framework began with the Algorithm Recommendation Regulation in 2022, which required companies to register their algorithms with the government, allow user opt-out, and avoid content that could "endanger national security or social stability." This was followed by the Deep Synthesis Regulation in 2023, which required clear labeling of AI-generated content. Then the Generative AI Services Regulation in 2023, which extended these requirements to large language models.
+
+In 2024, China released the AI Safety Governance Framework, a set of guidelines for the development and deployment of AI systems. In March 2024, a draft Artificial Intelligence Law was proposed by Chinese scholars, which if enacted would create something more comprehensive, closer to what the EU has done. As I write this, that law has not yet passed.
+
+An amended Cybersecurity Law, with explicit AI provisions, became enforceable on January 1, 2026. It adds requirements for security reviews of AI systems and data localization for AI training.
+
+The Chinese approach has features that are different from the Western approaches. Chinese AI products are required to "uphold core socialist values," refrain from "subverting state power," and avoid content that is deemed politically sensitive. These are not vague aspirations. They are specific compliance requirements, and Chinese AI companies operate within them. We discussed the practical consequences of this in chapter nine.
+
+What is striking about the Chinese approach is its consistency. The Chinese government decided early what it wanted AI to do, and it has been building rules toward that goal steadily. The result is, in some ways, the most coherent regulatory framework in the world, even if you disagree with its values. Companies know what they need to do. Enforcement is predictable. The rules are evolving but not chaotic.
+
+Whether this approach is good for Chinese AI development is debated. Critics argue that the political constraints limit innovation. Defenders argue that the clear rules let Chinese companies focus on capability development without spending energy on compliance uncertainty. As we saw in chapter nine, Chinese labs have been doing real work at the frontier despite the constraints. Whether they would be doing more without the constraints is impossible to know.
+
+The rest of the world.
+
+The other significant jurisdictions are pursuing variations of the three main approaches.
+
+The United Kingdom has chosen what it calls a "principles-based" approach. Rather than passing a comprehensive AI law, the UK has assigned existing regulators, in finance, healthcare, communications, and so on, the responsibility for applying AI-relevant rules to their sectors. The pitch is flexibility. The risk is gaps where no regulator is clearly responsible.
+
+Japan has taken what officials call an "innovation-first" approach. The AI Promotion Act, which took effect in June 2025, is essentially a non-binding framework. It establishes goals and coordination mechanisms but does not impose mandatory obligations. The Japanese government is betting that voluntary cooperation with industry will produce better outcomes than regulation. Whether this works depends on whether industry cooperates.
+
+Canada has been moving toward a risk-based approach similar to the EU's. The Artificial Intelligence and Data Act, part of the broader Digital Charter Implementation Act, has been moving through legislative processes for years. As of 2026, it has not yet fully passed but is expected to advance further.
+
+Korea passed the Basic AI Act in 2024, which takes effect in 2026. Vietnam passed its first dedicated AI law in 2025, also taking effect in 2026. Brazil, Australia, India, Singapore, and many others are each at various stages of developing their own approaches.
+
+By the end of 2025, the OECD's AI Policy Observatory tracked more than one thousand AI policy initiatives across more than seventy jurisdictions. Stanford's 2026 AI Index found that forty-seven countries have active AI-specific legislation. The pace of new regulation is faster than any other technology area in recent history.
+
+For an AI company operating globally, the result is real complexity. The same product, deployed in different countries, may face very different requirements. The major labs employ growing teams of policy and compliance specialists just to navigate this landscape. For users, the practical effect is that the AI you can access, and the things it will do, may vary depending on where you live.
+
+The four big questions regulators are trying to answer.
+
+Underneath all the specific rules, the regulatory debates around the world are wrestling with the same four questions. Let me name them, because they will shape AI regulation for the next decade.
+
+The first question is whether to regulate the technology or the applications. The European approach has been to regulate the applications. AI used in employment decisions has rules. AI used in healthcare has rules. AI in general, as a technology, is mostly left alone unless it gets used in a regulated context. The American approach has been even more applications-focused, partly by default. The Chinese approach has been to regulate the technology itself, with rules that apply to all generative AI regardless of how it gets used. Each approach has trade-offs. Application-focused rules are precise but can be evaded by reframing what the AI is doing. Technology-focused rules catch more things but can stifle uses that are not actually problematic.
+
+The second question is who should bear the responsibility. The model maker? The company deploying the model? The user? Most regulatory regimes distribute responsibility across all three, but the specifics matter. If an AI assistant gives someone bad medical advice and they get hurt, who is liable? The AI lab? The healthcare provider using the AI? The doctor who relied on it? The patient who acted on it? The answers shape how AI gets deployed in high-stakes contexts, and the answers are still being worked out.
+
+The third question is how much transparency to require. Most AI companies treat their training data, model weights, and detailed architectures as proprietary. Most regulators would like more transparency, to verify that models meet safety and fairness requirements. The fight over how much disclosure to require, in what form, to whom, has been one of the most contested aspects of AI regulation. The EU AI Act requires substantial documentation. The Chinese rules require registration. The US has avoided most disclosure mandates so far.
+
+The fourth question is how to handle international coordination. AI does not respect borders. A model trained in California gets deployed to users in Lagos and Berlin and Beijing. The companies are global. The harms are global. The opportunities are global. But the regulators are mostly national. The friction between global technology and national regulation produces gaps, conflicts, and forum shopping. Some progress has been made on international coordination, including the AI Safety Institutes that several countries have established and the international declarations from various AI summits. But there is no global regulator. There may never be one. The question is whether enough informal coordination can emerge to handle problems that span borders.
+
+What this means for you.
+
+If you use AI products, the regulatory landscape affects you in ways you mostly do not see.
+
+The system prompts in the AI you use have been shaped by regulatory requirements. Disclosures, refusals, formatting choices, and behaviors that seem like product decisions are often compliance decisions, made to satisfy specific rules in specific jurisdictions.
+
+The features available to you may depend on where you are. AI products often have different capabilities in different regions, because different jurisdictions have different rules. The European version of an AI assistant may behave differently than the US version, not because the underlying model is different, but because the regulatory environments are different.
+
+The future of AI in your life will be shaped, more than most users realize, by regulatory decisions being made right now. Whether AI gets used in your workplace, what it gets used for, what protections you have if it makes decisions about you, how transparent the systems must be about how they work, will all be shaped by laws that are being drafted, debated, and enforced over the next several years.
+
+For most users, the regulatory landscape is invisible. The smart user, the one who is reading a book like this one, can see it. The rules are imperfect. They are also more substantive than most people realize. They will continue to evolve faster than most other regulatory areas in recent history.
+
+If you care about how AI is developed, regulated, and deployed, the way to influence the outcomes is through the normal channels of democratic engagement. Your representatives are voting on AI legislation. Your regulators are consulting on AI rules. The companies are responding to public pressure as well as legal pressure. Your voice, individually, is small. Your voice, multiplied across millions of users, has weight. Use it where you can.
+
+This is the end of part five of this book. We have covered the risks that are real, the risks that are mostly hype, the guardrails the companies build, and the regulations governments are imposing.
+
+Part six is different. Less about systems and structures, more about you. How to use these tools well. How to handle them at work. How to talk to your kids about them. Where the technology is going, and what you might want to do to prepare.
+
+That is where we go next.
+
+What comes next: how to use AI well, with practical advice.

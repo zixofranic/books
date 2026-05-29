@@ -1,0 +1,601 @@
+Just Predicting Words...
+
+...
+
+...
+
+Artistic Direction...
+
+...
+
+Research-based design system for the book, the audiobook,
+and the visual identity. Built from analysis of:
+
+- Stripe Press (the gold standard for tech-books-as-objects)
+- Tim Urban / Wait But Why (the gold standard for visual
+explanation of complex ideas to mass audiences)
+- Algorithms to Live By (Brian Christian — example-driven prose
+that translated computer science to general readers)
+- Penguin Composition Rules (Jan Tschichold's century-old
+rules that still define what a beautiful book looks like)
+- Tufte / Bringhurst / Lupton (the design canon)
+- Current Kindle bestseller analysis for A.I. books
+
+...
+
+Part One: What The Research Actually Says...
+
+...
+
+The single most important finding from this research is something
+simple. Books that successfully translate complex technical ideas
+to mass audiences share four traits, in this order of importance:
+
+1. THE WRITING DOES THE WORK. Visuals support, never substitute.
+Tim Urban's stick figures work not because they're beautiful
+but because they're attached to clear writing. Brian Christian's
+Algorithms to Live By has almost no illustrations — it succeeds
+on the strength of analogies in the prose.
+
+2. VISUAL SIMPLICITY IS NON-NEGOTIABLE. Urban explicitly says:
+"I don't try to pretend to do fancy, well-produced visuals. I
+do it like I'd teach a friend if I had a napkin at a restaurant."
+Tufte calls this the same thing in different words: no chartjunk.
+Strip out everything that doesn't carry information.
+
+3. CONSISTENCY BEATS BRILLIANCE. Stripe Press books look like
+Stripe Press books across 30 different titles. The system
+matters more than any individual cover. A coherent visual
+identity across all chapters of a single book matters more
+than any individual illustration being a masterpiece.
+
+4. THE OBJECT MATTERS. In an age of disposable content, a
+beautifully-made physical book is "imbued with a sense of
+sacredness." (That's a direct quote from the Stripe Press
+analysis.) People keep beautiful books. They display them.
+They give them as gifts. This matters commercially.
+
+A fifth finding worth naming: the best books in this category
+don't have a single visual style — they have a SYSTEM. A visual
+language with rules, applied consistently, that the reader
+unconsciously learns. By chapter four, a reader of Stripe Press
+or Wait But Why has internalized the rules and any deviation
+from them registers as meaningful.
+
+...
+
+Part Two: Locked Artistic Direction For The Book...
+
+...
+
+Here is the locked direction. Each piece below is a decision
+that flows from the research above and from the voice we
+already calibrated (conversational, example-rich, warm,
+aha-driven, audio-friendly).
+
+...
+
+The Overall Posture...
+
+...
+
+The book sits at the intersection of:
+
+- Stripe Press (designed-as-an-object, considered, intellectual)
+- Wait But Why (warmth, accessibility, hand-drawn feel)
+- Penguin Modern Classics (typographic restraint, classical
+proportions, trust)
+
+It is NOT:
+- A textbook (no chartjunk, no boxes around things, no "Chapter
+Objectives" lists)
+- A children's book (no condescension, no oversimplified visuals)
+- A coffee-table book (no glossy spreads, no full-bleed photos)
+- A blog post in a binding (it has the weight and considered
+pacing of a real book)
+
+...
+
+Color Palette...
+
+...
+
+Based on warm-but-restrained mid-century modern palettes,
+adjusted for both screen and print, working in both light
+backgrounds and Kindle grayscale.
+
+PRIMARY PALETTE (use these for almost everything)
+
+CREAM #F5EFE3 off-white background, page color
+INK #2C2A26 primary text, primary lines
+TERRACOTTA #D85A30 accent, key moments, emphasis
+DEEP CLAY #9C3818 secondary accent, subhead color
+
+SUPPORT PALETTE (use sparingly, for diagrams that need
+distinction)
+
+DUSTY BLUE #6B8C9E technical / structural diagrams
+OLIVE #7A8450 data and process diagrams
+AGED PAPER #E8DDC3 subtle background for callouts
+CHARCOAL #4A4742 secondary text, captions
+
+That's it. Eight colors. Two warm accents, two cool support
+colors, three neutrals, one ink. Any illustration in the book
+uses at most three of these per composition. Most use just
+two: ink on cream, with terracotta for emphasis.
+
+...
+
+Why This Palette Works...
+
+...
+
+The cream (not pure white) reduces eye strain and signals
+"considered book object" rather than "PDF." The terracotta and
+deep clay are warm without being cute, accessible without being
+childish. They carry a faint Mediterranean / mid-century
+sensibility that distinguishes the book on a shelf full of
+flat-color tech book covers.
+
+In grayscale on a standard Kindle, the cream goes to a very
+light gray (~95% white), the ink stays deep, and the terracotta
+becomes a medium-dark gray that still reads as "accent." All
+diagrams remain legible. This is verified by converting the
+palette through grayscale simulation.
+
+In color Kindle (Colorsoft), the warm palette reproduces
+better than cool blues — which is one of the few honest
+advantages we get from designing for color e-ink.
+
+...
+
+Typography...
+
+...
+
+The research is clear: serif body text, in a tradition reaching
+back to Tschichold's Penguin Composition Rules. We follow it.
+
+...
+
+Body Text...
+
+...
+
+EB Garamond, 11pt, 1.4 line spacing
+
+Why: free, open-source, optically equivalent to commercial
+Garamond. Narrow set means lower page counts for print
+(saves money on KDP) without sacrificing readability.
+Recommended by every serious typography source for
+nonfiction. Reads beautifully on Kindle.
+
+...
+
+Chapter Numbers And Titles...
+
+...
+
+Fraunces, weight 500, varied sizes
+
+Why: contemporary serif with personality, free on Google
+Fonts, looks deliberate without looking trendy. The slight
+warmth in its letterforms matches the warm palette.
+
+SECTION HEADINGS (the small ones inside chapters)
+EB Garamond, small caps, letter-spaced
+
+Why: avoiding sans-serif for headings keeps the book
+tonally consistent. Small caps with extra letter-spacing
+look elegant and don't shout.
+
+...
+
+Captions And Diagram Labels...
+
+...
+
+Inter, 9-10pt
+
+Why: this is the one place sans-serif is right. Captions
+need to feel like they belong to a different register than
+the main prose. Inter is free, modern, and reads well at
+small sizes.
+
+...
+
+Monospace For Code And Tokens...
+
+...
+
+JetBrains Mono, 10pt
+
+Why: when we show tokens or any "machine-y" element, we
+want it to feel like machine output. JetBrains Mono is
+free, readable, and doesn't have the dated feel of Courier.
+
+...
+
+That's It. Four Typefaces Total....
+
+...
+
+This is intentional. More typefaces = more decisions = more
+chances for the book to look amateur. Four typefaces, each
+with a single job, applied consistently, beats fifteen
+typefaces every time.
+
+...
+
+Illustration Direction...
+
+...
+
+We previously locked Directions 3, 4, and 5 from our
+exploration. The research confirms this hybrid is right but
+sharpens it as follows:
+
+...
+
+Direction 3 (blueprint-architectural)...
+
+...
+
+Used for: technical diagrams inside chapters. Architecture,
+anatomy, system structure. Anything that requires labels
+and precision.
+
+Style rules: dusty blue lines on cream. Single thickness
+stroke (0.75pt). Labels in EB Garamond small caps for
+parts, Inter for measurements/IDs. No fills except for
+emphasis. Treat each diagram like a nineteen sixties engineering
+manual page.
+
+Reference: Bauhaus design manuals, NASA technical
+schematics, mid-century architectural drawings.
+
+...
+
+Direction 4 (illustrative-metaphorical)...
+
+...
+
+Used for: chapter opener illustrations. The "feeling" of
+each chapter. Concepts shown as spatial metaphors that
+teach by experience.
+
+Style rules: terracotta and ink on cream. Hand-drawn feel
+in the line work (slight wobble, varied line weight).
+Composition is asymmetric, generous white space, single
+focal point. Think of these as the visual equivalent of
+a haiku — one strong image, room to breathe.
+
+Reference: New Yorker spot illustrations, Penguin Classic
+covers from the nineteen sixties, Saul Bass minimalism.
+
+...
+
+Direction 5 (lebanese-modernist)...
+
+...
+
+Used for: part-opening pages (the 6 part dividers). One
+composition per part. These pages do nothing but exist
+beautifully.
+
+Style rules: warmer palette (cream, terracotta, deep clay,
+ink). Geometric composition with a single asymmetric
+element. May include a small Arabic kufic motif if it
+serves the part's theme. Otherwise pure modernist geometry.
+
+Reference: Massimo Vignelli book design, the Bauhaus
+masters, Lebanese mid-century graphic design.
+
+...
+
+The Shared Rules Across All Three Directions...
+
+...
+
+- Cream background. Never pure white.
+- Ink for primary strokes and text.
+- Terracotta as the only "warm accent" — used sparingly,
+3-5 times max per illustration.
+- No gradients. Solid fills only.
+- No drop shadows.
+- No 3D effects.
+- Hand-drawn feel preferred over machine-perfect.
+- Generous negative space. White space is the most important
+element on every page.
+- Maximum 3 colors per illustration.
+- Every illustration must work in grayscale.
+
+...
+
+Page Layout...
+
+...
+
+Trim size: 6 × 9 inches (Amazon KDP standard for nonfiction)
+
+Margins:
+Top: 0.75"
+Bottom: 0.75"
+Outside: 0.75"
+Gutter (inside): 0.875"
+
+Line length: ~65 characters per line at 11pt EB Garamond.
+This is the classical optimum for sustained reading.
+
+Running heads:
+Even pages: book title in small caps, 9pt, centered
+Odd pages: chapter title in small caps, 9pt, centered
+No running heads on chapter opener pages
+
+Page numbers:
+Bottom outside corner, 10pt Inter
+No page numbers on chapter opener pages
+
+Chapter openers (every chapter starts on a right-hand page):
+Page 1: Full-page illustration (Direction 4) or part
+composition (Direction 5)
+Page 2: Title page with chapter number, chapter title,
+epigraph
+Page 3: Body text begins, with a drop cap for the first
+letter
+
+This is the rhythm of a real book. The reader feels the
+ceremony of each new chapter starting.
+
+...
+
+Cover Design...
+
+...
+
+The cover is its own decision, made closer to publication.
+But the artistic direction should guide it.
+
+...
+
+Principles For The Cover...
+
+...
+
+- Typographic-led, not illustration-led. The title is the
+hero. This is the Stripe Press / Penguin Modern Classics
+move.
+
+- Use the same palette as the interior. Cream background,
+ink type, terracotta accent.
+
+- Title set in Fraunces, large, taking most of the cover.
+
+- One small visual element — possibly a single Direction 5
+composition in miniature — as the visual signature.
+
+- Author name in EB Garamond small caps at the top or bottom.
+
+- No subtitles in giant type. The subtitle "How Chat G.P.T.,
+Claude, and the A.I. Revolution Actually Work" goes in
+modest sans-serif under the title.
+
+REFERENCE COVERS (for inspiration only, not imitation):
+- Stripe Press, "The Dream Machine" by M. Mitchell Waldrop
+- Stripe Press, "Working in Public" by Nadia Eghbal
+- Penguin Modern Classics covers from twenty fifteen-twenty twenty
+- Persephone Books interior covers
+
+...
+
+What The Cover Must Not Do...
+
+...
+
+- Show a brain made of circuits
+- Show a robot hand reaching out of a screen
+- Show a hooded figure in front of binary code
+- Show Chat G.P.T. or Claude logos
+- Use neon blue, electric purple, or "tech gradient"
+- Look like every other A.I. book on Amazon right now
+
+These are the cliches that have flooded the A.I. book market
+in twenty twenty-four-twenty twenty-six. Avoiding all of them is, by itself, a strong
+positioning move.
+
+...
+
+Kindle-specific Adjustments...
+
+...
+
+Kindle reflows text, so the print design doesn't fully
+translate. Specific adjustments:
+
+- Body text: render in user's choice (we don't control this
+on Kindle, only print)
+- Illustrations: shipped as PNG at 1200x1800 resolution,
+optimized for both color and grayscale display
+- Chapter openers: the illustration becomes a single image,
+followed by a clean title page
+- Drop caps: render as an embedded image rather than CSS,
+for consistency across devices
+- Section breaks: three centered dots (· · ·) work well in
+both formats
+- Tables: avoid them, use prose instead
+- Footnotes: convert to endnotes per chapter, linked back
+
+...
+
+Font Embedding On Kindle...
+
+...
+
+We CAN embed EB Garamond and Fraunces in the EPUB. We
+SHOULD. Kindle then respects our type choice unless the
+reader overrides it (most don't). This is what makes a
+Kindle book feel "designed" versus generic.
+
+...
+
+The Audiobook Visual Identity...
+
+...
+
+Even an audiobook has visual elements: the cover that
+appears in Audible, Spotify, Apple Books. These should
+match the print cover exactly. No separate "audiobook cover."
+
+Additional audiobook visual element: a 10-second intro/outro
+animation for the chapter beginnings (if we choose to do
+this). Simple geometric composition in the book's palette,
+typographic. Reference: the visual identity of "Revisionist
+History" or "Cautionary Tales" podcasts.
+
+But honestly: most audiobook listeners never see the cover
+after the first time. The audiobook's "design" is its sound
+design — pacing, pauses, music. That's its own conversation
+when we get to production.
+
+...
+
+Part Three: How The Writing And The Visuals Work Together...
+
+...
+
+This is the rule we should never break:
+
+...
+
+The Writing Teaches. The Visuals Reinforce....
+
+...
+
+If a chapter's idea isn't fully understandable from the text
+alone, the text isn't done. Visuals are a reward, not a
+crutch. This is the Tim Urban discipline. This is also the
+Brian Christian discipline (he has almost no visuals at all,
+and his book is a #1 bestseller).
+
+For every illustration, there should be a moment in the
+prose where you can imagine the reader pausing, having an
+aha, and then turning the page to see the illustration that
+confirms what they just figured out. The illustration is the
+applause. Not the explanation.
+
+This means our visual budget can be smaller than I initially
+sketched. Instead of 40-55 illustrations across the book,
+we may end up with closer to 25-30:
+
+6 part-opening compositions (Direction 5)
+23 chapter-opening illustrations (Direction 4)
+5-8 interior technical diagrams (Direction 3) — only
+where the prose genuinely needs them
+
+That's 34-37 illustrations total. Less than I projected, but
+each one earning its place. This is actually the right
+number for a serious nonfiction book at this scale. More
+would dilute, fewer would feel undesigned.
+
+...
+
+Part Four: The Production Pipeline...
+
+...
+
+Once we move to Claude Code on the ASUS, here's what the
+pipeline looks like for visuals specifically:
+
+...
+
+Source Of Truth...
+
+...
+
+/book/illustrations/
+part_01.svg
+chapter_01_opener.svg
+chapter_03_attention.svg
+...
+
+All illustrations live as SVG files. Single source.
+
+...
+
+Build Outputs...
+
+...
+
+For print: SVG → PDF (embedded vector, prints at any
+resolution)
+For Kindle EPUB: SVG → PNG at 1200x1800px, optimized
+For audiobook cover: SVG → JPG at 3000x3000px
+
+...
+
+The Build Script...
+
+...
+
+A small Node or Python script that reads the SVG
+library and produces all required output formats. Run
+it whenever an illustration changes. Run it once at the
+end to produce final assets.
+
+We build this together on the ASUS when the writing is
+further along. For now, we generate SVGs in Claude.ai and
+save them.
+
+...
+
+Part Five: What This Commits Us To...
+
+...
+
+Now that the artistic direction is locked, every subsequent
+decision should be tested against it:
+
+- New illustration concept? Does it use the locked palette
+and one of the three directions? If not, redesign it.
+- New chapter? Does it follow the chapter opener rhythm
+(illustration page, title page, body)?
+- New typographic choice? Does it use one of the four
+locked typefaces?
+- New visual idea? Does it pass the Tim Urban test — would
+it work as a napkin sketch?
+
+This is what "designed" means. Not that every visual is
+brilliant, but that every visual fits a system the reader
+has unconsciously learned to trust.
+
+...
+
+What Comes Next...
+
+...
+
+With this artistic direction locked, we can:
+
+1. Continue to Chapter 2 (the history chapter) with full
+confidence that the visuals will fit a system.
+
+2. Sketch the Chapter 1 opener illustration in the new
+palette and Direction 4 style, as our first real test
+of the system.
+
+3. Sketch the Part One opening composition (Direction 5)
+as the first test of part-divider design.
+
+My instinct: continue to Chapter 2 first. The writing has
+momentum. Visual production can catch up once we have a few
+more chapters drafted and the voice is fully proven across
+different chapter types.
+
+But that's your call. We can do any of those three things
+next.
+
+...
+
+End Of Artistic Direction Document...
+
+...
