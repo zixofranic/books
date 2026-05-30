@@ -6,7 +6,7 @@ In November twenty twenty-two, a company called Open AI launched a free website 
 
 They got something else.
 
-In five days, a million people signed up. In two months, a hundred million. It became the fastest-growing consumer product in human history, faster than Facebook, faster than Tik Tok, faster than the iPhone. Within a few weeks of launch, it had quietly slipped into the daily routines of writers, programmers, teachers, lawyers, doctors, and grandparents who had never tried any AI tool before in their lives.
+In five days, a million people signed up. In two months, a hundred million. It became, at the time, the fastest-growing consumer product in history, faster than Facebook, faster than Tik Tok, faster than the iPhone. Within a few weeks of launch, it had quietly slipped into the daily routines of writers, programmers, teachers, lawyers, doctors, and grandparents who had never tried any AI tool before in their lives.
 
 You could ask it to write a poem about your dog, and it wrote one. You could ask it to explain Einstein to a six-year-old, and it did. You could paste in code that wasn't working and it would tell you why. At two in the morning, you could ask it for help drafting a difficult email to your mother, and it would help. The email would be better than the one you would have written on your own.
 

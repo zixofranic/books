@@ -31,7 +31,7 @@ CHAPTER OPENING
 
 I want to tell you about a particular kind of mistake AI assistants make, and the reason it is more dangerous than it looks.
 
-In May 2023, a New York lawyer named Steven Schwartz used ChatGPT to help him with a legal brief. He worked at a firm called Levidow, Levidow and Oberman, and had been licensed to practice law in New York for over thirty years. He was representing a client named Roberto Mata, who was suing the airline Avianca over an injury suffered when a metal serving cart struck his knee during a flight. Schwartz asked ChatGPT to find prior cases that would support his argument against the airline's motion to dismiss.
+In early 2023, a New York lawyer named Steven Schwartz used ChatGPT to help him with a legal brief. He worked at a firm called Levidow, Levidow and Oberman, and had been licensed to practice law in New York for over thirty years. He was representing a client named Roberto Mata, who was suing the airline Avianca over an injury suffered when a metal serving cart struck his knee during a flight. Schwartz asked ChatGPT to find prior cases that would support his argument against the airline's motion to dismiss.
 
 ChatGPT obliged. It produced six cases. Varghese v. China Southern Airlines. Shaboon v. EgyptAir. Petersen v. Iran Air. Martinez v. Delta Airlines. Estate of Durden v. KLM Royal Dutch Airlines. Miller v. United Airlines. Each one had a name, a citation, a court, a date. Schwartz's colleague Peter LoDuca filed the brief incorporating them.
 

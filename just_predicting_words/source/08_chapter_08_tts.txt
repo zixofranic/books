@@ -70,7 +70,7 @@ Meta then did something almost unprecedented for a company its size. They blew u
 
 The Superintelligence Labs Pivot...
 
-In mid-twenty twenty-five, Meta announced the formation of Meta Superintelligence Labs (the name is itself a statement). To lead it, Zuckerberg paid an astonishing price. He spent fourteen and a half billion dollars to acquire forty-nine percent of Scale AI, a company that provided data labeling services for AI training. As part of the deal, Scale's twenty-eight-year-old cofounder, Alexandr Wang, joined Meta as chief AI officer.
+In mid-twenty twenty-five, Meta announced the formation of Meta Superintelligence Labs (the name is itself a statement). To lead it, Zuckerberg paid an astonishing price. He spent about fourteen point three billion dollars to acquire forty-nine percent of Scale AI, a company that provided data labeling services for AI training. As part of the deal, Scale's twenty-eight-year-old cofounder, Alexandr Wang, joined Meta as chief AI officer.
 
 The sixty-five-year-old Turing Award winner Yann Le Cun, on paper at least, reported to a twenty-eight-year-old executive. The cultural friction was, by all accounts, real. Le Cun had publicly described large language models as a "dead end" for reaching true AI. Wang was building Meta's strategy entirely around large language models. They could not coexist, and they did not. Le Cun left.
 

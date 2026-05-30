@@ -95,7 +95,7 @@ Within six months, it was generating one billion dollars in annualized revenue.
 
 Within a year, that number was two and a half billion.
 
-Within fifteen months, Anthropic's overall annualized revenue had jumped from a few hundred million to thirty billion dollars. Eighty times the company's own internal forecasts.
+Within fifteen months, Anthropic's overall annualized revenue had jumped from a few hundred million to thirty billion dollars. Eighty times what it had been a year earlier.
 
 What had happened? Claude Code had hit something the rest of the industry had been chasing without quite getting right. It was an AI agent that could actually do useful work, end to end, in the place where developers actually worked. Not a chatbot that you copied and pasted answers from. A real assistant that read your files, ran your tests, fixed your bugs, and shipped your code, with you watching.
 
@@ -121,9 +121,9 @@ The funders involved are substantial. Google has committed up to forty billion d
 
 Anthropic is now in a similar position to OpenAI a few years ago. A small company that has become a giant, with the same set of pressures that giants face. Hyperscaler relationships. Government scrutiny. Workforce challenges. Decisions about whether and when to go public.
 
-In March 2026, the United States Pentagon designated Anthropic a supply chain risk and blacklisted the company from working with the military. The reasoning, which has not been fully public, appears to involve concerns about the company's funding sources and corporate connections. Over a hundred enterprise customers reportedly raised concerns. Anthropic has been navigating this issue while continuing its broader growth.
+In March 2026, the United States Pentagon designated Anthropic a supply chain risk and blacklisted the company from working with the military. The dispute arose after contract negotiations broke down. The Pentagon wanted unrestricted use of Claude for all lawful military purposes; Anthropic refused to permit uses like fully autonomous weapons and domestic mass surveillance. When the company missed the government's deadline, the administration moved to bar federal agencies from using its technology. Anthropic has been challenging the designation in court while continuing its broader growth.
 
-The full story of how a safety-focused lab founded by twelve researchers became a nine-hundred-billion-dollar company in five years has not yet been told. It will be told eventually. As an outside observer, I can say only that the company has been more successful, faster, than almost anyone outside its founders predicted, and that this success has brought its own complications.
+The full story of how a safety-focused lab founded by seven researchers became a nine-hundred-billion-dollar company in five years has not yet been told. It will be told eventually. As an outside observer, I can say only that the company has been more successful, faster, than almost anyone outside its founders predicted, and that this success has brought its own complications.
 
                                 · · ·
 

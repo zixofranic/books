@@ -4,7 +4,7 @@ How These Machines Fail...
 
 I want to tell you about a particular kind of mistake AI assistants make, and the reason it is more dangerous than it looks.
 
-In May twenty twenty-three, a New York lawyer named Steven Schwartz used Chat GPT to help him with a legal brief. He worked at a firm called Levidow, Levidow and Oberman, and had been licensed to practice law in New York for over thirty years. He was representing a client named Roberto Mata, who was suing the airline Avianca over an injury suffered when a metal serving cart struck his knee during a flight. Schwartz asked Chat GPT to find prior cases that would support his argument against the airline's motion to dismiss.
+In early twenty twenty-three, a New York lawyer named Steven Schwartz used Chat GPT to help him with a legal brief. He worked at a firm called Levidow, Levidow and Oberman, and had been licensed to practice law in New York for over thirty years. He was representing a client named Roberto Mata, who was suing the airline Avianca over an injury suffered when a metal serving cart struck his knee during a flight. Schwartz asked Chat GPT to find prior cases that would support his argument against the airline's motion to dismiss.
 
 Chat GPT obliged. It produced six cases. Varghese versus China Southern Airlines. Shaboon versus Egypt Air. Petersen versus Iran Air. Martinez versus Delta Airlines. Estate of Durden versus KLM Royal Dutch Airlines. Miller versus United Airlines. Each one had a name, a citation, a court, a date. Schwartz's colleague Peter Lo Duca filed the brief incorporating them.
 

@@ -128,7 +128,7 @@ After enough of this training, the raw text predictor became something that felt
 
 The internal expectations at Open AI were modest. The team thought they would get a few thousand users, mostly developers and AI enthusiasts. They were prepared for the possibility that this might be the small step that paved the way for a bigger launch later.
 
-Instead, Chat GPT went viral within hours. People sent it to their friends. Their friends sent it to their friends. By the end of the first day, it was clear that something unusual was happening. By the end of the first week, it was clear that something unprecedented was happening. A million users in five days. A hundred million in two months. The fastest-growing consumer product in human history.
+Instead, Chat GPT went viral within hours. People sent it to their friends. Their friends sent it to their friends. By the end of the first day, it was clear that something unusual was happening. By the end of the first week, it was clear that something unprecedented was happening. A million users in five days. A hundred million in two months. At the time, the fastest-growing consumer product in history.
 
 This was not because the underlying technology was new. GPT three had existed for two years. The Transformer was five years old. The basic idea of language modeling was older than that. None of the pieces were brand new.
 
@@ -148,7 +148,7 @@ Meta, the company that owns Facebook and Instagram, took a different approach. T
 
 Microsoft, which had quietly invested over thirteen billion dollars in Open AI and would, by twenty twenty-six, end up spending over a hundred billion dollars on the broader partnership when you include infrastructure and hosting, integrated GPT into every product it made. Word. Excel. Outlook. Their search engine, Bing.
 
-Amazon poured similar money into Anthropic.
+Amazon made a comparable bet on Anthropic, eventually committing up to twenty-five billion dollars.
 
 Sovereign wealth funds joined the chase. So did countries. The United Arab Emirates, Saudi Arabia, France, Japan, China, all started large-scale AI initiatives. In China specifically, a wave of new labs emerged. Deep Seek, Qwen, Moonshot, Baichuan, names you might not yet have heard but that we will meet later in this book. They turned out to be very good at this.
 
